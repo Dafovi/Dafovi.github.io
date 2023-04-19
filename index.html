@@ -32,8 +32,11 @@
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
+          <video autoplay muted loop id="myVideo">
+                <source src="img/Banner.mp4" type="video/mp4">
+            </video>
         <h1>Daniel Florez</h1>
-        <h2><span class="rotating">Dale vida a tus proyectos con ayuda de un profesional,Desarrollo de videojuegos,Desarrollo de experiencias en realidad virtual, Desarrollo de experiencias en realidad aumentada, Desarrollo de contenido web en 360°.</span></h2>
+        <h2><span class="rotating">Dale vida a tus proyectos con ayuda de un profesional,Desarrollo de videojuegos,Desarrollo de experiencias en realidad virtual, Desarrollo de experiencias en realidad aumentada.</span></h2>
         <div class="actions">
           <a href="#about" class="btn-get-started">Sobre mí</a>
           <a href="#portfolio" class="btn-services">Portafolio</a>
@@ -48,7 +51,8 @@
   <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero">
+            <img src="img/logo.png" alt="" title="" /></img></a>
         <!-- Descomenta abajo si prefieres usar una imagen de texto -->
         <!--<h1><a href="#hero">Daniel Florez</a></h1>-->
       </div>
@@ -60,24 +64,22 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li class="menu-has-children"><a href="#portfolio">Proyectos</a>
             <ul>
-              <li class="menu-has-children"><a href="#portfolio">Mundos virtuales</a>
+                <!-- VideoJuegos -->
+                <li class="menu-has-children"><a href="#portfolio">Video juegos</a>
                 <ul>
-                  <li><a href="/proyectos/armanda.html">Armanda de colombia</a></li>
-                  <li><a href="/proyectos/corteva.html">Corteva - superganaderia</a></li>
+                  <li><a href="/proyectos/oceano.html">Oceano</a></li>
                 </ul>
               </li>
+                
+                
+                <!-- Realidad virtual -->
               <li class="menu-has-children"><a href="#portfolio">Realidad Virtual</a>
                 <ul>
                   <li><a href="/proyectos/cinepolis.html">Cinépolis</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="#portfolio">Web 360</a>
-                <ul>
-                  <li><a href="/proyectos/volkswagen.html">Vitrina virtual Volkswagen</a></li>
-                  <li><a href="/proyectos/Knightsbridge.html">Tour Knights Bridge Schools</a></li>
-                </ul>
-              </li>
-              <li class="menu-has-children"><a href="#portfolio">Realidad Aumentada</a>
+                <!-- Realidad Aumentada -->
+                <li class="menu-has-children"><a href="#portfolio">Realidad Aumentada</a>
                 <ul>
                   <li><a href="/proyectos/care.html">Viewy Care</a></li>
                   <li><a href="/proyectos/viewy.html">Viewy Portafolio</a></li>
@@ -87,14 +89,25 @@
                   <li><a href="/proyectos/haldi.html">Haldi</a></li>
                 </ul>
               </li>
-              <li class="menu-has-children"><a href="#portfolio">Video juegos</a>
+              
+            <!-- Mundos virtuales -->
+              <li class="menu-has-children"><a href="#portfolio">Mundos Virtuales</a>
                 <ul>
-                  <li><a href="/proyectos/oceano.html">Oceano</a></li>
+                  <li><a href="/proyectos/armada.html">Armanda de colombia</a></li>
+                  <li><a href="/proyectos/corteva.html">Corteva - superganaderia</a></li>
+                </ul>
+                </li>
+                
+                <!-- web 360 -->
+              <li class="menu-has-children"><a href="#portfolio">Web 360</a>
+                <ul>
+                  <li><a href="/proyectos/volkswagen.html">Vitrina virtual Volkswagen</a></li>
+                  <li><a href="/proyectos/Knightsbridge.html">Tour Knights Bridge Schools</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#contact">Redes</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -119,13 +132,13 @@
       <div class="row">
         <div class="col-md-6 col-md-push-6 about-content">
           <p class="about-text">
-            ¡Hola! Mi nombre es Daniel, soy diseñador interactivo con énfasis en programación, trabajo con realidades inmersivas y videojuegos.
+            Soy Daniel, un apasionado programador enfocado en Unity con 4 años de experiencia en el desarrollo de juegos, con un enfoque especial en la realidad virtual (VR) y aumentada (AR). Me apasiona crear experiencias de juego inmersivas y emocionantes que aprovechen al máximo el potencial de estas tecnologías emergentes.
           </p>
           <p class="about-text">
-            Tengo 3 años de experiencia en el desarrollo de diferentes mundos virtuales, aplicaciones de realidad virtual y realidad aumentada buscando solucionar las necesidades de las empresas desde un enfoque interactivo utilizando Unity, Oculus, Vuforia, A-frame y AR Fundation.
+            Soy un jugador ávido y entiendo la importancia de crear juegos que sean divertidos, adictivos y atractivos para los jugadores. Estoy emocionado de seguir desafiándome a mí mismo y de trabajar en nuevos proyectos emocionantes en el campo de la realidad virtual y aumentada.
           </p>
           <p class="about-text">
-            Parte de mi tiempo libre se lo dedico a los videojuegos, no sólo a jugarlos sino a entenderlos, disfrutando su historia, su jugabilidad, su desarrollo y leyendo sobre ellos, esto con el fin de aprender mas acerca del medio y poder implementar ese conocimiento en proyectos propios.
+            Si estás buscando un programador Unity con experiencia en VR y AR apasionado y dedicado, estaré encantado de colaborar contigo y ayudarte a hacer realidad tus ideas de juego.
           </p>
         </div>
       </div>
@@ -144,113 +157,178 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/mundoArmada.png);" href="/proyectos/armanda.html">
+        <!--==========================
+                VideoJuegos 
+        ============================-->
+          <section id="Videojuegos">
+          <h2> &nbsp Videojuegos</h4>
+              
+        <!-------- Oceano -------->
+          <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/Superpez.png);" href="/proyectos/oceano.html">
             <div class="details">
-              <h4>Mundo virtual Armanda de colombia</h4>
-              <span>Evento web online</span>
+              <h4>Oceano</h4>
+              <span>Juego 2d para celular <br><b>2018</b></span>
             </div>
           </a>
         </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/mundoCorteva.png);" href="/proyectos/corteva.html">
-            <div class="details">
-              <h4>Mundo virtual Corteva - superganaderia</h4>
-              <span>Evento web online</span>
-            </div>
-          </a>
+          
+          </section>
         </div>
-
-        <div class="col-md-3">
+          
+      <div class="row">
+        <!--==========================
+                Realidad virtual 
+        ============================-->
+          <section id="VR">
+          <h2> &nbsp Realidad Virtual</h4>
+              
+        <!-------- Cinépolis -------->
+          <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/Cinepolis.png);" href="/proyectos/cinepolis.html">
             <div class="details">
               <h4>Experiencia Cinépolis</h4>
-              <span>Juego VR / Oculus Quest</span>
+              <span>Juego VR / Oculus Quest <br><b>2019</b></span>
             </div>
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Volkswagen.png);" href="/proyectos/volkswagen.html">
-            <div class="details">
-              <h4>Vitrina virtual Volkswagen</h4>
-              <span>Web 360</span>
-            </div>
-          </a>
+          
+          </section>
+          
         </div>
-
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/colegio.PNG);" href="/proyectos/Knightsbridge.html">
-            <div class="details">
-              <h4>Tour Knights Bridge Schools</h4>
-              <span>Web 360</span>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-md-3">
+          
+      <div class="row">
+        <!--==========================
+                Realidad Aumentada 
+        ============================-->
+          <section id="AR">
+          <h2> &nbsp Realidad Aumentada</h4>
+          
+        <!-------- Viewy Care -------->
+           <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/care.png);" href="/proyectos/care.html">
             <div class="details">
               <h4>Viewy Care</h4>
-              <span>Aplicación AR</span>
+              <span>Aplicación AR <br><b>2020</b></span>
             </div>
           </a>
         </div>
 
+        <!-------- Viewy Portafolio -------->
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/portafolioAR.png);" href="/proyectos/viewy.html">
             <div class="details">
               <h4>Viewy Portafolio AR</h4>
-              <span>Aplicación AR</span>
+              <span>Aplicación AR <br><b>2020</b></span>
             </div>
           </a>
         </div>
 
+        <!-------- Claro -------->
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/claro.png);" href="/proyectos/claro.html">
             <div class="details">
               <h4>Bienvenido a Claro</h4>
-              <span>Aplicación AR</span>
+              <span>Aplicación AR<br><b>2020</b></span>
             </div>
           </a>
         </div>
 
+        <!-------- Doria -------->
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/Doria.png);" href="/proyectos/doria.html">
             <div class="details">
               <h4>Bienvenido a Doria</h4>
-              <span>Aplicación AR</span>
+              <span>Aplicación AR<br><b>2020</b></span>
             </div>
           </a>
         </div>
 
+        <!-------- VPH -------->
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/VPH.png);" href="/proyectos/vph.html">
             <div class="details">
               <h4>VPH</h4>
-              <span>Aplicacion AR</span>
+              <span>Aplicacion AR<br><b>2019</b></span>
             </div>
           </a>
         </div>
 
+        <!-------- Haldi -------->
         <div class="col-md-3">
           <a class="portfolio-item" style="background-image: url(img/Haldi.png);" href="/proyectos/haldi.html">
             <div class="details">
               <h4>Haldi</h4>
-              <span>Aplicacion AR</span>
+              <span>Aplicacion AR<br><b>2018</b></span>
             </div>
           </a>
         </div>
 
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Superpez.png);" href="/proyectos/oceano.html">
+          </section>
+          
+        </div>
+          
+      <div class="row">
+        <!--==========================
+                Mundos virtuales 
+        ============================-->
+          <section id="Mundos Virtuales">
+          <h2> &nbsp Mundos Virtuales</h4>
+              
+        <!-------- Armanda -------->
+          <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/mundoArmada.png);" href="/proyectos/armada.html">
             <div class="details">
-              <h4>Oceano</h4>
-              <span>Juego 2d para celular</span>
+              <h4>Mundo virtual Armanda de colombia</h4>
+              <span>Evento web online <br><b>2021</b></span>
             </div>
           </a>
         </div>
+
+        <!-------- Corteva -------->
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/mundoCorteva.png);" href="/proyectos/corteva.html">
+            <div class="details">
+              <h4>Mundo virtual Corteva - superganaderia</h4>
+              <span>Evento web online<br><b>2021</b></span>
+            </div>
+          </a>
+        </div>
+
+          
+          </section>
+          
+        </div>
+          
+      <div class="row">
+        <!--==========================
+                Web 360
+        ============================-->
+          <section id="Web">
+          <h2> &nbsp Web 360</h4>
+          
+        <!-------- Volkswagen -------->
+          <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/Volkswagen.png);" href="/proyectos/volkswagen.html">
+            <div class="details">
+              <h4>Vitrina virtual Volkswagen</h4>
+              <span>Web 360 <br><b>2021</b></span>
+            </div>
+          </a>
+        </div>
+
+        <!-------- Colegio -------->
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/colegio.PNG);" href="/proyectos/Knightsbridge.html">
+            <div class="details">
+              <h4>Tour Knights Bridge Schools</h4>
+              <span>Web 360 <br><b>2021</b></span>
+            </div>
+          </a>
+        </div>
+
+          </section>        
 
       </div>
     </div>
@@ -262,7 +340,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Contactame</h3>
+          <h3 class="section-title">Redes</h3>
           <div class="section-title-divider"></div>
         </div>
       </div>
@@ -271,17 +349,10 @@
         <div class="col-md-3 col-md-push-2">
           <div class="info">
             <div>
-              <i class="fa fa-envelope"></i>
-              <p>swan364@hotmail.com</p>
-            </div>
-            <div>
-              <i class="fa fa-envelope"></i>
-              <p>dafovi364@gmail.com</p>
-            </div>
-
-            <div>
-              <i class="fa fa-phone"></i>
-              <p>+34 610155406</p>
+                <a href="https://github.com/Dafovi" target="_blank"><i class="fa fa-github"></i><p>   </p>
+              <a href="https://www.linkedin.com/in/daniel-alexander-florez-vidal/" target="_blank"><i class="fa fa-linkedin"></i></a><p>   </p>
+              <a href="https://www.instagram.com/dafovi/" target="_blank"><i class="fa fa-instagram"></i></a><p>   </p>
+              <a href="https://dafovi.itch.io/" target="_blank"><i class="fab fa-itch-io"></i><h3>Itch.io</h3></a>
             </div>
 
           </div>
