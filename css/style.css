@@ -79,7 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {    
   display: table;
   width: 100%;
-  height: 100vh;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+background-color: black;
   /*background: url(../img/1.jpg) top center fixed;
   background-size: cover;*/
 }
@@ -188,6 +191,9 @@ position: fixed;
   background: #111;
   padding: 20px 0;
   height: 90px;
+    
+    position: relative;
+  z-index: 1;
 }
 
 #header #logo {
@@ -489,6 +495,9 @@ video {
 #about {
   background: #fff;
   padding: 80px 0;
+    position: relative;
+  z-index: 1;
+    
 }
 
 #about .about-container {
@@ -612,6 +621,9 @@ video {
 #portfolio {
   background: #fff;
   padding: 80px 0;
+    
+    position: relative;
+  z-index: 1;
 }
 
 #portfolio .portfolio-item {
@@ -786,6 +798,9 @@ video {
 #contact {
   background: #f7f7f7;
   padding: 80px 0;
+    
+    position: relative;
+  z-index: 1;
 }
 
 #contact .info {
@@ -856,6 +871,9 @@ video {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+    
+    position: relative;
+  z-index: 1;
   background: #111;
   padding: 30px 0;
   color: #fff;
