@@ -34,8 +34,8 @@
     }
   </script>
 </head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+<body data-page="home">
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
 
   <header class="site-header" data-site-header>
     <div class="archive-container header-inner">
@@ -47,17 +47,22 @@
       <span class="mobile-status-dot" aria-hidden="true"></span>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
-        <span>Menú</span>
+        <span data-i18n="menu">Menú</span>
         <svg aria-hidden="true" viewBox="0 0 28 18" width="28" height="18">
           <path d="M1 2h26M1 9h26M1 16h26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
         </svg>
       </button>
 
       <nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal">
-        <a href="#proyectos" aria-current="page">Proyectos</a>
-        <a href="#perfil">Perfil</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#proyectos" aria-current="page" data-i18n="navProjects">Proyectos</a>
+        <a href="#perfil" data-i18n="navProfile">Perfil</a>
+        <a href="#contacto" data-i18n="navContact">Contacto</a>
         <a href="assets/cv/Daniel-Florez-CV.pdf">CV</a>
+        <div class="language-switcher" aria-label="Selector de idioma" data-language-switcher>
+          <button type="button" data-lang-option="es"><span class="flag flag-es" aria-hidden="true"></span><span>ES</span></button>
+          <button type="button" data-lang-option="en"><span class="flag flag-en" aria-hidden="true"></span><span>EN</span></button>
+          <button type="button" data-lang-option="ja"><span class="flag flag-ja" aria-hidden="true"></span><span>JP</span></button>
+        </div>
         <span class="status-dot" aria-hidden="true"></span>
       </nav>
     </div>
@@ -67,22 +72,22 @@
     <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="archive-container hero-layout">
         <div class="hero-copy reveal-on-scroll">
-          <p class="eyebrow">SOFTWARE DEVELOPER / UNITY, C#/.NET, XR &amp; INTERACTIVE SYSTEMS</p>
-          <h1 id="hero-title">Desarrollo juegos, simulaciones XR y herramientas interactivas.</h1>
+          <p class="eyebrow" data-i18n="eyebrow">SOFTWARE DEVELOPER / UNITY, C#/.NET, XR &amp; INTERACTIVE SYSTEMS</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Desarrollo juegos, simulaciones XR y herramientas interactivas.</h1>
           <span class="accent-rule" aria-hidden="true"></span>
-          <p class="hero-support">Más de siete años construyendo productos digitales para PC, móviles y visores VR.</p>
+          <p class="hero-support" data-i18n="heroSupport">Más de siete años construyendo productos digitales para PC, móviles y visores VR.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#proyectos">Ver trabajo <span aria-hidden="true">→</span></a>
+            <a class="button button-primary" href="#proyectos"><span data-i18n="viewWork">Ver trabajo</span> <span aria-hidden="true">→</span></a>
             <a class="cv-link" href="assets/cv/Daniel-Florez-CV.pdf">CV <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
-        <aside class="hero-index reveal-on-scroll" aria-label="Índice de áreas">
+        <aside class="hero-index reveal-on-scroll" aria-label="Índice de áreas" data-i18n-attr="aria-label:areasArchive">
           <ol>
-            <li><a href="#games"><span>01</span><strong>Games</strong></a></li>
-            <li><a href="#xr"><span>02</span><strong>XR / Simulation</strong></a></li>
-            <li><a href="#tools"><span>03</span><strong>Tools &amp; Integrations</strong></a></li>
-            <li><a href="#archive"><span>04</span><strong>Web / 360</strong></a></li>
+            <li><a href="#games"><span>01</span><strong data-i18n="areasGames">Games</strong></a></li>
+            <li><a href="#xr"><span>02</span><strong data-i18n="areasXr">XR / Simulation</strong></a></li>
+            <li><a href="#tools"><span>03</span><strong data-i18n="areasTools">Tools &amp; Integrations</strong></a></li>
+            <li><a href="#archive"><span>04</span><strong data-i18n="areasArchive">Web / 360</strong></a></li>
           </ol>
         </aside>
       </div>
@@ -90,33 +95,33 @@
 
     <section class="selected-work" id="proyectos" aria-labelledby="selected-title">
       <div class="archive-container">
-        <h2 id="selected-title" class="sr-only">Trabajo seleccionado</h2>
+        <h2 id="selected-title" class="sr-only" data-i18n="selectedTitle">Trabajo seleccionado</h2>
 
         <article class="neo-feature work-panel reveal-on-scroll" id="tools">
           <div class="neo-info">
             <p class="work-number">01</p>
             <h3>Neo Twitch</h3>
-            <p class="project-line">Herramienta de escritorio / 2025–2026</p>
+            <p class="project-line" data-i18n="neoLine">Herramienta de escritorio / 2025–2026</p>
             <span class="accent-rule" aria-hidden="true"></span>
-            <p class="work-summary">Automatización de alertas, luces, audio y OBS desde eventos de Twitch.</p>
+            <p class="work-summary" data-i18n="neoSummary">Automatización de alertas, luces, audio y OBS desde eventos de Twitch.</p>
             <div class="work-meta">
               <div>
-                <h4>Notas</h4>
-                <p>Control centralizado para creadores de contenido. Escucha eventos de Twitch y ejecuta acciones en tiempo real con perfiles personalizables.</p>
+                <h4 data-i18n="notes">Notas</h4>
+                <p data-i18n="neoNotes">Control centralizado para creadores de contenido. Escucha eventos de Twitch y ejecuta acciones en tiempo real con perfiles personalizables.</p>
               </div>
               <div>
-                <h4>Stack</h4>
+                <h4 data-i18n="stack">Stack</h4>
                 <p>C# / .NET / WPF / Twitch / OBS / Arduino</p>
               </div>
             </div>
-            <a class="project-link" href="proyectos/neo-twitch.html">Ver caso completo <span aria-hidden="true">→</span></a>
+            <a class="project-link" href="proyectos/neo-twitch.html"><span data-i18n="viewCase">Ver caso completo</span> <span aria-hidden="true">→</span></a>
           </div>
           <div class="neo-visual">
             <!-- TODO: asset: reemplazar por captura real de Neo Twitch en assets/portfolio/covers/neo-twitch.webp. -->
             <div class="neo-placeholder" role="img" aria-label="Captura de Neo Twitch pendiente">
               <span>NEO TWITCH</span>
-              <strong>Captura pendiente</strong>
-              <small>Dashboard real / sin datos sensibles</small>
+              <strong data-i18n="pendingShot">Captura pendiente</strong>
+              <small data-i18n="realDashboard">Dashboard real / sin datos sensibles</small>
             </div>
           </div>
         </article>
@@ -125,9 +130,9 @@
           <article class="archive-feature reveal-on-scroll" id="xr">
             <div class="image-overlay">
               <p class="work-number">02</p>
-              <h3>Transición Energética AR</h3>
-              <p>Cuatro aplicaciones de realidad aumentada para explicar tecnologías de transición energética en Colombia.</p>
-              <a class="project-link yellow" href="proyectos/renata-anh-webar.html">Ver proyecto <span aria-hidden="true">→</span></a>
+              <h3 data-i18n="energyTitle">Transición Energética AR</h3>
+              <p data-i18n="energyHome">Cuatro aplicaciones de realidad aumentada para explicar tecnologías de transición energética en Colombia.</p>
+              <a class="project-link yellow" href="proyectos/renata-anh-webar.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
             </div>
             <!-- TODO: asset: agregar captura autorizada de RENATA / ANH. -->
             <div class="archive-feature-mark" aria-hidden="true">AR<br>3D<br>2025</div>
@@ -138,15 +143,15 @@
               <div class="image-overlay">
                 <p class="work-number">03</p>
                 <h3>Aviation Training Suite</h3>
-                <p>Suite XR de entrenamiento aeronáutico con procedimientos, validaciones, evaluación y colaboración.</p>
-                <a class="project-link yellow" href="proyectos/aviation-training-suite.html">Ver proyecto <span aria-hidden="true">→</span></a>
+                <p data-i18n="aviationHome">Suite XR de entrenamiento aeronáutico con procedimientos, validaciones, evaluación y colaboración.</p>
+                <a class="project-link yellow" href="proyectos/aviation-training-suite.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
               </div>
               <!-- TODO: asset: agregar captura autorizada de la suite XR. -->
-              <div class="archive-feature-mark" aria-hidden="true">XR<br>+200<br>Tareas</div>
+              <div class="archive-feature-mark" aria-hidden="true">XR<br>+200<br><span data-i18n="tasks">Tareas</span></div>
             </div>
             <div class="mycelium-gallery" aria-label="Galería pendiente de Mycelium">
-              <a class="thumb-pending" href="proyectos/beatmobile.html" id="games">BeatMobile<br>Juego rítmico</a>
-              <a class="thumb-pending" href="proyectos/aircraft-towing-vr.html">Aircraft Towing<br>Subcaso VR</a>
+              <a class="thumb-pending" href="proyectos/beatmobile.html" id="games">BeatMobile<br><span data-i18n="thumbRhythm">Juego rítmico</span></a>
+              <a class="thumb-pending" href="proyectos/aircraft-towing-vr.html">Aircraft Towing<br><span data-i18n="thumbTowing">Subcaso VR</span></a>
               <a class="thumb-pending" href="proyectos/mycelium.html">Mycelium<br>Game Jam</a>
             </div>
           </article>
@@ -156,42 +161,42 @@
           <article class="compact-feature">
             <p class="work-number">04</p>
             <h3>BeatMobile</h3>
-            <p>Videojuego rítmico desarrollado de extremo a extremo: sincronización musical, detección de entrada, puntuación y flujo de juego.</p>
-            <a class="project-link yellow" href="proyectos/beatmobile.html">Ver proyecto <span aria-hidden="true">→</span></a>
+            <p data-i18n="beatHome">Videojuego rítmico desarrollado de extremo a extremo: sincronización musical, detección de entrada, puntuación y flujo de juego.</p>
+            <a class="project-link yellow" href="proyectos/beatmobile.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
           </article>
           <article class="compact-feature muted">
             <p class="work-number">05</p>
             <h3>Aircraft Towing VR</h3>
-            <p>Subcaso de simulación VR aeronáutica con validaciones de posición, ángulo y velocidad.</p>
-            <a class="project-link yellow" href="proyectos/aircraft-towing-vr.html">Ver subcaso <span aria-hidden="true">→</span></a>
+            <p data-i18n="towingHome">Subcaso de simulación VR aeronáutica con validaciones de posición, ángulo y velocidad.</p>
+            <a class="project-link yellow" href="proyectos/aircraft-towing-vr.html"><span data-i18n="viewSubcase">Ver subcaso</span> <span aria-hidden="true">→</span></a>
           </article>
         </div>
 
         <div class="lower-grid">
           <section class="archive-list reveal-on-scroll" id="archive" aria-labelledby="archive-title">
-            <div class="section-kicker"><span>06</span><h2 id="archive-title">Archive</h2></div>
+            <div class="section-kicker"><span>06</span><h2 id="archive-title" data-i18n="archiveTitle">Archive</h2></div>
             <ul>
-              <li><a href="proyectos/renata-anh-webar.html"><strong>Transición Energética AR</strong><span>RENATA / ANH</span><time>2025</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/aviation-training-suite.html"><strong>Aviation Training Suite</strong><span>Suite XR de entrenamiento</span><time>2021–2025</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/beatmobile.html"><strong>BeatMobile</strong><span>Juego rítmico / sistemas</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/mad-sarge-army-moves-overdrive.html"><strong>Mad Sarge</strong><span>Videojuego comercial para PC</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/dafovi-ai-lab.html"><strong>Dafovi.AI.Lab</strong><span>Arquitectura .NET e IA</span><time>WIP</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/pt6-turboprop-engine-training.html"><strong>PT6 Simulator</strong><span>Simulación industrial VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/cinav.html"><strong>CINAV</strong><span>Colaboración inmersiva VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/eye-anatomy-simulator.html"><strong>Eye Anatomy</strong><span>Simulación educativa VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/enel.html"><strong>Tour Enel</strong><span>Recorrido 360° interactivo</span><time>2021</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/vr-training.html"><strong>Virtual Tours</strong><span>Plataforma de recorridos virtuales</span><time>2021–2022</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/care.html"><strong>Viewy Care</strong><span>Aplicación AR</span><time>2020</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/volkswagen.html"><strong>Volkswagen VR</strong><span>Experiencia Web 360</span><time>2021</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/respira.html"><strong>Respira</strong><span>Game Jam / narrativa</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/archive.html"><strong>Kinetic Lab</strong><span>TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/archive.html"><strong>City Points</strong><span>TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/renata-anh-webar.html"><strong data-i18n="archiveEnergyTitle">Transición Energética AR</strong><span>RENATA / ANH</span><time>2025</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/aviation-training-suite.html"><strong>Aviation Training Suite</strong><span data-i18n="archiveAviation">Suite XR de entrenamiento</span><time>2021–2025</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/beatmobile.html"><strong>BeatMobile</strong><span data-i18n="archiveBeat">Juego rítmico / sistemas</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/mad-sarge-army-moves-overdrive.html"><strong>Mad Sarge</strong><span data-i18n="archiveMadSarge">Videojuego comercial para PC</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/dafovi-ai-lab.html"><strong>Dafovi.AI.Lab</strong><span data-i18n="archiveAiLab">Arquitectura .NET e IA</span><time>WIP</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/pt6-turboprop-engine-training.html"><strong>PT6 Simulator</strong><span data-i18n="archivePt6">Simulación industrial VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/cinav.html"><strong>CINAV</strong><span data-i18n="archiveCinav">Colaboración inmersiva VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/eye-anatomy-simulator.html"><strong>Eye Anatomy</strong><span data-i18n="archiveEye">Simulación educativa VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/enel.html"><strong>Tour Enel</strong><span data-i18n="archiveEnel">Recorrido 360° interactivo</span><time>2021</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/vr-training.html"><strong>Virtual Tours</strong><span data-i18n="archiveTours">Plataforma de recorridos virtuales</span><time>2021–2022</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/care.html"><strong>Viewy Care</strong><span data-i18n="archiveCare">Aplicación AR</span><time>2020</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/volkswagen.html"><strong>Volkswagen VR</strong><span data-i18n="archiveVolkswagen">Experiencia Web 360</span><time>2021</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/respira.html"><strong>Respira</strong><span data-i18n="archiveRespira">Game Jam / narrativa</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/archive.html"><strong>Kinetic Lab</strong><span data-i18n="archiveTodoType">TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/archive.html"><strong>City Points</strong><span data-i18n="archiveTodoType">TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
             </ul>
           </section>
 
           <section class="notes-panel reveal-on-scroll" aria-labelledby="notes-title">
-            <h2 id="notes-title">Notes</h2>
-            <p>Me interesa construir sistemas que conecten necesidades de producto, simulación 3D, APIs, SDKs y hardware. Disfruto resolver problemas reales con código y diseño.</p>
+            <h2 id="notes-title" data-i18n="notes">Notes</h2>
+            <p data-i18n="notesBody">Me interesa construir sistemas que conecten necesidades de producto, simulación 3D, APIs, SDKs y hardware. Disfruto resolver problemas reales con código y diseño.</p>
             <figure class="diagram" aria-label="Diagrama Sensor a Arduino a Relé o NeoPixel">
               <svg viewBox="0 0 420 190" role="img" aria-labelledby="diagram-title">
                 <title id="diagram-title">Sensor conectado a Arduino y salida hacia relé o NeoPixel</title>
@@ -207,7 +212,7 @@
           </section>
 
           <section class="profile-panel reveal-on-scroll" id="perfil" aria-labelledby="profile-title">
-            <h2 id="profile-title">Profile</h2>
+            <h2 id="profile-title" data-i18n="profileTitle">Profile</h2>
             <div class="profile-body">
               <div class="profile-photo placeholder-photo" role="img" aria-label="Foto profesional pendiente">
                 <!-- TODO: asset: subir foto profesional opcional a assets/portfolio/profile/daniel-florez.webp. -->
@@ -215,8 +220,8 @@
               </div>
               <div>
                 <h3>Daniel Flórez / Dafovi</h3>
-                <p>Software Developer especializado en Unity, C#/.NET, XR y sistemas interactivos.</p>
-                <p>Más de siete años desarrollando videojuegos, simuladores de entrenamiento, aplicaciones XR y herramientas de escritorio.</p>
+                <p data-i18n="profileRole">Software Developer especializado en Unity, C#/.NET, XR y sistemas interactivos.</p>
+                <p data-i18n="profileBio">Más de siete años desarrollando videojuegos, simuladores de entrenamiento, aplicaciones XR y herramientas de escritorio.</p>
                 <ul class="profile-links">
                   <li>Bogotá, Colombia</li>
                   <li><a href="mailto:swan364@hotmail.com">swan364@hotmail.com</a></li>
@@ -235,8 +240,8 @@
     <section class="contact-strip" id="contacto" aria-labelledby="contact-title">
       <div class="archive-container contact-inner">
         <div>
-          <p class="eyebrow">CONTACTO</p>
-          <h2 id="contact-title">¿Tienes una experiencia o herramienta por construir?</h2>
+          <p class="eyebrow" data-i18n="contactKicker">CONTACTO</p>
+          <h2 id="contact-title" data-i18n="contactTitle">¿Tienes una experiencia o herramienta por construir?</h2>
         </div>
         <div class="contact-links">
           <a href="https://github.com/Dafovi" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -250,17 +255,18 @@
 
   <footer class="site-footer">
     <div class="archive-container footer-inner">
-      <p>© 2026 Daniel Flórez. Archivo de trabajo interactivo.</p>
+      <p data-i18n="footer">© 2026 Daniel Flórez. Archivo de trabajo interactivo.</p>
       <nav aria-label="Navegación secundaria">
-        <a href="#proyectos">Proyectos</a>
-        <a href="#perfil">Perfil</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#proyectos" data-i18n="navProjects">Proyectos</a>
+        <a href="#perfil" data-i18n="navProfile">Perfil</a>
+        <a href="#contacto" data-i18n="navContact">Contacto</a>
       </nav>
       <span class="status-dot" aria-hidden="true"></span>
     </div>
   </footer>
 
   <script src="data/projects.js"></script>
+  <script src="data/i18n.js"></script>
   <script src="js/portfolio.js"></script>
 </body>
 </html>

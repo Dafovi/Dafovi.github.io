@@ -50,3 +50,9 @@ Los enlaces públicos confirmados se actualizan en `index.html` y en las página
 Edita `data/projects.js` como fuente principal de tarjetas y casos. Para que el sitio siga funcionando sin JavaScript, replica en `index.html` cualquier cambio visible en proyectos destacados o en el archivo inicial.
 
 Sube covers a `assets/portfolio/covers/`, galerías a `assets/portfolio/gallery/`, foto de perfil a `assets/portfolio/profile/` y diagramas propios a `assets/portfolio/diagrams/`. Mientras falte material, deja comentarios `TODO: asset` o `TODO: confirm copy`.
+
+## Actualizar idiomas
+
+Los textos traducibles viven en `data/i18n.js`. El sitio soporta `es`, `en` y `ja`; JavaScript detecta el idioma del navegador y usa inglés si no encuentra uno compatible.
+
+Para texto nuevo en HTML, conserva un fallback legible y agrega `data-i18n="clave"`. Para tarjetas futuras, agrega el bloque `i18n` dentro del proyecto en `data/projects.js`.
