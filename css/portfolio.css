@@ -22,10 +22,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   margin: 0;
+  min-width: 320px;
+  overflow-x: clip;
   background:
     radial-gradient(circle at 18% 12%, rgb(255 255 255 / 44%), transparent 24rem),
     radial-gradient(circle at 78% 22%, rgb(184 177 165 / 16%), transparent 22rem),
@@ -116,12 +119,18 @@ a:hover {
   display: inline-flex;
   align-items: baseline;
   gap: .6rem;
-  width: max-content;
+  min-width: 0;
   color: var(--ink);
   font-family: var(--font-display);
   font-size: clamp(1.45rem, 2.2vw, 2rem);
   line-height: 1;
   text-decoration: none;
+}
+
+.brand span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .brand-primary {
@@ -132,6 +141,7 @@ a:hover {
 .site-nav {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: clamp(1rem, 2.4vw, 2.7rem);
   font-size: .96rem;
 }
@@ -229,12 +239,12 @@ a:hover {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(360px, .95fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
   gap: clamp(2rem, 7vw, 6rem);
 }
 
 .hero-copy {
-  max-width: 660px;
+  max-width: min(660px, 100%);
 }
 
 .eyebrow,
@@ -290,11 +300,13 @@ h1 {
   margin-bottom: 1rem;
   color: var(--ink);
   font-weight: 700;
+  overflow-wrap: break-word;
 }
 
 .hero-actions {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1.4rem;
   margin-top: 1.2rem;
 }
@@ -417,6 +429,7 @@ h1 {
   margin: 1.2rem 0 2.1rem;
   color: var(--bone);
   font-size: clamp(1rem, 1.5vw, 1.15rem);
+  overflow-wrap: break-word;
 }
 
 .work-meta {
@@ -556,6 +569,7 @@ h1 {
 .image-overlay p:not(.work-number) {
   color: var(--bone);
   font-weight: 600;
+  overflow-wrap: break-word;
 }
 
 .archive-feature-mark {
@@ -620,6 +634,7 @@ h1 {
   max-width: 520px;
   margin-bottom: 1rem;
   color: rgb(245 240 231 / 88%);
+  overflow-wrap: break-word;
 }
 
 .mycelium-gallery {
@@ -687,7 +702,7 @@ h1 {
 
 .archive-list a {
   display: grid;
-  grid-template-columns: minmax(120px, .9fr) minmax(150px, 1fr) auto 24px;
+  grid-template-columns: minmax(110px, .9fr) minmax(140px, 1fr) auto 24px;
   gap: 1rem;
   align-items: center;
   min-height: 48px;
@@ -891,6 +906,7 @@ h1 {
   max-width: 760px;
   color: var(--graphite);
   font-size: clamp(1.08rem, 2vw, 1.25rem);
+  overflow-wrap: break-word;
 }
 
 .case-meta {
@@ -966,6 +982,7 @@ h1 {
 
 .case-nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 1rem;
   border-top: 1px solid var(--line);
@@ -980,14 +997,10 @@ h1 {
   padding: clamp(1.5rem, 4vw, 2.5rem);
 }
 
-.reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(12px);
-}
-
+.reveal-on-scroll,
 .reveal-on-scroll.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
   transition: opacity 220ms ease, transform 220ms ease;
 }
 
@@ -998,12 +1011,13 @@ h1 {
   }
 
   .mobile-status-dot {
-    display: block;
+    display: none;
     justify-self: end;
   }
 
   .header-inner {
     grid-template-columns: 1fr auto auto;
+    gap: .7rem;
   }
 
   .site-nav {
@@ -1028,6 +1042,8 @@ h1 {
   }
 
   .language-switcher {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: .4rem;
   }
 
@@ -1042,7 +1058,7 @@ h1 {
   }
 
   .hero-layout {
-    grid-template-columns: minmax(0, 1.05fr) minmax(280px, .7fr);
+    grid-template-columns: minmax(0, 1fr) minmax(260px, .62fr);
     gap: 2rem;
   }
 
@@ -1056,6 +1072,8 @@ h1 {
   }
 
   .neo-feature {
+    width: 100%;
+    max-width: 100%;
     grid-template-columns: 1fr;
   }
 
@@ -1081,6 +1099,12 @@ h1 {
 }
 
 @media (max-width: 767px) {
+  .archive-container {
+    width: auto;
+    max-width: none;
+    margin-inline: 16px;
+  }
+
   .header-inner {
     min-height: 64px;
   }
@@ -1090,11 +1114,16 @@ h1 {
   }
 
   .menu-toggle span {
-    font-size: .9rem;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
   }
 
   .site-nav {
-    inset-top: 64px;
+    inset: 64px 16px auto 16px;
   }
 
   .hero {
@@ -1114,13 +1143,15 @@ h1 {
   }
 
   h1 {
-    max-width: 11ch;
-    font-size: clamp(2.8rem, 13vw, 4rem);
+    max-width: min(100%, 10.5ch);
+    font-size: clamp(2.25rem, 9.8vw, 3.55rem);
+    overflow-wrap: break-word;
   }
 
   .hero-index {
     border-left: 0;
     padding-left: 0;
+    padding-top: .6rem;
   }
 
   .hero-index a {
@@ -1132,7 +1163,12 @@ h1 {
     align-items: stretch;
     flex-direction: column;
     gap: .8rem;
-    max-width: 260px;
+    max-width: 320px;
+  }
+
+  .hero-support,
+  .work-summary {
+    max-width: 22rem;
   }
 
   .button,
@@ -1142,6 +1178,17 @@ h1 {
 
   .work-row {
     border-inline: 1px solid var(--ink);
+  }
+
+  .work-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .work-meta > div + div {
+    border-left: 0;
+    border-top: 1px solid rgb(245 240 231 / 52%);
+    padding-top: 1rem;
+    padding-left: 0;
   }
 
   .mycelium-card {
@@ -1170,6 +1217,7 @@ h1 {
   .thumb-pending {
     border-right: 1px solid rgb(245 240 231 / 28%);
     border-bottom: 0;
+    overflow-wrap: anywhere;
   }
 
   .image-feature,
@@ -1180,7 +1228,7 @@ h1 {
   }
 
   .image-overlay {
-    width: min(82%, 340px);
+    width: min(92%, 380px);
   }
 
   .archive-list {
@@ -1197,13 +1245,26 @@ h1 {
   }
 
   .archive-list a {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: minmax(0, 1fr) auto 20px;
     gap: .2rem 1rem;
     padding-block: .7rem;
   }
 
+  .archive-list strong,
   .archive-list a > span {
     grid-column: 1;
+  }
+
+  .archive-list time {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+
+  .archive-list a > span[aria-hidden="true"] {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    align-self: center;
   }
 
   .lower-grid > * + * {
@@ -1235,21 +1296,32 @@ h1 {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .case-title {
+    max-width: 12ch;
+    font-size: clamp(2.25rem, 10.5vw, 4.2rem);
+    overflow-wrap: break-word;
+  }
+
+  .case-nav a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 420px) {
-  .brand {
-    gap: .35rem;
-    font-size: 1.16rem;
+  .archive-container {
+    margin-inline: 14px;
   }
 
-  .menu-toggle span {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
+  .brand {
+    gap: .35rem;
+    font-size: clamp(1rem, 5.3vw, 1.16rem);
+  }
+
+  .brand span:last-child {
+    max-width: 8.5rem;
   }
 
   .profile-body {
@@ -1262,6 +1334,60 @@ h1 {
 
   .signature {
     grid-column: 1;
+  }
+
+  .neo-info,
+  .compact-feature,
+  .image-overlay {
+    padding: 1.15rem;
+  }
+
+  .image-overlay {
+    width: 100%;
+  }
+
+  .archive-feature-mark {
+    display: none;
+  }
+
+  .mycelium-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .thumb-pending {
+    min-height: 70px;
+    border-right: 0;
+    border-bottom: 1px solid rgb(245 240 231 / 28%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  .hero-layout,
+  .work-row,
+  .lower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-index {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .lower-grid > * + * {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 1.25rem;
+  }
+
+  .profile-panel {
+    grid-column: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .archive-container {
+    max-width: min(var(--max), calc(100vw - 104px));
   }
 }
 

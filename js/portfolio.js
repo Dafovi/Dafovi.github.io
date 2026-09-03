@@ -218,6 +218,7 @@
   const revealItems = document.querySelectorAll(".reveal-on-scroll");
 
   if (!reducedMotion && "IntersectionObserver" in window) {
+    document.body.classList.add("can-reveal");
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
