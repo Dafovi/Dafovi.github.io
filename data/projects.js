@@ -377,6 +377,146 @@ window.PORTFOLIO_PROJECTS = [
     notes: "TODO: confirmar periodo, evento y aporte específico."
   },
   {
+    id: "nyan-cat-vs-doge",
+    title: "Nyan Cat vs. Doge",
+    categories: ["games", "webgl"],
+    order: 16,
+    featured: false,
+    period: "TODO: confirmar periodo",
+    label: "HTML5 / Unity",
+    description: "Shoot'em up 2D publicado en Itch.io como juego HTML5 y jugable desde navegador.",
+    i18n: {
+      en: {
+        period: "TODO: confirm period",
+        label: "HTML5 / Unity",
+        description: "2D shoot'em up published on Itch.io as an HTML5 game and playable in browser."
+      },
+      ja: {
+        period: "TODO: 期間確認",
+        label: "HTML5 / Unity",
+        description: "Itch.ioでHTML5ゲームとして公開され、ブラウザで遊べる2Dシューティング。"
+      }
+    },
+    technologies: ["Unity", "C#", "WebGL", "HTML5"],
+    image: { src: "img/Nyancat.png", alt: "Imagen de Nyan Cat vs. Doge" },
+    href: "proyectos/nyancat.html",
+    sourceUrl: "https://dafovi.itch.io/nyancat",
+    status: "playable",
+    notes: "Build WebGL local disponible en Unity/NyanCat/. TODO: confirmar periodo y rol exacto."
+  },
+  {
+    id: "state-machine",
+    title: "State Machine",
+    categories: ["games", "tools", "webgl"],
+    order: 17,
+    featured: false,
+    period: "TODO: confirmar periodo",
+    label: "Prototipo técnico / Unity WebGL",
+    description: "Demo jugable de máquina de estados con inspiración en sistemas tipo Factorio.",
+    i18n: {
+      en: {
+        period: "TODO: confirm period",
+        label: "Technical prototype / Unity WebGL",
+        description: "Playable state-machine demo inspired by Factorio-like systems."
+      },
+      ja: {
+        period: "TODO: 期間確認",
+        label: "技術プロトタイプ / Unity WebGL",
+        description: "Factorio風システムに着想を得た、状態機械のプレイアブルデモ。"
+      }
+    },
+    technologies: ["Unity", "C#", "WebGL", "State machines"],
+    image: { src: "img/StateMachine.png", alt: "Imagen de State Machine" },
+    href: "proyectos/statemachine.html",
+    sourceUrl: "",
+    status: "playable-prototype",
+    notes: "Build WebGL local disponible en Unity/StateMachine/. TODO: confirmar fecha y alcance."
+  },
+  {
+    id: "hanabi-matsuri",
+    title: "Hanabi Matsuri",
+    categories: ["games", "webgl", "prototype"],
+    order: 18,
+    featured: false,
+    period: "TODO: confirmar periodo",
+    label: "Prototipo VFX / JSON",
+    description: "Prototipo Unity de partículas, VFX y guardado de configuración con JSON.",
+    i18n: {
+      en: {
+        period: "TODO: confirm period",
+        label: "VFX / JSON prototype",
+        description: "Unity prototype for particles, VFX, and JSON-based configuration saving."
+      },
+      ja: {
+        period: "TODO: 期間確認",
+        label: "VFX / JSONプロトタイプ",
+        description: "パーティクル、VFX、JSONベースの設定保存を扱うUnityプロトタイプ。"
+      }
+    },
+    technologies: ["Unity", "C#", "VFX", "JSON", "WebGL"],
+    image: { src: "img/hanabi.png", alt: "Imagen de Hanabi Matsuri" },
+    href: "proyectos/hanabi.html",
+    sourceUrl: "",
+    status: "playable-prototype",
+    notes: "Build WebGL local disponible en Unity/HanabiMatsuri/. La página antigua reportaba problemas visuales de compatibilidad."
+  },
+  {
+    id: "pixel-survival",
+    title: "Pixel Survival",
+    categories: ["games"],
+    order: 19,
+    featured: false,
+    period: "TODO: confirmar periodo",
+    label: "Survival / Windows",
+    description: "Juego survival 2D para Windows publicado en Itch.io, con aliados, oleadas y progresión.",
+    i18n: {
+      en: {
+        period: "TODO: confirm period",
+        label: "Survival / Windows",
+        description: "2D survival game for Windows published on Itch.io, with allies, waves, and progression."
+      },
+      ja: {
+        period: "TODO: 期間確認",
+        label: "サバイバル / Windows",
+        description: "Itch.ioで公開されたWindows向け2Dサバイバルゲーム。仲間、ウェーブ、進行要素があります。"
+      }
+    },
+    technologies: ["Unity", "C#", "2D", "Pixel Art"],
+    image: { src: "img/PixelSurvival.png", alt: "Imagen de Pixel Survival" },
+    href: "proyectos/pixelsurvival.html",
+    sourceUrl: "https://dafovi.itch.io/pixel-survival",
+    status: "downloadable",
+    notes: "Itch.io lo marca en pausa. TODO: confirmar periodo y si conviene migrar a página nueva."
+  },
+  {
+    id: "escape-from-infinity",
+    title: "Escape from Infinity",
+    categories: ["games"],
+    order: 20,
+    featured: false,
+    period: "TODO: confirmar periodo",
+    label: "Juego 3D / Windows",
+    description: "Proyecto 3D de horror y puzzles para Windows publicado en Itch.io como trabajo universitario.",
+    i18n: {
+      en: {
+        period: "TODO: confirm period",
+        label: "3D game / Windows",
+        description: "3D horror and puzzle project for Windows published on Itch.io as a university assignment."
+      },
+      ja: {
+        period: "TODO: 期間確認",
+        label: "3Dゲーム / Windows",
+        description: "大学課題としてItch.ioで公開された、Windows向け3Dホラー・パズルプロジェクト。"
+      }
+    },
+    technologies: ["Unity", "C#", "3D", "Horror"],
+    image: { src: "img/Escape.png", alt: "Imagen de Escape from Infinity" },
+    href: "proyectos/escape.html",
+    sourceUrl: "https://dafovi.itch.io/escape-from-infinity",
+    status: "downloadable",
+    notes: "TODO: confirmar periodo, rol exacto y si conviene migrar a página nueva."
+  },
+  {
     id: "archive",
     title: "Archivo histórico",
     categories: ["web-360", "ar", "archive"],

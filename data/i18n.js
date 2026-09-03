@@ -111,6 +111,11 @@ window.PORTFOLIO_I18N = {
         archiveCare: { es: "Aplicación AR", en: "AR application", ja: "ARアプリ" },
         archiveVolkswagen: { es: "Experiencia Web 360", en: "Web 360 experience", ja: "Web 360体験" },
         archiveRespira: { es: "Game Jam / narrativa", en: "Game Jam / narrative", ja: "ゲームジャム / ナラティブ" },
+        archiveNyan: { es: "HTML5 / Unity", en: "HTML5 / Unity", ja: "HTML5 / Unity" },
+        archiveStateMachine: { es: "Prototipo técnico WebGL", en: "Technical WebGL prototype", ja: "WebGL技術プロトタイプ" },
+        archiveHanabi: { es: "Prototipo VFX / JSON", en: "VFX / JSON prototype", ja: "VFX / JSONプロトタイプ" },
+        archivePixel: { es: "Survival / Windows", en: "Survival / Windows", ja: "サバイバル / Windows" },
+        archiveEscape: { es: "Juego 3D / Windows", en: "3D game / Windows", ja: "3Dゲーム / Windows" },
         archiveTodoType: { es: "TODO: confirmar tipo", en: "TODO: confirm type", ja: "TODO: 種別を確認" },
         notesBody: {
           es: "Me interesa construir sistemas que conecten necesidades de producto, simulación 3D, APIs, SDKs y hardware. Disfruto resolver problemas reales con código y diseño.",
@@ -291,6 +296,84 @@ window.PORTFOLIO_I18N = {
           es: "Videojuego creado durante la Global Game Jam 2023 en Valencia. La temática de la jam fue “raíces”.",
           en: "Game created during Global Game Jam 2023 in Valencia. The jam theme was “roots”.",
           ja: "バレンシアのGlobal Game Jam 2023で制作されたゲーム。ジャムのテーマは「roots」でした。"
+        }
+      }
+    },
+    nyancat: {
+      title: { es: "Nyan Cat vs. Doge — DAFOVI / Daniel Flórez", en: "Nyan Cat vs. Doge — DAFOVI / Daniel Flórez", ja: "Nyan Cat vs. Doge — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Ficha jugable de Nyan Cat vs. Doge, shoot'em up 2D hecho en Unity y publicado como HTML5 en Itch.io.",
+        en: "Playable Nyan Cat vs. Doge page, a 2D shoot'em up made in Unity and published as HTML5 on Itch.io.",
+        ja: "Unityで制作されItch.ioにHTML5として公開された2Dシューティング、Nyan Cat vs. Dogeのプレイアブルページ。"
+      },
+      text: {
+        kicker: { es: "HTML5 / Unity / Itch.io", en: "HTML5 / Unity / Itch.io", ja: "HTML5 / Unity / Itch.io" },
+        summary: {
+          es: "Shoot'em up 2D publicado en Itch.io como juego HTML5. El jugador controla a Nyan Cat contra oleadas de Doge, con power-ups, mejoras de armas y jefes.",
+          en: "2D shoot'em up published on Itch.io as an HTML5 game. The player controls Nyan Cat against waves of Doge, with power-ups, weapon upgrades, and bosses.",
+          ja: "Itch.ioでHTML5ゲームとして公開された2Dシューティング。プレイヤーはNyan Catを操作し、Dogeのウェーブ、パワーアップ、武器強化、ボスに挑みます。"
+        },
+        contextBody: {
+          es: "Proyecto de juego 2D presentado como tributo a memes de internet, útil para mostrar publicación HTML5 con Unity y una pieza jugable directa desde navegador.",
+          en: "2D game project presented as a tribute to internet memes, useful for showing an HTML5 Unity release and a playable browser piece.",
+          ja: "インターネットミームへのトリビュートとして制作された2Dゲーム。UnityのHTML5公開とブラウザで遊べる作品を示すのに適しています。"
+        },
+        contributionBody: {
+          es: "TODO: confirmar rol exacto, alcance técnico y fecha de desarrollo antes de presentarlo como caso principal.",
+          en: "TODO: confirm exact role, technical scope, and development date before presenting it as a main case study.",
+          ja: "TODO: メインケースとして掲載する前に、正確な役割、技術範囲、開発時期を確認。"
+        }
+      }
+    },
+    statemachine: {
+      title: { es: "State Machine — DAFOVI / Daniel Flórez", en: "State Machine — DAFOVI / Daniel Flórez", ja: "State Machine — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Prototipo técnico jugable de State Machine, demo WebGL en Unity con lógica de máquina de estados.",
+        en: "Playable State Machine technical prototype, a Unity WebGL demo with state-machine logic.",
+        ja: "状態機械ロジックを使ったUnity WebGLデモ、State Machineのプレイアブル技術プロトタイプ。"
+      },
+      text: {
+        kicker: { es: "Prototipo técnico / Unity WebGL", en: "Technical prototype / Unity WebGL", ja: "技術プロトタイプ / Unity WebGL" },
+        summary: {
+          es: "Demo jugable de máquina de estados con inspiración en sistemas tipo Factorio. Se conserva como prototipo técnico navegable.",
+          en: "Playable state-machine demo inspired by Factorio-like systems. It is preserved as a navigable technical prototype.",
+          ja: "Factorio風システムに着想を得た状態機械のプレイアブルデモ。閲覧可能な技術プロトタイプとして保存しています。"
+        },
+        contextBody: {
+          es: "Demo de exploración técnica para representar comportamiento por estados y ciclos de producción/interacción en Unity.",
+          en: "Technical exploration demo for representing state-based behavior and production/interaction loops in Unity.",
+          ja: "Unityで状態ベースの挙動と生産・インタラクションループを表現するための技術探索デモ。"
+        },
+        contributionBody: {
+          es: "TODO: confirmar alcance técnico, fecha y si debe presentarse como prototipo de gameplay, herramienta o experimento.",
+          en: "TODO: confirm technical scope, date, and whether it should be presented as a gameplay prototype, tool, or experiment.",
+          ja: "TODO: 技術範囲、時期、ゲームプレイプロトタイプ・ツール・実験のどれとして提示するかを確認。"
+        }
+      }
+    },
+    hanabi: {
+      title: { es: "Hanabi Matsuri — DAFOVI / Daniel Flórez", en: "Hanabi Matsuri — DAFOVI / Daniel Flórez", ja: "Hanabi Matsuri — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Ficha de Hanabi Matsuri, prototipo Unity de VFX, partículas y guardado con JSON.",
+        en: "Hanabi Matsuri page, a Unity prototype for VFX, particles, and JSON saving.",
+        ja: "VFX、パーティクル、JSON保存を扱うUnityプロトタイプ、Hanabi Matsuriのページ。"
+      },
+      text: {
+        kicker: { es: "Prototipo Unity / VFX / JSON", en: "Unity prototype / VFX / JSON", ja: "Unityプロトタイプ / VFX / JSON" },
+        summary: {
+          es: "Prototipo de partículas y efectos visuales en Unity, con guardado de configuración usando JSON. La demo WebGL se conserva como material histórico.",
+          en: "Prototype for particles and visual effects in Unity, with configuration saving through JSON. The WebGL demo is preserved as historical material.",
+          ja: "Unityでのパーティクルとビジュアルエフェクトのプロトタイプ。JSONによる設定保存を含みます。WebGLデモは履歴資料として保存しています。"
+        },
+        contextBody: {
+          es: "Exploración técnica de partículas, VFX y persistencia de datos en Unity, útil como muestra de prototipado visual.",
+          en: "Technical exploration of particles, VFX, and data persistence in Unity, useful as a visual prototyping sample.",
+          ja: "Unityでのパーティクル、VFX、データ永続化の技術探索。ビジュアルプロトタイピングの例として有用です。"
+        },
+        contributionBody: {
+          es: "TODO: confirmar fecha, objetivo del prototipo y alcance técnico exacto.",
+          en: "TODO: confirm date, prototype goal, and exact technical scope.",
+          ja: "TODO: 時期、プロトタイプの目的、正確な技術範囲を確認。"
         }
       }
     }
