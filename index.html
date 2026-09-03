@@ -1,603 +1,266 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="utf-8">
-  <title>Daniel Florez</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <link rel="icon" href="img/io.png" type="image/png" sizes="16x16">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DAFOVI / Daniel Flórez — Unity, C#/.NET, XR & Interactive Systems</title>
+  <meta name="description" content="Portafolio de Daniel Flórez: Unity, C#/.NET, XR, simuladores de entrenamiento, videojuegos y herramientas interactivas.">
+  <meta property="og:title" content="DAFOVI / Daniel Flórez">
+  <meta property="og:description" content="Desarrollo juegos, simulaciones XR y herramientas interactivas.">
+  <!-- TODO: asset: crear assets/portfolio/og/cover.jpg con la nueva dirección Interactive Work Archive. -->
+  <meta property="og:image" content="assets/portfolio/og/cover.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F3EEE2">
+  <link rel="icon" href="img/io.png" type="image/png">
+  <link rel="stylesheet" href="css/portfolio.css?v=20260903-2">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Daniel Flórez",
+      "alternateName": "Dafovi",
+      "jobTitle": "Desarrollador de experiencias interactivas",
+      "url": "https://dafovi.github.io/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogotá",
+        "addressCountry": "CO"
+      },
+      "sameAs": [
+        "https://github.com/Dafovi",
+        "https://www.linkedin.com/in/daniel-alexander-florez-vidal/",
+        "https://dafovi.itch.io/"
+      ]
+    }
+  </script>
 </head>
-
 <body>
-  <div id="preloader"></div>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-  <!--==========================
-  Hero Section
-  ============================-->
-  <section id="hero">
-    <div class="hero-container">
-      <div class="wow fadeIn">
-          <video autoplay muted loop id="myVideo">
-                <source src="videos/Banner.mp4" type="video/mp4">
-            </video>
-        <h1>Daniel Florez</h1>
-        <h2><span class="rotating">Dale vida a tus proyectos con ayuda de un profesional,Desarrollo de videojuegos,Desarrollo de experiencias en realidad virtual, Desarrollo de experiencias en realidad aumentada.</span></h2>
-        <div class="actions">
-          <a href="#about" class="btn-get-started">Sobre mí</a>
-          <a href="#portfolio" class="btn-services">Portafolio</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <header class="site-header" data-site-header>
+    <div class="archive-container header-inner">
+      <a class="brand" href="#inicio" aria-label="Inicio">
+        <span class="brand-primary">DAFOVI</span>
+        <span aria-hidden="true">/</span>
+        <span>Daniel Flórez</span>
+      </a>
+      <span class="mobile-status-dot" aria-hidden="true"></span>
 
-  <!--==========================
-  Sección de encabezado
-  ============================-->
-  <header id="header">
-    <div class="container">
-      <div id="logo" class="pull-left">
-        <a href="#hero">
-            <img src="img/logo.png" alt="" title="" /></img></a>
-        <!-- Descomenta abajo si prefieres usar una imagen de texto -->
-        <!--<h1><a href="#hero">Daniel Florez</a></h1>-->
-      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span>Menú</span>
+        <svg aria-hidden="true" viewBox="0 0 28 18" width="28" height="18">
+          <path d="M1 2h26M1 9h26M1 16h26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        </svg>
+      </button>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Inicio</a></li>
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li class="menu-has-children"><a href="#portfolio">Proyectos</a>
-            <ul>
-                <!-- VideoJuegos -->
-                <li class="menu-has-children"><a href="#portfolio">Video juegos</a>
-                <ul>
-                  <li><a href="/proyectos/pixelsurvival.html">Pixel Survival</a></li>
-                  <li><a href="/proyectos/escape.html">Escape from Infinity</a></li>
-                  <li><a href="/proyectos/mycelium.html">Mycelium</a></li>
-                  <li><a href="/proyectos/hanabi.html">Hanabi Matsuri</a></li>
-                  <li><a href="/proyectos/nyancat.html">NyanCat</a></li>
-                  <li><a href="/proyectos/statemachine.html">State Machine</a></li>
-                   <!--<li><a href="/proyectos/reel2d.html">Reel 2D</a></li> -->
-                   <!--<li><a href="/proyectos/reel3d.html">Reel 3D</a></li> -->
-                  <li><a href="/proyectos/space.html">Space Cinamatic</a></li>
-                  <li><a href="/proyectos/oceano.html">Oceano</a></li>
-                </ul>
-              </li>
-                
-                
-                <!-- Realidad virtual -->
-              <li class="menu-has-children"><a href="#portfolio">Realidad Virtual</a>
-                <ul>
-                  <li><a href="/proyectos/virtualTours.html">Virtual Tours</a></li>
-                  <li><a href="/proyectos/valentina.html">Soft Skills</a></li>
-                  <li><a href="/proyectos/towing.html">Aircraft Towing</a></li>
-                  <li><a href="/proyectos/danec.html">Danec</a></li>
-                  <li><a href="/proyectos/cinepolis.html">Cinépolis</a></li>
-                </ul>
-              </li>
-                <!-- Realidad Aumentada -->
-                <li class="menu-has-children"><a href="#portfolio">Realidad Aumentada</a>
-                <ul>
-                  <li><a href="/proyectos/care.html">Viewy Care</a></li>
-                  <li><a href="/proyectos/viewy.html">Viewy Portafolio</a></li>
-                  <li><a href="/proyectos/claro.html">Bienvenido a Claro</a></li>
-                  <li><a href="/proyectos/doria.html">Bienvenido a Doria</a></li>
-                  <li><a href="/proyectos/vph.html">VPH</a></li>
-                  <li><a href="/proyectos/haldi.html">Haldi</a></li>
-                </ul>
-              </li>
-              
-            <!-- Mundos virtuales -->
-              <li class="menu-has-children"><a href="#portfolio">Mundos Virtuales</a>
-                <ul>
-                  <li><a href="/proyectos/armada.html">Armanda de Colombia</a></li>
-                  <li><a href="/proyectos/corteva.html">Corteva - superganaderia</a></li>
-                </ul>
-                </li>
-                
-                <!-- web 360 -->
-              <li class="menu-has-children"><a href="#portfolio">Web 360</a>
-                <ul>
-                  <li><a href="/proyectos/volkswagen.html">Vitrina virtual Volkswagen</a></li>
-                  <li><a href="/proyectos/Knightsbridge.html">Tour Knights Bridge Schools</a></li>
-                  <li><a href="/proyectos/enel.html">Tour Enel</a></li>
-                  <li><a href="/proyectos/oftalvist.html">Tour Oftalvist</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#contact">Redes</a></li>
-        </ul>
+      <nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal">
+        <a href="#proyectos" aria-current="page">Proyectos</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#contacto">Contacto</a>
+        <a href="assets/cv/Daniel-Florez-CV.pdf">CV</a>
+        <span class="status-dot" aria-hidden="true"></span>
       </nav>
-      <!-- #nav-menu-container -->
     </div>
   </header>
-  <!-- #header -->
 
-  <!--==========================
-  About Section
-  ============================-->
-  <section id="about">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Sobre mí</h3>
-          <div class="section-title-divider"></div>
-        </div>
-      </div>
-    </div>
-    <div class="container about-container wow fadeInUp">
-      <div id="foto"></div>
-      <div class="row">
-        <div class="col-md-6 col-md-push-6 about-content">
-          <p class="about-text">
-            Soy Daniel, un apasionado programador enfocado en Unity con 4 años de experiencia en el desarrollo de juegos, con un enfoque especial en la realidad virtual (VR) y aumentada (AR). Me apasiona crear experiencias de juego inmersivas y emocionantes que aprovechen al máximo el potencial de estas tecnologías emergentes.
-          </p>
-          <p class="about-text">
-            Soy un jugador ávido y entiendo la importancia de crear juegos que sean divertidos, adictivos y atractivos para los jugadores. Estoy emocionado de seguir desafiándome a mí mismo y de trabajar en nuevos proyectos emocionantes en el campo de la realidad virtual y aumentada.
-          </p>
-          <p class="about-text">
-            Si estás buscando un programador Unity con experiencia en VR y AR apasionado y dedicado, estaré encantado de colaborar contigo y ayudarte a hacer realidad tus ideas de juego.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--==========================
-  Porfolio Section
-  ============================-->
-  <section id="portfolio">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Portafolio</h3>
-          <div class="section-title-divider"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <!--==========================
-                VideoJuegos 
-        ============================-->
-          <section id="Videojuegos">
-          <h2> &nbsp Videojuegos</h4>
-              
-       
-        <!-------- Pixel Survival -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/PixelSurvival.png);" href="/proyectos/pixelsurvival.html">
-            <div class="details">
-              <h4>Pixel Survival</h4>
-              <span>Juego 2d de supervivencia <br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-                    
-        <!-------- Escape from infinity -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Escape.png);" href="/proyectos/escape.html">
-            <div class="details">
-              <h4>Escape from Infinity</h4>
-              <span>Juego 3d de suspenso <br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-                    
-        <!-------- mycelium -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Mycelium.png);" href="/proyectos/mycelium.html">
-            <div class="details">
-              <h4>Mycelium</h4>
-              <span>Global Game Jam 2023, Valencia, España <br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-                    
-        <!-------- Hanabi Matsuri -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/hanabi.png);" href="/proyectos/hanabi.html">
-            <div class="details">
-              <h4>Hanabi Matsuri</h4>
-              <span>Prueba VFX y guardado con JSon <br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-                    
-        <!-------- NyanCat -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Nyancat.png);" href="/proyectos/nyancat.html">
-            <div class="details">
-              <h4>NyanCat</h4>
-              <span>Juego 2d inspirado en NyanCat <br><b>2022</b></span>
-            </div>
-          </a>
-        </div>      
-        <!-------- StateMachine -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/StateMachine.png);" href="/proyectos/statemachine.html">
-            <div class="details">
-              <h4>State Machine</h4>
-              <span>Maquina de estados<br><b>2023</b></span>
-            </div>
-          </a>
-        </div>      
-        <!-------- Reel 2D 
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/2d.png);" href="/proyectos/reel2d.html">
-            <div class="details">
-              <h4>Reel 2D</h4>
-              <span>Pequeño reel 2d <br><b>2022-2023</b></span>
-            </div>
-          </a>
-        </div>
-                 -->    
-        <!-------- Reel 3D 
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/3d.png);" href="/proyectos/reel3d.html">
-            <div class="details">
-              <h4>Reel 3d</h4>
-              <span>Pequeño reel 3d <br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-           -->
-              <!-------- Scape Cinematic -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Space.png);" href="/proyectos/space.html">
-            <div class="details">
-              <h4>Scape Cinematic</h4>
-              <span>Cinematica Unity<br><b>2023</b></span>
-            </div>
-          </a>
-        </div>
-              
-              
-         <!-------- Oceano -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Superpez.png);" href="/proyectos/oceano.html">
-            <div class="details">
-              <h4>Oceano</h4>
-              <span>Juego 2d para celular <br><b>2018</b></span>
-            </div>
-          </a>
-        </div>
-              
-          </section>
-        </div>
-        
-                    
-          
-      <div class="row">
-        <!--==========================
-                Realidad virtual 
-        ============================-->
-          <section id="VR">
-          <h2> &nbsp Realidad Virtual</h4>
-              
-              <!-------- Virtual tours -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/VirtualTours.png);" href="/proyectos/virtualTours.html">
-            <div class="details">
-              <h4>Virtual tours</h4>
-              <span>Experiencia VR / Oculus Quest <br><b>2021-2022</b></span>
-            </div>
-          </a>
-        </div>
-              <!-------- soft skills Valentina -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Valentina.png);" href="/proyectos/valentina.html">
-            <div class="details">
-              <h4>Soft skills</h4>
-              <span>Experiencia VR / Oculus Quest / Pico<br><b>2021-2022</b></span>
-            </div>
-          </a>
-        </div>
-              
-              <!-------- Towing -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Towing.png);" href="/proyectos/towing.html">
-            <div class="details">
-              <h4>Aircraft Towing</h4>
-              <span>Experiencia VR / Oculus Quest <br><b>2022-2023</b></span>
-            </div>
-          </a>
-        </div>
-              
-              <!-------- Danec -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Danec.png);" href="/proyectos/danec.html">
-            <div class="details">
-              <h4>Danec</h4>
-              <span>Experiencia VR / Oculus Quest <br><b>2022-2023</b></span>
-            </div>
-          </a>
-        </div>
-              
-              
-        <!-------- Cinépolis -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Cinepolis.png);" href="/proyectos/cinepolis.html">
-            <div class="details">
-              <h4>Experiencia Cinépolis</h4>
-              <span>Juego VR / Oculus Quest <br><b>2019</b></span>
-            </div>
-          </a>
-        </div>
-
-          
-          </section>
-          
-        </div>
-          
-      <div class="row">
-        <!--==========================
-                Realidad Aumentada 
-        ============================-->
-          <section id="AR">
-          <h2> &nbsp Realidad Aumentada</h4>
-          
-        <!-------- Viewy Care -------->
-           <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/care.png);" href="/proyectos/care.html">
-            <div class="details">
-              <h4>Viewy Care</h4>
-              <span>Aplicación AR <br><b>2020</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Viewy Portafolio -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portafolioAR.png);" href="/proyectos/viewy.html">
-            <div class="details">
-              <h4>Viewy Portafolio AR</h4>
-              <span>Aplicación AR <br><b>2020</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Claro -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/claro.png);" href="/proyectos/claro.html">
-            <div class="details">
-              <h4>Bienvenido a Claro</h4>
-              <span>Aplicación AR<br><b>2019-2020</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Doria -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Doria.png);" href="/proyectos/doria.html">
-            <div class="details">
-              <h4>Bienvenido a Doria</h4>
-              <span>Aplicación AR<br><b>2019-2020</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- VPH -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/VPH.png);" href="/proyectos/vph.html">
-            <div class="details">
-              <h4>VPH</h4>
-              <span>Aplicacion AR<br><b>2019</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Haldi -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Haldi.png);" href="/proyectos/haldi.html">
-            <div class="details">
-              <h4>Haldi</h4>
-              <span>Aplicacion AR<br><b>2018</b></span>
-            </div>
-          </a>
-        </div>
-              
-
-          </section>
-          
-        </div>
-          
-      <div class="row">
-        <!--==========================
-                Mundos virtuales 
-        ============================-->
-          <section id="Mundos Virtuales">
-          <h2> &nbsp Mundos Virtuales</h4>
-              
-        <!-------- Armanda -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/mundoArmada.png);" href="/proyectos/armada.html">
-            <div class="details">
-              <h4>Mundo virtual Armanda de Colombia</h4>
-              <span>Evento web online <br><b>2020</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Corteva -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/mundoCorteva.png);" href="/proyectos/corteva.html">
-            <div class="details">
-              <h4>Mundo virtual Corteva - superganaderia</h4>
-              <span>Evento web online<br><b>2020</b></span>
-            </div>
-          </a>
-        </div>
-
-          
-          </section>
-          
-        </div>
-          
-      <div class="row">
-        <!--==========================
-                Web 360
-        ============================-->
-          <section id="Web">
-          <h2> &nbsp Web 360</h4>
-          
-        <!-------- Volkswagen -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Volkswagen.png);" href="/proyectos/volkswagen.html">
-            <div class="details">
-              <h4>Vitrina virtual Volkswagen</h4>
-              <span>Web 360 <br><b>2021</b></span>
-            </div>
-          </a>
-        </div>
-
-        <!-------- Colegio -------->
-        <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/colegio.PNG);" href="/proyectos/Knightsbridge.html">
-            <div class="details">
-              <h4>Tour Knights Bridge Schools</h4>
-              <span>Web 360 <br><b>2021</b></span>
-            </div>
-          </a>
-        </div>
-              
-                  
-        <!-------- Enel -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Enel.png);" href="/proyectos/enel.html">
-            <div class="details">
-              <h4>Tour Enel</h4>
-              <span>Web 360 <br><b>2021</b></span>
-            </div>
-          </a>
-        </div>
-              
-              
-                  
-        <!-------- Oftalvist -------->
-          <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/Oftalvis.png);" href="/proyectos/oftalvist.html">
-            <div class="details">
-              <h4>Tour Oftalvist</h4>
-              <span>Web 360 <br><b>2021</b></span>
-            </div>
-          </a>
-        </div>
-
-          </section>        
-
-      </div>
-    </div>
-  </section>
-  <!--==========================
-  Contact Section
-  ============================-->
-  <section id="contact">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Redes</h3>
-          <div class="section-title-divider"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 col-md-push-2">
-          <div class="info">
-            <div>
-            <a href="https://github.com/Dafovi" target="_blank"><i class="fa fa-github"></i><p>   </p>
-              <a href="https://www.linkedin.com/in/daniel-alexander-florez-vidal/" target="_blank"><i class="fa fa-linkedin"></i></a><p>   </p>
-              <a href="https://www.instagram.com/dafovi/" target="_blank"><i class="fa fa-instagram"></i></a><p>   </p>
-              <a href="https://dafovi.itch.io/" target="_blank"><i class="fab fa-itch-io"></i><h3>Itch.io</h3></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <!--<div class="col-md-5 col-md-push-2">
-          <div class="form">
-            <div id="sendmessage">Tu mensaje ha sido enviado. ¡Gracias!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Ingresa un Correo Valido" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Mensaje"></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-            </form>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="archive-container hero-layout">
+        <div class="hero-copy reveal-on-scroll">
+          <p class="eyebrow">SOFTWARE DEVELOPER / UNITY, C#/.NET, XR &amp; INTERACTIVE SYSTEMS</p>
+          <h1 id="hero-title">Desarrollo juegos, simulaciones XR y herramientas interactivas.</h1>
+          <span class="accent-rule" aria-hidden="true"></span>
+          <p class="hero-support">Más de siete años construyendo productos digitales para PC, móviles y visores VR.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver trabajo <span aria-hidden="true">→</span></a>
+            <a class="cv-link" href="assets/cv/Daniel-Florez-CV.pdf">CV <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
-      </div>-->
-    </div>
-  </section>
+        <aside class="hero-index reveal-on-scroll" aria-label="Índice de áreas">
+          <ol>
+            <li><a href="#games"><span>01</span><strong>Games</strong></a></li>
+            <li><a href="#xr"><span>02</span><strong>XR / Simulation</strong></a></li>
+            <li><a href="#tools"><span>03</span><strong>Tools &amp; Integrations</strong></a></li>
+            <li><a href="#archive"><span>04</span><strong>Web / 360</strong></a></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
 
-  <!--==========================
-  Footer
-  ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="copyright">
-            &copy; Copyright <strong>Dafovi</strong>. All Rights Reserved
+    <section class="selected-work" id="proyectos" aria-labelledby="selected-title">
+      <div class="archive-container">
+        <h2 id="selected-title" class="sr-only">Trabajo seleccionado</h2>
+
+        <article class="neo-feature work-panel reveal-on-scroll" id="tools">
+          <div class="neo-info">
+            <p class="work-number">01</p>
+            <h3>Neo Twitch</h3>
+            <p class="project-line">Herramienta de escritorio / 2025–2026</p>
+            <span class="accent-rule" aria-hidden="true"></span>
+            <p class="work-summary">Automatización de alertas, luces, audio y OBS desde eventos de Twitch.</p>
+            <div class="work-meta">
+              <div>
+                <h4>Notas</h4>
+                <p>Control centralizado para creadores de contenido. Escucha eventos de Twitch y ejecuta acciones en tiempo real con perfiles personalizables.</p>
+              </div>
+              <div>
+                <h4>Stack</h4>
+                <p>C# / .NET / WPF / Twitch / OBS / Arduino</p>
+              </div>
+            </div>
+            <a class="project-link" href="proyectos/neo-twitch.html">Ver caso completo <span aria-hidden="true">→</span></a>
           </div>
-          <div class="credits">
-        
-            Templates by <a href="https://www.youtube.com/channel/UCDH0DJaVLkCDtl_YN9hhByw?view_as=subscriber">ProOnliPc</a>
+          <div class="neo-visual">
+            <!-- TODO: asset: reemplazar por captura real de Neo Twitch en assets/portfolio/covers/neo-twitch.webp. -->
+            <div class="neo-placeholder" role="img" aria-label="Captura de Neo Twitch pendiente">
+              <span>NEO TWITCH</span>
+              <strong>Captura pendiente</strong>
+              <small>Dashboard real / sin datos sensibles</small>
+            </div>
           </div>
+        </article>
+
+        <div class="work-row">
+          <article class="archive-feature reveal-on-scroll" id="xr">
+            <div class="image-overlay">
+              <p class="work-number">02</p>
+              <h3>Transición Energética AR</h3>
+              <p>Cuatro aplicaciones de realidad aumentada para explicar tecnologías de transición energética en Colombia.</p>
+              <a class="project-link yellow" href="proyectos/renata-anh-webar.html">Ver proyecto <span aria-hidden="true">→</span></a>
+            </div>
+            <!-- TODO: asset: agregar captura autorizada de RENATA / ANH. -->
+            <div class="archive-feature-mark" aria-hidden="true">AR<br>3D<br>2025</div>
+          </article>
+
+          <article class="mycelium-card reveal-on-scroll">
+            <div class="mycelium-main archive-feature" id="xr-suite">
+              <div class="image-overlay">
+                <p class="work-number">03</p>
+                <h3>Aviation Training Suite</h3>
+                <p>Suite XR de entrenamiento aeronáutico con procedimientos, validaciones, evaluación y colaboración.</p>
+                <a class="project-link yellow" href="proyectos/aviation-training-suite.html">Ver proyecto <span aria-hidden="true">→</span></a>
+              </div>
+              <!-- TODO: asset: agregar captura autorizada de la suite XR. -->
+              <div class="archive-feature-mark" aria-hidden="true">XR<br>+200<br>Tareas</div>
+            </div>
+            <div class="mycelium-gallery" aria-label="Galería pendiente de Mycelium">
+              <a class="thumb-pending" href="proyectos/beatmobile.html" id="games">BeatMobile<br>Juego rítmico</a>
+              <a class="thumb-pending" href="proyectos/aircraft-towing-vr.html">Aircraft Towing<br>Subcaso VR</a>
+              <a class="thumb-pending" href="proyectos/mycelium.html">Mycelium<br>Game Jam</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="compact-feature-grid reveal-on-scroll">
+          <article class="compact-feature">
+            <p class="work-number">04</p>
+            <h3>BeatMobile</h3>
+            <p>Videojuego rítmico desarrollado de extremo a extremo: sincronización musical, detección de entrada, puntuación y flujo de juego.</p>
+            <a class="project-link yellow" href="proyectos/beatmobile.html">Ver proyecto <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="compact-feature muted">
+            <p class="work-number">05</p>
+            <h3>Aircraft Towing VR</h3>
+            <p>Subcaso de simulación VR aeronáutica con validaciones de posición, ángulo y velocidad.</p>
+            <a class="project-link yellow" href="proyectos/aircraft-towing-vr.html">Ver subcaso <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+
+        <div class="lower-grid">
+          <section class="archive-list reveal-on-scroll" id="archive" aria-labelledby="archive-title">
+            <div class="section-kicker"><span>06</span><h2 id="archive-title">Archive</h2></div>
+            <ul>
+              <li><a href="proyectos/renata-anh-webar.html"><strong>Transición Energética AR</strong><span>RENATA / ANH</span><time>2025</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/aviation-training-suite.html"><strong>Aviation Training Suite</strong><span>Suite XR de entrenamiento</span><time>2021–2025</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/beatmobile.html"><strong>BeatMobile</strong><span>Juego rítmico / sistemas</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/mad-sarge-army-moves-overdrive.html"><strong>Mad Sarge</strong><span>Videojuego comercial para PC</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/dafovi-ai-lab.html"><strong>Dafovi.AI.Lab</strong><span>Arquitectura .NET e IA</span><time>WIP</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/pt6-turboprop-engine-training.html"><strong>PT6 Simulator</strong><span>Simulación industrial VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/cinav.html"><strong>CINAV</strong><span>Colaboración inmersiva VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/eye-anatomy-simulator.html"><strong>Eye Anatomy</strong><span>Simulación educativa VR</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/enel.html"><strong>Tour Enel</strong><span>Recorrido 360° interactivo</span><time>2021</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/vr-training.html"><strong>Virtual Tours</strong><span>Plataforma de recorridos virtuales</span><time>2021–2022</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/care.html"><strong>Viewy Care</strong><span>Aplicación AR</span><time>2020</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/volkswagen.html"><strong>Volkswagen VR</strong><span>Experiencia Web 360</span><time>2021</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/respira.html"><strong>Respira</strong><span>Game Jam / narrativa</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/archive.html"><strong>Kinetic Lab</strong><span>TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+              <li><a href="proyectos/archive.html"><strong>City Points</strong><span>TODO: confirmar tipo</span><time>TODO</time><span aria-hidden="true">→</span></a></li>
+            </ul>
+          </section>
+
+          <section class="notes-panel reveal-on-scroll" aria-labelledby="notes-title">
+            <h2 id="notes-title">Notes</h2>
+            <p>Me interesa construir sistemas que conecten necesidades de producto, simulación 3D, APIs, SDKs y hardware. Disfruto resolver problemas reales con código y diseño.</p>
+            <figure class="diagram" aria-label="Diagrama Sensor a Arduino a Relé o NeoPixel">
+              <svg viewBox="0 0 420 190" role="img" aria-labelledby="diagram-title">
+                <title id="diagram-title">Sensor conectado a Arduino y salida hacia relé o NeoPixel</title>
+                <path d="M70 96h74m130 0h76M144 96l32-34h66l32 34-32 34h-66z" fill="none" stroke="currentColor" stroke-width="3"/>
+                <rect x="22" y="74" width="48" height="44" fill="none" stroke="currentColor" stroke-width="3"/>
+                <rect x="350" y="70" width="48" height="52" fill="none" stroke="currentColor" stroke-width="3"/>
+                <path d="M188 78h42M188 96h42M188 114h42" stroke="currentColor" stroke-width="2"/>
+                <text x="12" y="55">SENSOR</text>
+                <text x="172" y="45">ARDUINO</text>
+                <text x="345" y="54">RELÉ</text>
+              </svg>
+            </figure>
+          </section>
+
+          <section class="profile-panel reveal-on-scroll" id="perfil" aria-labelledby="profile-title">
+            <h2 id="profile-title">Profile</h2>
+            <div class="profile-body">
+              <div class="profile-photo placeholder-photo" role="img" aria-label="Foto profesional pendiente">
+                <!-- TODO: asset: subir foto profesional opcional a assets/portfolio/profile/daniel-florez.webp. -->
+                DF
+              </div>
+              <div>
+                <h3>Daniel Flórez / Dafovi</h3>
+                <p>Software Developer especializado en Unity, C#/.NET, XR y sistemas interactivos.</p>
+                <p>Más de siete años desarrollando videojuegos, simuladores de entrenamiento, aplicaciones XR y herramientas de escritorio.</p>
+                <ul class="profile-links">
+                  <li>Bogotá, Colombia</li>
+                  <li><a href="mailto:swan364@hotmail.com">swan364@hotmail.com</a></li>
+                  <li><a href="https://github.com/Dafovi" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/daniel-alexander-florez-vidal/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                  <li><a href="https://dafovi.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a></li>
+                </ul>
+              </div>
+              <p class="signature" aria-hidden="true">DA<br>FO<br>VI</p>
+            </div>
+          </section>
         </div>
       </div>
+    </section>
+
+    <section class="contact-strip" id="contacto" aria-labelledby="contact-title">
+      <div class="archive-container contact-inner">
+        <div>
+          <p class="eyebrow">CONTACTO</p>
+          <h2 id="contact-title">¿Tienes una experiencia o herramienta por construir?</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/Dafovi" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/daniel-alexander-florez-vidal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://dafovi.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
+          <a href="mailto:swan364@hotmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="archive-container footer-inner">
+      <p>© 2026 Daniel Flórez. Archivo de trabajo interactivo.</p>
+      <nav aria-label="Navegación secundaria">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#perfil">Perfil</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <span class="status-dot" aria-hidden="true"></span>
     </div>
   </footer>
-  <!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!-- Required JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/morphext/morphext.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/stickyjs/sticky.js"></script>
-  <script src="lib/easing/easing.js"></script>
-
-  <!-- Template Specisifc Custom Javascript File -->
-  <script src="js/custom.js"></script>
-
-  <script src="contactform/contactform.js"></script>
-
-
+  <script src="data/projects.js"></script>
+  <script src="js/portfolio.js"></script>
 </body>
-
 </html>
-
