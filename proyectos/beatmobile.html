@@ -4,25 +4,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BeatMobile — DAFOVI / Daniel Flórez</title>
-  <meta name="description" content="Videojuego rítmico en Unity desarrollado de extremo a extremo, con sincronización musical, input, puntuación y flujo de juego.">
+  <meta name="description" content="BeatMobile es un juego de ritmo para Android hecho en Unity 6, con parser de mapas Beat Saber, integración BeatSaver, gameplay sincronizado y arquitectura modular.">
   <link rel="icon" href="../img/io.png" type="image/png">
-  <link rel="stylesheet" href="../css/portfolio.css?v=20260903-3">
+  <link rel="stylesheet" href="../css/portfolio.css?v=20260903-7">
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <header class="site-header" data-site-header><div class="archive-container header-inner"><a class="brand" href="../index.html#inicio"><span class="brand-primary">DAFOVI</span><span>/</span><span>Daniel Flórez</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span>Menú</span><svg aria-hidden="true" viewBox="0 0 28 18" width="28" height="18"><path d="M1 2h26M1 9h26M1 16h26" fill="none" stroke="currentColor" stroke-width="2"/></svg></button><nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal"><a href="../index.html#proyectos">Proyectos</a><a href="../index.html#perfil">Perfil</a><a href="../index.html#contacto">Contacto</a><a href="../assets/cv/Daniel-Florez-CV.pdf">CV</a><span class="status-dot" aria-hidden="true"></span></nav></div></header>
+  <header class="site-header" data-site-header>
+    <div class="archive-container header-inner">
+      <a class="brand" href="../index.html#inicio"><span class="brand-primary">DAFOVI</span><span>/</span><span>Daniel Flórez</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span>Menú</span><svg aria-hidden="true" viewBox="0 0 28 18" width="28" height="18"><path d="M1 2h26M1 9h26M1 16h26" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+      <nav class="site-nav" id="site-nav" data-site-nav aria-label="Navegación principal"><a href="../index.html#proyectos">Proyectos</a><a href="../index.html#perfil">Perfil</a><a href="../index.html#contacto">Contacto</a><a href="../assets/cv/Daniel-Florez-CV.pdf">CV</a><span class="status-dot" aria-hidden="true"></span></nav>
+    </div>
+  </header>
   <main class="case-main" id="contenido">
-    <section class="case-hero"><div class="archive-container case-grid"><div><p class="case-kicker">Juego rítmico / TODO: confirmar periodo</p><h1 class="case-title">BeatMobile</h1><p class="case-summary">Videojuego rítmico desarrollado de extremo a extremo, incluyendo sincronización musical, detección de entrada, lógica de puntuación y flujo de juego.</p></div><aside class="case-meta"><dl><div><dt>Stack</dt><dd>Unity / C# / Gameplay Systems / Audio</dd></div><div><dt>Estado</dt><dd>Contenido base confirmado por CV. TODO: asset: capturas, video o enlace público si existe.</dd></div></dl></aside></div></section>
-    <section class="archive-container case-visual"><!-- TODO: asset: agregar captura o video corto de gameplay. --><div class="case-placeholder">Asset pendiente: BeatMobile</div></section>
-    <section class="archive-container case-section"><h2>Contexto</h2><p>Proyecto de juego que sintetiza experiencia en sistemas de gameplay, audio, input y diseño de flujo.</p></section>
-    <section class="archive-container case-section"><h2>Aporte</h2><p>Desarrollo end-to-end: sincronización musical, detección de entrada, lógica de puntuación y flujo de juego.</p></section>
-    <section class="archive-container case-section"><h2>Pendientes</h2><p>TODO: confirm copy sobre fecha, plataforma objetivo y material visual autorizado.</p></section>
+    <section class="case-hero">
+      <div class="archive-container case-grid">
+        <div>
+          <p class="case-kicker">Juego de ritmo Android / TODO: confirmar periodo</p>
+          <h1 class="case-title">BeatMobile</h1>
+          <p class="case-summary">Juego de ritmo para dispositivos móviles desarrollado en Unity, capaz de cargar y reproducir mapas personalizados de distintas versiones de Beat Saber.</p>
+        </div>
+        <aside class="case-meta">
+          <dl>
+            <div><dt>Stack</dt><dd>Unity 6 / C# / Unity UI / Android / REST APIs / JSON / Audio Synchronization / Object Pooling / Unit Testing / Git</dd></div>
+            <div><dt>Estado</dt><dd>Proyecto universitario reconstruido como aplicación mantenible y preparada para distribución. TODO: confirmar periodo, assets y enlace público si existe.</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+    <section class="archive-container case-visual">
+      <!-- TODO: asset: agregar captura o video corto de gameplay móvil. -->
+      <div class="case-placeholder">Asset pendiente: BeatMobile</div>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Contexto</h2>
+      <p>El proyecto comenzó como un trabajo universitario y posteriormente fue reconstruido para convertirlo en una aplicación mantenible, escalable y preparada para distribución.</p>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Alcance</h2>
+      <p>Incluye catálogo local, navegación, configuración, gameplay, puntuación, audio, descargas, parser JSON multiversión, integración BeatSaver, detección de mods requeridos y bloqueo de mapas incompatibles.</p>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Reto</h2>
+      <p>Reproducir mapas complejos en móvil manteniendo sincronización entre notas, paredes, arcos, eventos, audio y efectos, con soporte parcial para Chroma, Noodle Extensions, Heck y Mapping Extensions.</p>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Aporte</h2>
+      <p>Refactorización completa del proyecto legado aplicando Clean Code, SOLID y separación de responsabilidades. Implementé arquitectura modular, controles táctiles y de teclado, pooling, perfiles gráficos, persistencia, manejo robusto de errores y pruebas EditMode/PlayMode.</p>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Resultado</h2>
+      <p>Se transformó un prototipo universitario difícil de mantener en una base modular y extensible, capaz de reproducir mapas de diferentes generaciones, integrar contenido remoto y soportar mecánicas y efectos avanzados con foco en rendimiento móvil.</p>
+    </section>
+    <section class="archive-container case-section">
+      <h2>Pendientes</h2>
+      <p>TODO: confirmar periodo exacto, enlace público si existe, estado de publicación y material visual autorizado.</p>
+    </section>
     <nav class="archive-container case-nav" aria-label="Navegación de proyecto"><a href="eye-anatomy-simulator.html">← Proyecto anterior</a><a href="respira.html">Siguiente proyecto →</a></nav>
   </main>
-  <script src="../data/i18n.js?v=20260903-3"></script>
-  <script src="../js/portfolio.js?v=20260903-3"></script>
+  <script src="../data/i18n.js?v=20260903-7"></script>
+  <script src="../js/portfolio.js?v=20260903-7"></script>
 </body>
 </html>
-
-
-

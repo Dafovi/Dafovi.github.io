@@ -329,24 +329,24 @@ window.PORTFOLIO_PROJECTS = [
     order: 4,
     featured: true,
     period: "TODO: confirmar periodo",
-    label: "Juego rítmico / I+D",
-    description: "Videojuego rítmico desarrollado de extremo a extremo, incluyendo sincronización musical, detección de entrada, puntuación y flujo de juego.",
+    label: "Juego de ritmo para Android",
+    description: "Juego de ritmo móvil reconstruido en Unity 6 con arquitectura modular, parser multiversión de mapas Beat Saber, integración BeatSaver, gameplay sincronizado y controles táctiles.",
     i18n: {
       en: {
-        label: "Rhythm game / R&D",
-        description: "Rhythm game built end to end, including music synchronization, input detection, scoring, and game flow."
+        label: "Android rhythm game",
+        description: "Mobile rhythm game rebuilt in Unity 6 with modular architecture, multi-version Beat Saber map parsing, BeatSaver integration, synchronized gameplay, and touch controls."
       },
       ja: {
-        label: "リズムゲーム / R&D",
-        description: "音楽同期、入力検出、スコアリング、ゲームフローまで一貫して開発したリズムゲーム。"
+        label: "Androidリズムゲーム",
+        description: "Unity 6で再構築したモバイル向けリズムゲーム。モジュラー設計、Beat Saberマップの複数バージョン解析、BeatSaver連携、同期ゲームプレイ、タッチ操作に対応。"
       }
     },
-    technologies: ["Unity", "C#", "Audio", "Gameplay systems"],
+    technologies: ["Unity 6", "C#", "Unity UI", "Android", "REST APIs", "JSON", "Audio Synchronization", "Object Pooling", "Unit Testing", "Git"],
     image: { src: "", alt: "Captura pendiente de BeatMobile" },
     href: "proyectos/beatmobile.html",
     sourceUrl: "",
     status: "selected",
-    notes: "TODO: confirmar periodo, assets y enlaces públicos."
+    notes: "Proyecto universitario reconstruido como aplicación mantenible y preparada para distribución. TODO: confirmar periodo, assets y enlace público si existe."
   },
   {
     id: "respira",

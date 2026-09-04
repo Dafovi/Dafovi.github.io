@@ -71,6 +71,10 @@
         heading.setAttribute("data-i18n", "contribution");
         body?.setAttribute("data-i18n", "contributionBody");
       }
+      if (value === "resultado") {
+        heading.setAttribute("data-i18n", "outcome");
+        body?.setAttribute("data-i18n", "outcomeBody");
+      }
       if (value === "pendientes") heading.setAttribute("data-i18n", "pending");
     });
 

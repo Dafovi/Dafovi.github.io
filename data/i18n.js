@@ -87,9 +87,9 @@ window.PORTFOLIO_I18N = {
         },
         tasks: { es: "Tareas", en: "Tasks", ja: "タスク" },
         beatHome: {
-          es: "Videojuego rítmico desarrollado de extremo a extremo: sincronización musical, detección de entrada, puntuación y flujo de juego.",
-          en: "Rhythm game built end to end: music synchronization, input detection, scoring, and game flow.",
-          ja: "音楽同期、入力検出、スコアリング、ゲームフローまで一貫して開発したリズムゲーム。"
+          es: "Juego de ritmo para Android reconstruido en Unity 6, con parser de mapas Beat Saber, BeatSaver, controles táctiles y arquitectura testeable.",
+          en: "Android rhythm game rebuilt in Unity 6, with Beat Saber map parsing, BeatSaver, touch controls, and testable architecture.",
+          ja: "Unity 6で再構築したAndroid向けリズムゲーム。Beat Saberマップ解析、BeatSaver、タッチ操作、テスト可能な設計を備えています。"
         },
         towingHome: {
           es: "Subcaso de simulación VR aeronáutica con validaciones de posición, ángulo y velocidad.",
@@ -107,7 +107,7 @@ window.PORTFOLIO_I18N = {
         archiveTitle: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         archiveAviation: { es: "Suite XR de entrenamiento", en: "XR training suite", ja: "XRトレーニングスイート" },
-        archiveBeat: { es: "Juego rítmico / sistemas", en: "Rhythm game / systems", ja: "リズムゲーム / システム" },
+        archiveBeat: { es: "Juego de ritmo Android", en: "Android rhythm game", ja: "Androidリズムゲーム" },
         archiveMadSarge: { es: "Videojuego comercial para PC", en: "Commercial PC game", ja: "商用PCゲーム" },
         archiveAiLab: { es: "Arquitectura .NET e IA", en: ".NET and AI architecture", ja: ".NET・AIアーキテクチャ" },
         archivePt6: { es: "Simulación industrial VR", en: "Industrial VR simulation", ja: "産業VRシミュレーション" },
@@ -167,6 +167,7 @@ window.PORTFOLIO_I18N = {
         context: { es: "Contexto", en: "Context", ja: "背景" },
         scope: { es: "Alcance", en: "Scope", ja: "範囲" },
         contribution: { es: "Aporte", en: "Contribution", ja: "担当領域" },
+        outcome: { es: "Resultado", en: "Outcome", ja: "成果" },
         pending: { es: "Pendientes", en: "Pending", ja: "未対応" }
       }
     },
@@ -269,26 +270,42 @@ window.PORTFOLIO_I18N = {
     beatmobile: {
       title: { es: "BeatMobile — DAFOVI / Daniel Flórez", en: "BeatMobile — DAFOVI / Daniel Flórez", ja: "BeatMobile — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Videojuego rítmico en Unity desarrollado de extremo a extremo, con sincronización musical, input, puntuación y flujo de juego.",
-        en: "Unity rhythm game built end to end, with music synchronization, input detection, scoring, and game flow.",
-        ja: "音楽同期、入力検出、スコアリング、ゲームフローまで一貫して開発したUnity製リズムゲーム。"
+        es: "BeatMobile es un juego de ritmo para Android hecho en Unity 6, con parser de mapas Beat Saber, integración BeatSaver, gameplay sincronizado y arquitectura modular.",
+        en: "BeatMobile is an Android rhythm game built in Unity 6, with Beat Saber map parsing, BeatSaver integration, synchronized gameplay, and modular architecture.",
+        ja: "BeatMobileはUnity 6製のAndroid向けリズムゲーム。Beat Saberマップ解析、BeatSaver連携、同期ゲームプレイ、モジュラー設計を備えています。"
       },
       text: {
-        kicker: { es: "Juego rítmico / TODO: confirmar periodo", en: "Rhythm game / TODO: confirm period", ja: "リズムゲーム / TODO: 期間確認" },
+        kicker: { es: "Juego de ritmo Android / TODO: confirmar periodo", en: "Android rhythm game / TODO: confirm period", ja: "Androidリズムゲーム / TODO: 期間確認" },
         summary: {
-          es: "Videojuego rítmico desarrollado de extremo a extremo, incluyendo sincronización musical, detección de entrada, lógica de puntuación y flujo de juego.",
-          en: "Rhythm game built end to end, including music synchronization, input detection, scoring logic, and game flow.",
-          ja: "音楽同期、入力検出、スコアリングロジック、ゲームフローまで一貫して開発したリズムゲーム。"
+          es: "Juego de ritmo para dispositivos móviles desarrollado en Unity, capaz de cargar y reproducir mapas personalizados de distintas versiones de Beat Saber.",
+          en: "Mobile rhythm game built in Unity, capable of loading and playing custom maps from different Beat Saber format versions.",
+          ja: "Unityで開発したモバイル向けリズムゲーム。複数世代のBeat Saber形式のカスタムマップを読み込み、再生できます。"
         },
         contextBody: {
-          es: "Proyecto de juego que sintetiza experiencia en sistemas de gameplay, audio, input y diseño de flujo.",
-          en: "Game project that brings together gameplay systems, audio, input, and flow design experience.",
-          ja: "ゲームプレイシステム、音声、入力、フロー設計の経験をまとめたゲームプロジェクト。"
+          es: "El proyecto comenzó como un trabajo universitario y posteriormente fue reconstruido para convertirlo en una aplicación mantenible, escalable y preparada para distribución.",
+          en: "The project started as a university assignment and was later rebuilt into a maintainable, scalable application prepared for distribution.",
+          ja: "大学課題として始まったプロジェクトを、保守しやすく拡張可能で配布準備の整ったアプリケーションへ再構築しました。"
+        },
+        scopeBody: {
+          es: "Incluye catálogo local, navegación, configuración, gameplay, puntuación, audio, descargas, parser JSON multiversión, integración BeatSaver, detección de mods requeridos y bloqueo de mapas incompatibles.",
+          en: "It includes local catalog, navigation, settings, gameplay, scoring, audio, downloads, multi-version JSON parsing, BeatSaver integration, required mod detection, and incompatible map blocking.",
+          ja: "ローカルカタログ、ナビゲーション、設定、ゲームプレイ、スコア、音声、ダウンロード、複数バージョンJSON解析、BeatSaver連携、必須Mod検出、非対応マップのブロックを含みます。"
+        },
+        challenge: { es: "Reto", en: "Challenge", ja: "課題" },
+        challengeBody: {
+          es: "Reproducir mapas complejos en móvil manteniendo sincronización entre notas, paredes, arcos, eventos, audio y efectos, con soporte parcial para Chroma, Noodle Extensions, Heck y Mapping Extensions.",
+          en: "Playing complex maps on mobile while keeping notes, walls, arcs, events, audio, and effects synchronized, with partial support for Chroma, Noodle Extensions, Heck, and Mapping Extensions.",
+          ja: "モバイル上で複雑なマップを再生しながら、ノーツ、壁、アーク、イベント、音声、エフェクトを同期し、Chroma、Noodle Extensions、Heck、Mapping Extensionsを部分的にサポートすること。"
         },
         contributionBody: {
-          es: "Desarrollo end-to-end: sincronización musical, detección de entrada, lógica de puntuación y flujo de juego.",
-          en: "End-to-end development: music synchronization, input detection, scoring logic, and game flow.",
-          ja: "音楽同期、入力検出、スコアリングロジック、ゲームフローまでのエンドツーエンド開発。"
+          es: "Refactorización completa del proyecto legado aplicando Clean Code, SOLID y separación de responsabilidades. Implementé arquitectura modular, controles táctiles y de teclado, pooling, perfiles gráficos, persistencia, manejo robusto de errores y pruebas EditMode/PlayMode.",
+          en: "Complete refactor of the legacy project using Clean Code, SOLID, and separation of responsibilities. I implemented modular architecture, touch and keyboard controls, pooling, graphics profiles, persistence, robust error handling, and EditMode/PlayMode tests.",
+          ja: "Clean Code、SOLID、責務分離を用いてレガシープロジェクトを全面的にリファクタリング。モジュラー設計、タッチ/キーボード操作、プーリング、グラフィック設定、永続化、堅牢なエラー処理、EditMode/PlayModeテストを実装しました。"
+        },
+        outcomeBody: {
+          es: "Se transformó un prototipo universitario difícil de mantener en una base modular y extensible, capaz de reproducir mapas de diferentes generaciones, integrar contenido remoto y soportar mecánicas y efectos avanzados con foco en rendimiento móvil.",
+          en: "A hard-to-maintain university prototype became a modular, extensible base capable of playing maps from different generations, integrating remote content, and supporting advanced mechanics and effects with a mobile performance focus.",
+          ja: "保守が難しかった大学プロトタイプを、複数世代のマップ再生、リモートコンテンツ連携、高度なメカニクスとエフェクトに対応する、モバイル性能重視のモジュラーで拡張可能な基盤へ変えました。"
         }
       }
     },
