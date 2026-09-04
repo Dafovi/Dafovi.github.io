@@ -57,16 +57,16 @@ window.PORTFOLIO_I18N = {
         selectedTitle: { es: "Trabajo seleccionado", en: "Selected work", ja: "主な実績" },
         neoLine: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         neoSummary: {
-          es: "Aplicación Windows en .NET/WPF para automatizar streams con eventos de Twitch, reglas, alertas, audio, luces, OBS y hardware.",
-          en: "Windows .NET/WPF app for stream automation with Twitch events, rules, alerts, audio, lights, OBS, and hardware.",
-          ja: "Twitchイベント、ルール、アラート、音声、照明、OBS、ハードウェアで配信を自動化するWindows .NET/WPFアプリ。"
+          es: "Convierte eventos de Twitch en alertas de stream: luces NeoPixel/Arduino, audio, OBS, medios, chat y Alexa opcional.",
+          en: "Turns Twitch events into stream alerts: NeoPixel/Arduino lights, audio, OBS, media, chat, and optional Alexa.",
+          ja: "Twitchイベントを配信アラートに変換。NeoPixel/Arduino照明、音声、OBS、メディア、チャット、任意のAlexaに対応。"
         },
         notes: { es: "Notas", en: "Notes", ja: "メモ" },
         stack: { es: "Stack", en: "Stack", ja: "技術" },
         neoNotes: {
-          es: "Control centralizado para creadores de contenido con perfiles, reglas por evento, cola de alertas, configuración persistente e integraciones externas.",
-          en: "Centralized control for content creators with profiles, per-event rules, alert queueing, persistent configuration, and external integrations.",
-          ja: "プロファイル、イベント別ルール、アラートキュー、永続設定、外部連携を備えた配信者向け集中制御ツール。"
+          es: "Soporta seguidores, suscripciones, raids, bits, comandos y canjes de puntos, con cola de alertas, diagnóstico, backups e importación/exportación.",
+          en: "Supports follows, subscriptions, raids, bits, commands, and channel point rewards, with alert queueing, diagnostics, backups, and import/export.",
+          ja: "フォロー、サブスク、Raid、Bits、コマンド、チャンネルポイント交換に対応し、アラートキュー、診断、バックアップ、インポート/エクスポートを備えています。"
         },
         viewCase: { es: "Ver caso completo", en: "View full case", ja: "詳細を見る" },
         viewProject: { es: "Ver proyecto", en: "View project", ja: "プロジェクトを見る" },
@@ -162,6 +162,7 @@ window.PORTFOLIO_I18N = {
         source: { es: "Fuente", en: "Source", ja: "ソース" },
         link: { es: "Enlace", en: "Link", ja: "リンク" },
         status: { es: "Estado", en: "Status", ja: "状態" },
+        download: { es: "Descarga", en: "Download", ja: "ダウンロード" },
         stack: { es: "Stack", en: "Stack", ja: "技術" },
         context: { es: "Contexto", en: "Context", ja: "背景" },
         scope: { es: "Alcance", en: "Scope", ja: "範囲" },
@@ -172,32 +173,38 @@ window.PORTFOLIO_I18N = {
     "neo-twitch": {
       title: { es: "Neo Twitch — DAFOVI / Daniel Flórez", en: "Neo Twitch — DAFOVI / Daniel Flórez", ja: "Neo Twitch — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Caso de estudio de Neo Twitch, aplicación Windows .NET/WPF para automatizar streams con eventos de Twitch, reglas, alertas, OBS y hardware.",
-        en: "Neo Twitch case study, a Windows .NET/WPF app for stream automation with Twitch events, rules, alerts, OBS, and hardware.",
-        ja: "Twitchイベント、ルール、アラート、OBS、ハードウェアで配信を自動化するWindows .NET/WPFアプリ、Neo Twitchのケーススタディ。"
+        es: "Caso de estudio de Neo Twitch, app Windows .NET/WPF que convierte eventos de Twitch en alertas con luces NeoPixel/Arduino, OBS, audio, medios, chat y Alexa opcional.",
+        en: "Neo Twitch case study, a Windows .NET/WPF app that turns Twitch events into alerts with NeoPixel/Arduino lights, OBS, audio, media, chat, and optional Alexa.",
+        ja: "TwitchイベントをNeoPixel/Arduino照明、OBS、音声、メディア、チャット、任意のAlexaを使ったアラートに変換するWindows .NET/WPFアプリ、Neo Twitchのケーススタディ。"
       },
       text: {
         kicker: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         summary: {
-          es: "Aplicación Windows en .NET/WPF para automatizar streams: escucha eventos de Twitch EventSub, aplica reglas por perfil y dispara acciones sincronizadas en audio local, luces NeoPixel/Arduino, OBS WebSocket y servicios externos.",
-          en: "A Windows .NET/WPF app for stream automation: it listens to Twitch EventSub events, applies profile-based rules, and triggers synchronized actions across local audio, NeoPixel/Arduino lights, OBS WebSocket, and external services.",
-          ja: "配信自動化のためのWindows .NET/WPFアプリ。Twitch EventSubイベントを監視し、プロファイル別ルールを適用して、ローカル音声、NeoPixel/Arduino照明、OBS WebSocket、外部サービスで同期アクションを実行します。"
+          es: "App Windows en .NET/WPF que convierte eventos de Twitch en alertas de stream: luces NeoPixel/Arduino, luces virtuales, audio local, mensajes de chat, escenas y medios en OBS, y eventos opcionales para Alexa.",
+          en: "A Windows .NET/WPF app that turns Twitch events into stream alerts: NeoPixel/Arduino lights, virtual lights, local audio, chat messages, OBS scenes and media, plus optional Alexa events.",
+          ja: "Twitchイベントを配信アラートに変換するWindows .NET/WPFアプリ。NeoPixel/Arduino照明、仮想ライト、ローカル音声、チャットメッセージ、OBSのシーンとメディア、任意のAlexaイベントに対応します。"
         },
+        statusBody: {
+          es: "Repositorio público con instalador y releases disponibles. TODO: asset: capturas sin datos sensibles.",
+          en: "Public repository with installer and releases available. TODO: asset: screenshots without sensitive data.",
+          ja: "インストーラーとリリースが公開されているパブリックリポジトリ。TODO: asset: 機密情報を含まないスクリーンショット。"
+        },
+        installerLink: { es: "Instalador Windows", en: "Windows installer", ja: "Windowsインストーラー" },
         contextBody: {
-          es: "NeoTwitch evolucionó a una herramienta de escritorio para centralizar automatización de streaming: perfiles, reglas por evento, cola de alertas, configuración persistente y conexión con servicios externos y hardware.",
-          en: "NeoTwitch evolved into a desktop tool for centralizing stream automation: profiles, per-event rules, alert queueing, persistent configuration, and connections with external services and hardware.",
-          ja: "NeoTwitchは、配信自動化を集中管理するデスクトップツールへ発展しました。プロファイル、イベント別ルール、アラートキュー、永続設定、外部サービスとハードウェア接続を扱います。"
+          es: "NeoTwitch centraliza la automatización de un stream desde una app de escritorio: el creador configura sus conexiones una vez y luego crea alertas para seguidores, suscripciones, raids, bits, comandos de chat y canjes de puntos.",
+          en: "NeoTwitch centralizes stream automation from a desktop app: the creator configures connections once, then creates alerts for follows, subscriptions, raids, bits, chat commands, and channel point rewards.",
+          ja: "NeoTwitchはデスクトップアプリから配信自動化を集中管理します。配信者は接続を一度設定し、フォロー、サブスク、Raid、Bits、チャットコマンド、チャンネルポイント交換のアラートを作成できます。"
         },
         challenge: { es: "Reto", en: "Challenge", ja: "課題" },
         challengeBody: {
-          es: "Coordinar sistemas asíncronos sin que las alertas se acumulen o se superpongan, manteniendo una configuración editable para perfiles, eventos, OBS, audio local, Arduino y servicios externos.",
-          en: "Coordinating asynchronous systems so alerts do not pile up or overlap while keeping editable configuration for profiles, events, OBS, local audio, Arduino, and external services.",
-          ja: "アラートが溜まったり重なったりしないよう非同期システムを調整しつつ、プロファイル、イベント、OBS、ローカル音声、Arduino、外部サービスの設定を編集可能に保つこと。"
+          es: "Coordinar Twitch EventSub WebSocket, OBS, audio local, medios, chat, Arduino por USB/Serial y servicios externos sin que las alertas se acumulen, se disparen fuera de directo o rompan la configuración del streamer.",
+          en: "Coordinating Twitch EventSub WebSocket, OBS, local audio, media, chat, Arduino over USB/Serial, and external services without piling up alerts, firing them while offline, or breaking the streamer's configuration.",
+          ja: "Twitch EventSub WebSocket、OBS、ローカル音声、メディア、チャット、USB/Serial接続のArduino、外部サービスを、アラートが溜まらず、配信外で発火せず、配信者の設定を壊さないように連携させること。"
         },
         contributionBody: {
-          es: "Diseño e implementación de la aplicación .NET/WPF con autenticación/configuración, perfiles, reglas, cola de alertas, persistencia/importación/exportación, temas claro/oscuro e integraciones con servicios externos y hardware.",
-          en: "Designed and implemented the .NET/WPF app with authentication/configuration, profiles, rules, alert queueing, persistence/import/export, light/dark themes, and integrations with external services and hardware.",
-          ja: "認証/設定、プロファイル、ルール、アラートキュー、永続化/インポート/エクスポート、ライト/ダークテーマ、外部サービスとハードウェア連携を備えた.NET/WPFアプリを設計・実装。"
+          es: "Diseño e implementación de la aplicación .NET/WPF con reglas por evento, cola de alertas, estados de servicios, actividad reciente, mini consola, backups, importación/exportación, modo claro/oscuro, actualización desde GitHub e integraciones con OBS, Twitch y Arduino.",
+          en: "Designed and implemented the .NET/WPF app with per-event rules, alert queueing, service status, recent activity, mini console, backups, import/export, light/dark mode, GitHub update checks, and OBS, Twitch, and Arduino integrations.",
+          ja: "イベント別ルール、アラートキュー、サービス状態、最近のアクティビティ、ミニコンソール、バックアップ、インポート/エクスポート、ライト/ダークモード、GitHub更新チェック、OBS・Twitch・Arduino連携を備えた.NET/WPFアプリを設計・実装。"
         }
       }
     },

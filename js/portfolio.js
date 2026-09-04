@@ -47,6 +47,7 @@
       if (value === "estado") term.setAttribute("data-i18n", "status");
       if (value === "fuente") term.setAttribute("data-i18n", "source");
       if (value === "enlace") term.setAttribute("data-i18n", "link");
+      if (value === "descarga") term.setAttribute("data-i18n", "download");
       if (value === "aporte") term.setAttribute("data-i18n", "contribution");
     });
 
