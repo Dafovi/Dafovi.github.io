@@ -450,6 +450,35 @@ h1 {
   font-size: .9rem;
 }
 
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .38rem;
+  margin: .95rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-tags li,
+.tech-tags span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border: 1px solid rgb(245 240 231 / 26%);
+  padding: .16rem .45rem;
+  color: rgb(245 240 231 / 78%);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.tech-tags.on-paper li,
+.tech-tags.on-paper span {
+  border-color: rgb(37 37 34 / 20%);
+  color: var(--graphite);
+}
+
 .project-link {
   margin-top: 1.2rem;
   color: var(--bone);
@@ -727,7 +756,7 @@ h1 {
 
 .archive-list a {
   display: grid;
-  grid-template-columns: minmax(110px, .9fr) minmax(140px, 1fr) auto 24px;
+  grid-template-columns: minmax(110px, .75fr) minmax(140px, .85fr) minmax(160px, 1fr) auto 24px;
   gap: 1rem;
   align-items: center;
   min-height: 48px;
@@ -753,6 +782,17 @@ h1 {
 .archive-list span,
 .archive-list time {
   font-size: .88rem;
+}
+
+.archive-list .tech-tags {
+  margin: 0;
+  gap: .25rem;
+}
+
+.archive-list .tech-tags span {
+  min-height: 21px;
+  padding: .12rem .34rem;
+  font-size: .62rem;
 }
 
 .notes-panel p {
@@ -1312,13 +1352,13 @@ h1 {
 
   .archive-list time {
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
     align-self: center;
   }
 
   .archive-list a > span[aria-hidden="true"] {
     grid-column: 3;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
     align-self: center;
   }
 
