@@ -27,9 +27,9 @@
       switcher.dataset.languageSwitcher = "";
       switcher.setAttribute("aria-label", "Selector de idioma");
       switcher.innerHTML = `
-        <button type="button" data-lang-option="es"><span class="flag flag-es" aria-hidden="true"></span><span>ES</span></button>
-        <button type="button" data-lang-option="en"><span class="flag flag-en" aria-hidden="true"></span><span>EN</span></button>
-        <button type="button" data-lang-option="ja"><span class="flag flag-ja" aria-hidden="true"></span><span>JP</span></button>
+        <button type="button" data-lang-option="es"><span class="flag flag-es" aria-hidden="true"></span><span>Es</span></button>
+        <button type="button" data-lang-option="en"><span class="flag flag-en" aria-hidden="true"></span><span>En</span></button>
+        <button type="button" data-lang-option="ja"><span class="flag flag-ja" aria-hidden="true"></span><span>Jp</span></button>
       `;
       siteNav.querySelector(".status-dot")?.before(switcher);
     });

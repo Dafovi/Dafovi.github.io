@@ -21,13 +21,13 @@ window.PORTFOLIO_PROJECTS = [
     },
     technologies: ["C#", ".NET", "WPF", "Twitch EventSub", "OBS WebSocket", "Arduino", "NeoPixel", "JSON"],
     image: {
-      src: "",
-      alt: "Captura de Neo Twitch pendiente"
+      src: "assets/portfolio/screenshots/neo-twitch-dashboard.png",
+      alt: "Captura del panel principal de NeoTwitch con estados de Twitch, OBS, Arduino y Alexa"
     },
     href: "proyectos/neo-twitch.html",
     sourceUrl: "https://github.com/Dafovi/NeoTwtich",
     status: "public",
-    notes: "Tiene instalador y releases públicos en GitHub. TODO: asset: captura real del dashboard sin datos sensibles."
+    notes: "Tiene instalador y releases públicos en GitHub. Captura del dashboard agregada."
   },
   {
     id: "aircraft-towing-vr",
@@ -96,7 +96,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/aviation-training-suite.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "Agrupa Gulfstream G500/G600/G650, Embraer ERJ-145, King Air C90, motores PT6, Lycoming y Aircraft Towing. Lycoming queda sin video por ahora; Virtual Tours se movió a su ficha propia."
+    notes: "Agrupa Gulfstream G500/G600/G650, Embraer ERJ-145, King Air C90, motores PT6, Lycoming y Aircraft Towing. Lycoming queda documentado sin video por ahora; Virtual Tours se movió a su ficha propia."
   },
   {
     id: "renata-anh-webar",
@@ -121,13 +121,13 @@ window.PORTFOLIO_PROJECTS = [
     },
     technologies: ["Unity", "C#", "AR Foundation", "Modelos 3D"],
     image: {
-      src: "",
-      alt: "Captura pendiente de Transformación Energética Colombia"
+      src: "assets/portfolio/projects/energy/tour-transicion-energetica-sgc.jpg",
+      alt: "Unidad itinerante del Tour de la Transición Energética con logos de ANH y RENATA"
     },
     href: "proyectos/renata-anh-webar.html",
-    sourceUrl: "",
+    sourceUrl: "https://www2.sgc.gov.co/Noticias/Paginas/El-Tour-de-la-Transicion-Energetica-llega-al-SGC.aspx",
     status: "case-study",
-    notes: "TODO: asset: confirmar capturas autorizadas y nombres públicos de cada aplicación."
+    notes: "Imagen y noticia pública del SGC agregadas como referencia del Tour de la Transición Energética. TODO: asset: capturas directas de las cuatro apps AR si aparecen."
   },
   {
     id: "mad-sarge-army-moves",
@@ -366,6 +366,9 @@ window.PORTFOLIO_PROJECTS = [
     },
     technologies: ["Unity 6", "C#", "Unity UI", "Android", "REST APIs", "JSON", "Audio Synchronization", "Object Pooling", "Unit Testing", "Git"],
     image: { src: "assets/portfolio/covers/beatmobile.png", alt: "Captura de BeatMobile con túnel rojo y notas de juego de ritmo" },
+    media: [
+      { type: "video", src: "assets/portfolio/videos/games/beatmobile-gameplay.mp4", label: "Gameplay provisional de BeatMobile" }
+    ],
     href: "proyectos/beatmobile.html",
     sourceUrl: "https://dafovi.itch.io/beatmobile",
     status: "selected",
@@ -394,6 +397,9 @@ window.PORTFOLIO_PROJECTS = [
     },
     technologies: ["Unity", "C#", "Audio", "Accessibility"],
     image: { src: "assets/portfolio/covers/respira.png", alt: "Portada de Respira con una figura vendada sobre fondo negro" },
+    media: [
+      { type: "external-video", src: "https://youtu.be/k-wuApg4gPw", label: "Video de Respira en YouTube" }
+    ],
     href: "proyectos/respira.html",
     sourceUrl: "https://dafovi.itch.io/respira",
     status: "archive",

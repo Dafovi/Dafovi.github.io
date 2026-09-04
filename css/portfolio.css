@@ -580,6 +580,7 @@ h1 {
 }
 
 .image-feature img,
+.archive-feature img,
 .mycelium-main img {
   width: 100%;
   height: 100%;
@@ -602,6 +603,10 @@ h1 {
   background:
     linear-gradient(90deg, rgb(0 0 0 / 70%), rgb(0 0 0 / 20%) 62%, transparent),
     linear-gradient(180deg, transparent, rgb(0 0 0 / 24%));
+}
+
+.archive-feature img {
+  opacity: .84;
 }
 
 .image-overlay {
@@ -841,6 +846,12 @@ h1 {
   object-fit: cover;
 }
 
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .placeholder-photo {
   display: grid;
   place-items: center;
@@ -1018,10 +1029,18 @@ h1 {
 }
 
 .case-visual img,
-.case-visual video {
+.case-visual video,
+.case-visual iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.case-visual iframe {
+  display: block;
+  height: auto;
+  min-height: clamp(220px, 54vw, 720px);
+  border: 0;
 }
 
 .case-media-grid {

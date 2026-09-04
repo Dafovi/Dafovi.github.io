@@ -198,9 +198,9 @@ window.PORTFOLIO_I18N = {
           ja: "Twitchイベントを配信アラートに変換するWindows .NET/WPFアプリ。NeoPixel/Arduino照明、仮想ライト、ローカル音声、チャットメッセージ、OBSのシーンとメディア、任意のAlexaイベントに対応します。"
         },
         statusBody: {
-          es: "Repositorio público con instalador y releases disponibles. TODO: asset: capturas sin datos sensibles.",
-          en: "Public repository with installer and releases available. TODO: asset: screenshots without sensitive data.",
-          ja: "インストーラーとリリースが公開されているパブリックリポジトリ。TODO: asset: 機密情報を含まないスクリーンショット。"
+          es: "Repositorio público con instalador, releases y captura del dashboard agregada.",
+          en: "Public repository with installer, releases, and dashboard screenshot added.",
+          ja: "インストーラー、リリース、ダッシュボードスクリーンショットを追加済みのパブリックリポジトリ。"
         },
         installerLink: { es: "Instalador Windows", en: "Windows installer", ja: "Windowsインストーラー" },
         contextBody: {
@@ -234,6 +234,11 @@ window.PORTFOLIO_I18N = {
           es: "Suite de simuladores VR para formación de técnicos aeronáuticos, diseñada para convertir procedimientos complejos de mantenimiento, inspección y familiarización en experiencias prácticas, seguras y repetibles.",
           en: "VR simulator suite for aviation technician training, designed to turn complex maintenance, inspection, and familiarization procedures into practical, safe, repeatable experiences.",
           ja: "航空整備士の訓練向けVRシミュレータースイート。複雑な整備、点検、機体理解の手順を、安全で反復可能な実践体験に変換します。"
+        },
+        statusBody: {
+          es: "Nombres publicables confirmados. Videos agregados para Aviation, CAE, PT6, King Air y Embraer; Lycoming queda documentado sin video por ahora.",
+          en: "Publishable names confirmed. Videos added for Aviation, CAE, PT6, King Air, and Embraer; Lycoming is documented without video for now.",
+          ja: "公開可能な名称は確認済み。Aviation、CAE、PT6、King Air、Embraerの動画を追加し、Lycomingは現時点では動画なしで記録しています。"
         },
         contextBody: {
           es: "Suite de simuladores VR desarrollada para convertir procedimientos complejos de mantenimiento, inspección y familiarización de aeronaves en experiencias prácticas e inmersivas. Los módulos permiten explorar sistemas y componentes en detalle, ejecutar procedimientos paso a paso y practicar antes de trabajar sobre equipos reales.",
@@ -344,6 +349,11 @@ window.PORTFOLIO_I18N = {
           en: "Narrative/immersive experience created almost solo during Global Game Jam 2026, with emphasis on audio design, accessibility, and atmosphere.",
           ja: "Global Game Jam 2026でほぼ一人で制作したナラティブ/没入型体験。音響デザイン、アクセシビリティ、雰囲気を重視しています。"
         },
+        statusBody: {
+          es: "Proyecto de jam con página pública y video. Al ser una pieza principalmente auditiva, se mantiene portada como asset visual principal.",
+          en: "Jam project with a public page and video. Because it is mainly audio-driven, the cover remains the main visual asset.",
+          ja: "公開ページと動画があるゲームジャム作品。主に音で体験する作品のため、カバー画像を主なビジュアル素材として扱います。"
+        },
         contextBody: {
           es: "Proyecto realizado para la Global Game Jam 2026 en dos días y medio, útil para mostrar sensibilidad hacia narrativa interactiva, audio y accesibilidad en experiencias de juego.",
           en: "Project made for Global Game Jam 2026 in two and a half days, useful for showing sensitivity toward interactive narrative, audio, and accessibility in game experiences.",
@@ -371,15 +381,20 @@ window.PORTFOLIO_I18N = {
           en: "A series of four augmented reality apps explaining energy transition technologies in Colombia through 3D visualization and real-time interaction.",
           ja: "3Dビジュアライゼーションとリアルタイムインタラクションで、コロンビアのエネルギー転換技術を説明する4つのARアプリシリーズ。"
         },
+        statusBody: {
+          es: "Imagen y referencia pública del Tour agregadas. TODO: asset: capturas directas de las aplicaciones AR si aparecen.",
+          en: "Tour image and public reference added. TODO: asset: direct screenshots of the AR applications if they become available.",
+          ja: "Tourの画像と公開資料を追加済み。TODO: asset: ARアプリの直接スクリーンショットが入手できたら追加。"
+        },
         contextBody: {
-          es: "Proyecto institucional para RENATA / ANH orientado a comunicar tecnologías de transición energética con visualización 3D e interacción en tiempo real.",
-          en: "Institutional project for RENATA / ANH focused on communicating energy transition technologies with 3D visualization and real-time interaction.",
-          ja: "RENATA / ANH向けの公共プロジェクト。3Dビジュアライゼーションとリアルタイムインタラクションでエネルギー転換技術を伝えます。"
+          es: "Proyecto institucional para RENATA / ANH orientado a comunicar tecnologías de transición energética con visualización 3D e interacción en tiempo real. La referencia pública del SGC presenta el Tour de la Transición Energética como una iniciativa con experiencias inmersivas e interactivas para acercar a la ciudadanía al conocimiento sobre el subsuelo, recursos energéticos y fuentes limpias.",
+          en: "Institutional project for RENATA / ANH focused on communicating energy transition technologies with 3D visualization and real-time interaction. The public SGC reference presents the Energy Transition Tour as an initiative with immersive and interactive experiences that bring citizens closer to knowledge about the subsurface, energy resources, and clean energy sources.",
+          ja: "RENATA / ANH向けの公共プロジェクト。3Dビジュアライゼーションとリアルタイムインタラクションでエネルギー転換技術を伝えます。SGCの公開資料では、Tour de la Transición Energéticaを、地下資源、エネルギー資源、クリーンエネルギーへの理解を市民に近づける没入型・インタラクティブ体験として紹介しています。"
         },
         scopeBody: {
-          es: "El CV confirma una serie de cuatro aplicaciones AR construidas con Unity, C#, AR Foundation y modelos 3D.",
-          en: "The CV confirms a series of four AR applications built with Unity, C#, AR Foundation, and 3D models.",
-          ja: "CVでは、Unity、C#、AR Foundation、3Dモデルで構築された4つのARアプリシリーズとして確認されています。"
+          es: "Serie de cuatro aplicaciones AR construidas con Unity, C#, AR Foundation y modelos 3D. La noticia pública del SGC menciona el uso de realidad virtual, aumentada y mixta dentro del Centro de Experiencia VE 360.",
+          en: "A series of four AR applications built with Unity, C#, AR Foundation, and 3D models. The public SGC article mentions virtual, augmented, and mixed reality inside the VE 360 Experience Center.",
+          ja: "Unity、C#、AR Foundation、3Dモデルで構築した4つのARアプリシリーズ。SGCの公開記事では、VE 360 Experience Center内でのVR、AR、MRの活用が紹介されています。"
         }
       }
     },
@@ -396,6 +411,11 @@ window.PORTFOLIO_I18N = {
           es: "Juego de ritmo para dispositivos móviles desarrollado en Unity, capaz de cargar y reproducir mapas personalizados de distintas versiones de Beat Saber.",
           en: "Mobile rhythm game built in Unity, capable of loading and playing custom maps from different Beat Saber format versions.",
           ja: "Unityで開発したモバイル向けリズムゲーム。複数世代のBeat Saber形式のカスタムマップを読み込み、再生できます。"
+        },
+        statusBody: {
+          es: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. Portada, video provisional y enlace de Itch.io agregados.",
+          en: "Started as a master's project in 2022 and was formally resumed in 2026. Cover, provisional video, and Itch.io link added.",
+          ja: "2022年の修士プロジェクトとして始まり、2026年に正式に再開。カバー、暫定動画、Itch.ioリンクを追加済み。"
         },
         contextBody: {
           es: "El proyecto nació como trabajo de maestría en 2022 y se fue complementando con los años. En 2026 fue retomado formalmente para convertirlo en una aplicación mantenible, escalable y preparada para distribución.",
