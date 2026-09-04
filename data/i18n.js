@@ -57,19 +57,20 @@ window.PORTFOLIO_I18N = {
         selectedTitle: { es: "Trabajo seleccionado", en: "Selected work", ja: "主な実績" },
         neoLine: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         neoSummary: {
-          es: "Automatización de alertas, luces, audio y OBS desde eventos de Twitch.",
-          en: "Automation for alerts, lights, audio, and OBS from Twitch events.",
-          ja: "Twitchイベントからアラート、照明、音声、OBSを自動化。"
+          es: "Aplicación Windows en .NET/WPF para automatizar streams con eventos de Twitch, reglas, alertas, audio, luces, OBS y hardware.",
+          en: "Windows .NET/WPF app for stream automation with Twitch events, rules, alerts, audio, lights, OBS, and hardware.",
+          ja: "Twitchイベント、ルール、アラート、音声、照明、OBS、ハードウェアで配信を自動化するWindows .NET/WPFアプリ。"
         },
         notes: { es: "Notas", en: "Notes", ja: "メモ" },
         stack: { es: "Stack", en: "Stack", ja: "技術" },
         neoNotes: {
-          es: "Control centralizado para creadores de contenido. Escucha eventos de Twitch y ejecuta acciones en tiempo real con perfiles personalizables.",
-          en: "Centralized control for content creators. It listens to Twitch events and runs real-time actions with customizable profiles.",
-          ja: "配信者向けの集中制御ツール。Twitchイベントを監視し、カスタムプロファイルでリアルタイム処理を実行します。"
+          es: "Control centralizado para creadores de contenido con perfiles, reglas por evento, cola de alertas, configuración persistente e integraciones externas.",
+          en: "Centralized control for content creators with profiles, per-event rules, alert queueing, persistent configuration, and external integrations.",
+          ja: "プロファイル、イベント別ルール、アラートキュー、永続設定、外部連携を備えた配信者向け集中制御ツール。"
         },
         viewCase: { es: "Ver caso completo", en: "View full case", ja: "詳細を見る" },
         viewProject: { es: "Ver proyecto", en: "View project", ja: "プロジェクトを見る" },
+        viewRepo: { es: "Ver repositorio", en: "View repository", ja: "リポジトリを見る" },
         viewSubcase: { es: "Ver subcaso", en: "View subcase", ja: "サブケースを見る" },
         pendingShot: { es: "Captura pendiente", en: "Screenshot pending", ja: "スクリーンショット準備中" },
         realDashboard: { es: "Dashboard real / sin datos sensibles", en: "Real dashboard / no sensitive data", ja: "実際のダッシュボード / 機密情報なし" },
@@ -80,9 +81,9 @@ window.PORTFOLIO_I18N = {
           ja: "コロンビアのエネルギー転換技術を説明する4つのARアプリ。"
         },
         aviationHome: {
-          es: "Suite XR de entrenamiento aeronáutico con procedimientos, validaciones, evaluación y colaboración.",
-          en: "XR aviation training suite with procedures, validations, assessment, and collaboration.",
-          ja: "手順、検証、評価、共同訓練に対応した航空XRトレーニングスイート。"
+          es: "Suite XR paraguas para simuladores aeronáuticos y evaluación técnica.",
+          en: "Umbrella XR suite for aviation simulators and technical assessment.",
+          ja: "航空シミュレーターと技術評価のための包括的なXRスイート。"
         },
         tasks: { es: "Tareas", en: "Tasks", ja: "タスク" },
         beatHome: {
@@ -95,8 +96,14 @@ window.PORTFOLIO_I18N = {
           en: "A VR aviation simulation subcase with position, angle, and speed validations.",
           ja: "位置、角度、速度の検証を含む航空VRシミュレーションのサブケース。"
         },
+        nyanHome: {
+          es: "Shoot'em up 2D jugable en navegador, publicado en Itch.io como HTML5.",
+          en: "A browser-playable 2D shoot'em up, published on Itch.io as HTML5.",
+          ja: "HTML5としてItch.ioで公開された、ブラウザで遊べる2Dシューティング。"
+        },
         thumbRhythm: { es: "Juego rítmico", en: "Rhythm game", ja: "リズムゲーム" },
         thumbTowing: { es: "Subcaso VR", en: "VR subcase", ja: "VRサブケース" },
+        thumbStateMachine: { es: "WebGL técnico", en: "Technical WebGL", ja: "技術WebGL" },
         archiveTitle: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         archiveAviation: { es: "Suite XR de entrenamiento", en: "XR training suite", ja: "XRトレーニングスイート" },
@@ -165,32 +172,32 @@ window.PORTFOLIO_I18N = {
     "neo-twitch": {
       title: { es: "Neo Twitch — DAFOVI / Daniel Flórez", en: "Neo Twitch — DAFOVI / Daniel Flórez", ja: "Neo Twitch — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Caso de estudio de Neo Twitch, aplicación Windows .NET/WPF para conectar eventos de Twitch con audio, luces, Alexa y OBS.",
-        en: "Neo Twitch case study, a Windows .NET/WPF app connecting Twitch events with audio, lights, Alexa, and OBS.",
-        ja: "Twitchイベントを音声、照明、Alexa、OBSにつなぐWindows .NET/WPFアプリ、Neo Twitchのケーススタディ。"
+        es: "Caso de estudio de Neo Twitch, aplicación Windows .NET/WPF para automatizar streams con eventos de Twitch, reglas, alertas, OBS y hardware.",
+        en: "Neo Twitch case study, a Windows .NET/WPF app for stream automation with Twitch events, rules, alerts, OBS, and hardware.",
+        ja: "Twitchイベント、ルール、アラート、OBS、ハードウェアで配信を自動化するWindows .NET/WPFアプリ、Neo Twitchのケーススタディ。"
       },
       text: {
         kicker: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         summary: {
-          es: "Aplicación Windows en .NET/WPF que escucha eventos de Twitch EventSub y los convierte en acciones sincronizadas para audio local, NeoPixel por Arduino, Alexa opcional y OBS WebSocket.",
-          en: "A Windows .NET/WPF app that listens to Twitch EventSub events and turns them into synchronized actions for local audio, Arduino NeoPixel lights, optional Alexa, and OBS WebSocket.",
-          ja: "Twitch EventSubイベントを監視し、ローカル音声、Arduino NeoPixel、任意のAlexa、OBS WebSocketの同期アクションに変換するWindows .NET/WPFアプリ。"
+          es: "Aplicación Windows en .NET/WPF para automatizar streams: escucha eventos de Twitch EventSub, aplica reglas por perfil y dispara acciones sincronizadas en audio local, luces NeoPixel/Arduino, OBS WebSocket y servicios externos.",
+          en: "A Windows .NET/WPF app for stream automation: it listens to Twitch EventSub events, applies profile-based rules, and triggers synchronized actions across local audio, NeoPixel/Arduino lights, OBS WebSocket, and external services.",
+          ja: "配信自動化のためのWindows .NET/WPFアプリ。Twitch EventSubイベントを監視し、プロファイル別ルールを適用して、ローカル音声、NeoPixel/Arduino照明、OBS WebSocket、外部サービスで同期アクションを実行します。"
         },
         contextBody: {
-          es: "Herramienta de escritorio para personalizar alertas de streaming y controlar diferentes salidas desde eventos de Twitch.",
-          en: "Desktop tool for customizing streaming alerts and controlling multiple outputs from Twitch events.",
-          ja: "Twitchイベントから配信アラートをカスタマイズし、複数の出力を制御するデスクトップツール。"
+          es: "NeoTwitch evolucionó a una herramienta de escritorio para centralizar automatización de streaming: perfiles, reglas por evento, cola de alertas, configuración persistente y conexión con servicios externos y hardware.",
+          en: "NeoTwitch evolved into a desktop tool for centralizing stream automation: profiles, per-event rules, alert queueing, persistent configuration, and connections with external services and hardware.",
+          ja: "NeoTwitchは、配信自動化を集中管理するデスクトップツールへ発展しました。プロファイル、イベント別ルール、アラートキュー、永続設定、外部サービスとハードウェア接続を扱います。"
         },
         challenge: { es: "Reto", en: "Challenge", ja: "課題" },
         challengeBody: {
-          es: "Coordinar sistemas asíncronos sin que las alertas se acumulen o se superpongan: EventSub, reglas, cola de alertas, audio local, Arduino, Alexa y OBS.",
-          en: "Coordinating asynchronous systems so alerts do not pile up or overlap: EventSub, rules, alert queue, local audio, Arduino, Alexa, and OBS.",
-          ja: "EventSub、ルール、アラートキュー、ローカル音声、Arduino、Alexa、OBSなどの非同期システムを、通知が重なり合わないように調整。"
+          es: "Coordinar sistemas asíncronos sin que las alertas se acumulen o se superpongan, manteniendo una configuración editable para perfiles, eventos, OBS, audio local, Arduino y servicios externos.",
+          en: "Coordinating asynchronous systems so alerts do not pile up or overlap while keeping editable configuration for profiles, events, OBS, local audio, Arduino, and external services.",
+          ja: "アラートが溜まったり重なったりしないよう非同期システムを調整しつつ、プロファイル、イベント、OBS、ローカル音声、Arduino、外部サービスの設定を編集可能に保つこと。"
         },
         contributionBody: {
-          es: "Diseño e implementación de la aplicación .NET/WPF con reglas, cola de alertas, persistencia/importación/exportación de configuración, modo claro/oscuro e integraciones con servicios externos y hardware.",
-          en: "Designed and implemented the .NET/WPF app with rules, alert queueing, configuration persistence/import/export, light/dark mode, and integrations with external services and hardware.",
-          ja: "ルール、アラートキュー、設定の保存・インポート・エクスポート、ライト/ダークモード、外部サービスとハードウェア連携を備えた.NET/WPFアプリを設計・実装。"
+          es: "Diseño e implementación de la aplicación .NET/WPF con autenticación/configuración, perfiles, reglas, cola de alertas, persistencia/importación/exportación, temas claro/oscuro e integraciones con servicios externos y hardware.",
+          en: "Designed and implemented the .NET/WPF app with authentication/configuration, profiles, rules, alert queueing, persistence/import/export, light/dark themes, and integrations with external services and hardware.",
+          ja: "認証/設定、プロファイル、ルール、アラートキュー、永続化/インポート/エクスポート、ライト/ダークテーマ、外部サービスとハードウェア連携を備えた.NET/WPFアプリを設計・実装。"
         }
       }
     },

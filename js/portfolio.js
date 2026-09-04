@@ -62,6 +62,10 @@
         heading.setAttribute("data-i18n", "scope");
         body?.setAttribute("data-i18n", "scopeBody");
       }
+      if (value === "reto") {
+        heading.setAttribute("data-i18n", "challenge");
+        body?.setAttribute("data-i18n", "challengeBody");
+      }
       if (value === "aporte") {
         heading.setAttribute("data-i18n", "contribution");
         body?.setAttribute("data-i18n", "contributionBody");

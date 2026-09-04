@@ -8,18 +8,18 @@ window.PORTFOLIO_PROJECTS = [
     featured: true,
     period: "2025–2026",
     label: "Herramienta de escritorio",
-    description: "Automatización de alertas, luces, audio y OBS desde eventos de Twitch.",
+    description: "Aplicación Windows en .NET/WPF para automatizar streams con eventos de Twitch, reglas, alertas, audio, luces, OBS y hardware.",
     i18n: {
       en: {
         label: "Desktop tool",
-        description: "Automation for alerts, lights, audio, and OBS from Twitch events."
+        description: "Windows .NET/WPF app for stream automation with Twitch events, rules, alerts, audio, lights, OBS, and hardware."
       },
       ja: {
         label: "デスクトップツール",
-        description: "Twitchイベントからアラート、照明、音声、OBSを自動化。"
+        description: "Twitchイベント、ルール、アラート、音声、照明、OBS、ハードウェアで配信を自動化するWindows .NET/WPFアプリ。"
       }
     },
-    technologies: ["C#", ".NET", "WPF", "Twitch EventSub", "OBS", "Arduino"],
+    technologies: ["C#", ".NET", "WPF", "Twitch EventSub", "OBS WebSocket", "Arduino", "NeoPixel", "JSON"],
     image: {
       src: "",
       alt: "Captura de Neo Twitch pendiente"
@@ -27,7 +27,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/neo-twitch.html",
     sourceUrl: "https://github.com/Dafovi/NeoTwtich",
     status: "public",
-    notes: "TODO: asset: captura real del dashboard sin datos sensibles."
+    notes: "Repositorio público disponible. TODO: asset: captura real del dashboard sin datos sensibles."
   },
   {
     id: "aircraft-towing-vr",

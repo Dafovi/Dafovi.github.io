@@ -456,6 +456,18 @@ h1 {
   font-weight: 800;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1.4rem;
+  row-gap: .2rem;
+}
+
+.project-link.subtle {
+  color: rgb(245 240 231 / 78%);
+}
+
 .project-link.yellow {
   color: var(--yellow);
 }
@@ -560,6 +572,10 @@ h1 {
   inset: 0 auto 0 0;
   width: min(72%, 360px);
   padding: clamp(1.5rem, 3vw, 2rem);
+}
+
+.mycelium-main .image-overlay {
+  width: min(58%, 300px);
 }
 
 .image-overlay h3 {
