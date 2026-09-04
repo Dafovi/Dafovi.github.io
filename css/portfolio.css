@@ -666,14 +666,23 @@ h1 {
 
 .lower-grid {
   display: grid;
-  grid-template-columns: minmax(390px, 1.05fr) minmax(240px, .62fr) minmax(360px, .95fr);
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
   gap: clamp(1.4rem, 3vw, 2.4rem);
   padding-top: 1.25rem;
+  align-items: start;
 }
 
 .lower-grid > * + * {
   border-left: 1px solid var(--line);
   padding-left: clamp(1.2rem, 2.6vw, 2.2rem);
+}
+
+.profile-panel {
+  grid-column: 1 / -1;
+  border-left: 0 !important;
+  padding-left: 0 !important;
+  border-top: 1px solid var(--line);
+  padding-top: clamp(1.25rem, 3vw, 2rem);
 }
 
 .section-kicker {
@@ -731,7 +740,7 @@ h1 {
 }
 
 .notes-panel p {
-  max-width: 300px;
+  max-width: 38ch;
 }
 
 .diagram {
@@ -748,13 +757,13 @@ h1 {
 .profile-body {
   position: relative;
   display: grid;
-  grid-template-columns: 140px 1fr auto;
-  gap: 1.2rem;
+  grid-template-columns: minmax(140px, 180px) minmax(0, 620px) auto;
+  gap: clamp(1.2rem, 3vw, 2.4rem);
   align-items: start;
 }
 
 .profile-photo {
-  width: 140px;
+  width: clamp(140px, 13vw, 180px);
   aspect-ratio: 4 / 5;
   object-fit: cover;
 }
@@ -1125,13 +1134,6 @@ h1 {
 
   .profile-panel {
     grid-column: 1 / -1;
-  }
-
-  .profile-panel {
-    border-left: 0 !important;
-    padding-left: 0 !important;
-    border-top: 1px solid var(--line);
-    padding-top: 1.25rem;
   }
 }
 
