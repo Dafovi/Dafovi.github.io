@@ -22,7 +22,7 @@ Guarda los recursos nuevos en:
 - `assets/portfolio/diagrams/` para diagramas propios.
 - `assets/portfolio/og/` para Open Graph.
 
-Mientras falten capturas autorizadas, deja placeholders explícitos con comentarios `TODO: asset`.
+Los pendientes internos de contenido y assets viven en `PORTFOLIO_PENDING.md`; evita mostrarlos como notas visibles dentro del sitio publicado.
 
 ## CV y contacto
 
@@ -32,24 +32,13 @@ Los enlaces públicos confirmados se actualizan en `index.html` y en las página
 
 ## Pendientes de contenido
 
-- Captura principal y capturas secundarias de Neo Twitch sin datos sensibles.
-- Capturas autorizadas de Aircraft Towing VR.
-- Capturas autorizadas de VR Training.
-- Capturas/GIF y aporte específico confirmado de Mycelium.
-- Capturas autorizadas para Aviation Training Suite.
-- Capturas autorizadas y nombres públicos de las cuatro aplicaciones de Transición Energética AR - RENATA / ANH.
-- Nombre final, enlace público, periodo y responsabilidades de Mad Sarge / Army Moves Overdrive.
-- Alcance público y posible diagrama de Dafovi.AI.Lab.
-- Periodo y material visual para BeatMobile.
-- Periodo, permisos y rol para PT6 Turboprop Engine Training Simulator, CINAV, Eye Anatomy Simulator y Respira.
-- Foto profesional opcional.
-- Validación de nombre, tipo, año y permiso de proyectos del archivo histórico.
+Consulta `PORTFOLIO_PENDING.md` para revisar notas internas de contenido, assets faltantes y decisiones editoriales pendientes.
 
 ## Actualizar proyectos
 
 Edita `data/projects.js` como fuente principal de tarjetas y casos. Para que el sitio siga funcionando sin JavaScript, replica en `index.html` cualquier cambio visible en proyectos destacados o en el archivo inicial.
 
-Sube covers a `assets/portfolio/covers/`, galerías a `assets/portfolio/gallery/`, foto de perfil a `assets/portfolio/profile/` y diagramas propios a `assets/portfolio/diagrams/`. Mientras falte material, deja comentarios `TODO: asset` o `TODO: confirm copy`.
+Sube covers a `assets/portfolio/covers/`, galerías a `assets/portfolio/gallery/`, foto de perfil a `assets/portfolio/profile/` y diagramas propios a `assets/portfolio/diagrams/`. Si falta material, registra la nota en `PORTFOLIO_PENDING.md`.
 
 ## Actualizar idiomas
 

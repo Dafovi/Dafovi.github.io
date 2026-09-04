@@ -77,7 +77,7 @@ window.PORTFOLIO_I18N = {
         viewProject: { es: "Ver proyecto", en: "View project", ja: "プロジェクトを見る" },
         viewRepo: { es: "Ver repositorio", en: "View repository", ja: "リポジトリを見る" },
         viewSubcase: { es: "Ver subcaso", en: "View subcase", ja: "サブケースを見る" },
-        pendingShot: { es: "Captura pendiente", en: "Screenshot pending", ja: "スクリーンショット準備中" },
+        pendingShot: { es: "Imagen no disponible", en: "Image unavailable", ja: "画像は未掲載" },
         realDashboard: { es: "Dashboard real / sin datos sensibles", en: "Real dashboard / no sensitive data", ja: "実際のダッシュボード / 機密情報なし" },
         energyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         energyHome: {
@@ -133,7 +133,7 @@ window.PORTFOLIO_I18N = {
         archiveHanabi: { es: "Prototipo VFX / JSON", en: "VFX / JSON prototype", ja: "VFX / JSONプロトタイプ" },
         archivePixel: { es: "Survival / Windows", en: "Survival / Windows", ja: "サバイバル / Windows" },
         archiveEscape: { es: "Juego 3D / Windows", en: "3D game / Windows", ja: "3Dゲーム / Windows" },
-        archiveTodoType: { es: "TODO: confirmar tipo", en: "TODO: confirm type", ja: "TODO: 種別を確認" },
+        archiveTodoType: { es: "Tipo por confirmar", en: "Type to confirm", ja: "種別確認中" },
         notesBody: {
           es: "Me interesa construir sistemas que conecten necesidades de producto, simulación 3D, APIs, SDKs y hardware. Disfruto resolver problemas reales con código y diseño.",
           en: "I like building systems that connect product needs, 3D simulation, APIs, SDKs, and hardware. I enjoy solving real problems with code and design.",
@@ -382,9 +382,9 @@ window.PORTFOLIO_I18N = {
           ja: "3Dビジュアライゼーションとリアルタイムインタラクションで、コロンビアのエネルギー転換技術を説明する4つのARアプリシリーズ。"
         },
         statusBody: {
-          es: "Imagen y referencia pública del Tour agregadas. TODO: asset: capturas directas de las aplicaciones AR si aparecen.",
-          en: "Tour image and public reference added. TODO: asset: direct screenshots of the AR applications if they become available.",
-          ja: "Tourの画像と公開資料を追加済み。TODO: asset: ARアプリの直接スクリーンショットが入手できたら追加。"
+          es: "Imagen y referencia pública del Tour agregadas.",
+          en: "Tour image and public reference added.",
+          ja: "Tourの画像と公開資料を追加済み。"
         },
         contextBody: {
           es: "Proyecto institucional para RENATA / ANH orientado a comunicar tecnologías de transición energética con visualización 3D e interacción en tiempo real. La referencia pública del SGC presenta el Tour de la Transición Energética como una iniciativa con experiencias inmersivas e interactivas para acercar a la ciudadanía al conocimiento sobre el subsuelo, recursos energéticos y fuentes limpias.",

@@ -56,7 +56,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/aircraft-towing-vr.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "TODO: confirmar material que puede mostrarse públicamente."
+    notes: "Material visual público por definir."
   },
   {
     id: "aviation-training-suite",
@@ -82,7 +82,7 @@ window.PORTFOLIO_PROJECTS = [
     technologies: ["Unity", "C#", "Meta XR SDK", "OpenXR", "Photon Fusion", "Photon Voice", "Hand Tracking", "REST APIs", "JSON"],
     image: {
       src: "",
-      alt: "Captura pendiente de Aviation Training Suite"
+      alt: "Imagen de apoyo de Aviation Training Suite"
     },
     media: [
       { type: "video", src: "assets/portfolio/videos/aviation/aviation-technician-training-school.mp4", label: "Aviation Technician Training School" },
@@ -127,7 +127,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/renata-anh-webar.html",
     sourceUrl: "https://www2.sgc.gov.co/Noticias/Paginas/El-Tour-de-la-Transicion-Energetica-llega-al-SGC.aspx",
     status: "case-study",
-    notes: "Imagen y noticia pública del SGC agregadas como referencia del Tour de la Transición Energética. TODO: asset: capturas directas de las cuatro apps AR si aparecen."
+    notes: "Imagen y noticia pública del SGC agregadas como referencia del Tour de la Transición Energética."
   },
   {
     id: "mad-sarge-army-moves",
@@ -153,7 +153,7 @@ window.PORTFOLIO_PROJECTS = [
     technologies: ["Unity", "C#", "PC", "Git/GitHub", "Visual Studio"],
     image: {
       src: "",
-      alt: "Captura pendiente de Mad Sarge / Army Moves Overdrive"
+      alt: "Imagen de apoyo de Mad Sarge / Army Moves Overdrive"
     },
     media: [
       { type: "video", src: "assets/portfolio/videos/games/army-moves-overdrive-awards.mp4", label: "Video de publicación de Dunwich Studio / premios" }
@@ -187,12 +187,12 @@ window.PORTFOLIO_PROJECTS = [
     technologies: [".NET", "C#", "APIs", "LLMs", "NVIDIA NIM", "Tests"],
     image: {
       src: "",
-      alt: "Captura pendiente de Dafovi.AI.Lab"
+      alt: "Imagen de apoyo de Dafovi.AI.Lab"
     },
     href: "proyectos/dafovi-ai-lab.html",
     sourceUrl: "",
     status: "work-in-progress",
-    notes: "TODO: confirmar qué partes del repositorio o arquitectura se pueden mostrar públicamente."
+    notes: "Ficha en revisión interna antes de ampliar detalles públicos."
   },
   {
     id: "mycelium",
@@ -253,7 +253,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/vr-training.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "TODO: seleccionar 2-3 imágenes autorizadas."
+    notes: "Material visual público por definir."
   },
   {
     id: "pt6-turboprop-training",
@@ -277,7 +277,7 @@ window.PORTFOLIO_PROJECTS = [
       }
     },
     technologies: ["Unity", "C#", "OpenXR", "Meta XR SDK", "Pico SDK", "REST APIs", "JSON"],
-    image: { src: "", alt: "Captura pendiente de PT6 Turboprop Engine Training Simulator" },
+    image: { src: "", alt: "Imagen de apoyo de PT6 Turboprop Engine Training Simulator" },
     media: [
       { type: "video", src: "assets/portfolio/videos/aviation/pt6.mp4", label: "PT6 Simulator" },
       { type: "video", src: "assets/portfolio/videos/aviation/pt6-2.mp4", label: "PT6 Simulator / sistemas internos" }
@@ -309,7 +309,7 @@ window.PORTFOLIO_PROJECTS = [
       }
     },
     technologies: ["Unity", "VR/XR", "Interacción multiusuario"],
-    image: { src: "", alt: "Captura pendiente de CINAV" },
+    image: { src: "", alt: "Imagen de apoyo de CINAV" },
     href: "proyectos/cinav.html",
     sourceUrl: "",
     status: "selected",
@@ -321,27 +321,27 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["xr", "simulation"],
     order: 11,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "Periodo por confirmar",
     label: "Simulación educativa VR",
     description: "Simulación 3D interactiva de anatomía del ojo para contexto educativo/técnico.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "Period to confirm",
         label: "Educational VR simulation",
         description: "Interactive 3D eye anatomy simulation for educational or technical contexts."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "期間確認中",
         label: "教育向けVRシミュレーション",
         description: "教育または技術的な文脈向けの、目の解剖学インタラクティブ3Dシミュレーション。"
       }
     },
     technologies: ["Unity", "C#", "VR/XR"],
-    image: { src: "", alt: "Captura pendiente de Eye Anatomy Simulator" },
+    image: { src: "", alt: "Imagen de apoyo de Eye Anatomy Simulator" },
     href: "proyectos/eye-anatomy-simulator.html",
     sourceUrl: "",
     status: "selected",
-    notes: "TODO: confirmar periodo, permisos públicos y rol concreto."
+    notes: "Ficha en revisión interna antes de ampliar detalles públicos."
   },
   {
     id: "beatmobile",
@@ -372,7 +372,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/beatmobile.html",
     sourceUrl: "https://dafovi.itch.io/beatmobile",
     status: "selected",
-    notes: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. Página pública en Itch.io y portada agregada. TODO: asset: video gameplay corto autorizado."
+    notes: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. Página pública en Itch.io, portada y video provisional agregados."
   },
   {
     id: "respira",
@@ -403,7 +403,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/respira.html",
     sourceUrl: "https://dafovi.itch.io/respira",
     status: "archive",
-    notes: "Desarrollado casi en solitario durante Global Game Jam 2026. Página pública en Itch.io y portada agregada. TODO: asset: video o capturas adicionales autorizadas."
+    notes: "Desarrollado casi en solitario durante Global Game Jam 2026. Página pública en Itch.io, portada y video de YouTube agregados."
   },
   {
     id: "nyan-cat-vs-doge",
@@ -515,7 +515,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/pixelsurvival.html",
     sourceUrl: "https://dafovi.itch.io/pixel-survival",
     status: "downloadable",
-    notes: "Tarea de maestría realizada entre 2022 y 2023. Itch.io lo marca en pausa. TODO: confirmar si conviene migrar a página nueva."
+    notes: "Tarea de maestría realizada entre 2022 y 2023. Itch.io lo marca en pausa."
   },
   {
     id: "escape-from-infinity",
@@ -543,7 +543,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/escape.html",
     sourceUrl: "https://dafovi.itch.io/escape-from-infinity",
     status: "downloadable",
-    notes: "Tarea de maestría realizada entre 2022 y 2023. TODO: confirmar si conviene migrar a página nueva."
+    notes: "Tarea de maestría realizada entre 2022 y 2023."
   },
   {
     id: "archive",
@@ -567,11 +567,11 @@ window.PORTFOLIO_PROJECTS = [
     technologies: ["Unity", "AR", "Web 360", "Interactive media"],
     image: {
       src: "",
-      alt: "Captura pendiente del archivo histórico"
+      alt: "Imagen de apoyo del archivo histórico"
     },
     href: "proyectos/archive.html",
     sourceUrl: "",
     status: "grouped",
-    notes: "TODO: confirmar nombre, tipo y año de cada trabajo del archivo."
+    notes: "Archivo histórico en revisión interna."
   }
 ];
