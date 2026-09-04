@@ -81,9 +81,9 @@ window.PORTFOLIO_I18N = {
           ja: "コロンビアのエネルギー転換技術を説明する4つのARアプリ。"
         },
         aviationHome: {
-          es: "Bloque de simuladores VR aeronáuticos para mantenimiento, inspección y procedimientos técnicos.",
-          en: "VR aviation simulator group for maintenance, inspection, and technical procedures.",
-          ja: "整備、点検、技術手順向けの航空VRシミュレーター群。"
+          es: "Simuladores VR aeronáuticos para mantenimiento, inspección y procedimientos: Embraer, PT6, King Air y CAE.",
+          en: "VR aviation simulators for maintenance, inspection, and procedures: Embraer, PT6, King Air, and CAE.",
+          ja: "整備、点検、手順向け航空VRシミュレーター。Embraer、PT6、King Air、CAE。"
         },
         tasks: { es: "Tareas", en: "Tasks", ja: "タスク" },
         beatHome: {
@@ -106,7 +106,7 @@ window.PORTFOLIO_I18N = {
         thumbStateMachine: { es: "WebGL técnico", en: "Technical WebGL", ja: "技術WebGL" },
         archiveTitle: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
-        archiveAviation: { es: "Suite XR de entrenamiento", en: "XR training suite", ja: "XRトレーニングスイート" },
+        archiveAviation: { es: "Embraer / PT6 / King Air / CAE", en: "Embraer / PT6 / King Air / CAE", ja: "Embraer / PT6 / King Air / CAE" },
         archiveBeat: { es: "Juego de ritmo Android", en: "Android rhythm game", ja: "Androidリズムゲーム" },
         archiveMadSarge: { es: "Run and gun para PC", en: "PC run and gun", ja: "PC向けラン&ガン" },
         archiveAiLab: { es: "Arquitectura .NET e IA", en: ".NET and AI architecture", ja: ".NET・AIアーキテクチャ" },
@@ -212,21 +212,21 @@ window.PORTFOLIO_I18N = {
     "aviation-training-suite": {
       title: { es: "Aviation Training Suite — DAFOVI / Daniel Flórez", en: "Aviation Training Suite — DAFOVI / Daniel Flórez", ja: "Aviation Training Suite — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Suite XR de simuladores aeronáuticos que agrupa CAE G500/G650, PT6, Aircraft Towing y otros subcasos de entrenamiento técnico.",
-        en: "XR aviation simulator suite grouping CAE G500/G650, PT6, Aircraft Towing, and other technical training subcases.",
-        ja: "CAE G500/G650、PT6、Aircraft Towingなどの技術訓練サブケースをまとめる航空XRシミュレータースイート。"
+        es: "Suite XR de simuladores aeronáuticos que agrupa Embraer, PT6, King Air y CAE como subcasos de entrenamiento técnico.",
+        en: "XR aviation simulator suite grouping Embraer, PT6, King Air, and CAE as technical training subcases.",
+        ja: "Embraer、PT6、King Air、CAEを技術訓練サブケースとしてまとめる航空XRシミュレータースイート。"
       },
       text: {
         kicker: { es: "Xennial Digital / 2022–2025", en: "Xennial Digital / 2022–2025", ja: "Xennial Digital / 2022–2025" },
         summary: {
-          es: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos. Agrupa CAE G500/G650, PT6, Aircraft Towing y otros subcasos relacionados.",
-          en: "VR aviation training simulator group for maintenance, inspection, and technical procedures. It groups CAE G500/G650, PT6, Aircraft Towing, and related subcases.",
-          ja: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。CAE G500/G650、PT6、Aircraft Towingなどの関連サブケースをまとめています。"
+          es: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos. Agrupa Embraer, PT6, King Air y CAE como subcasos relacionados.",
+          en: "VR aviation training simulator group for maintenance, inspection, and technical procedures. It groups Embraer, PT6, King Air, and CAE as related subcases.",
+          ja: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。Embraer、PT6、King Air、CAEを関連サブケースとしてまとめています。"
         },
         contextBody: {
-          es: "Desarrollo en Xennial Digital de simuladores XR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos en Meta Quest, Meta Quest 3 y Pico. La suite combina subcasos publicables y otros con cliente confidencial.",
-          en: "Development at Xennial Digital of XR aviation training simulators for maintenance, inspection, and technical procedures on Meta Quest, Meta Quest 3, and Pico. The suite combines publishable subcases and others with confidential clients.",
-          ja: "Xennial Digitalで、Meta Quest、Meta Quest 3、Pico向けの整備・点検・技術手順用航空XRトレーニングシミュレーターを開発。公開可能なサブケースと機密クライアントの案件を含みます。"
+          es: "Desarrollo en Xennial Digital de simuladores XR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos en Meta Quest, Meta Quest 3 y Pico. En el portafolio se agrupan los subcasos en los que participé: Embraer, PT6, King Air y CAE.",
+          en: "Development at Xennial Digital of XR aviation training simulators for maintenance, inspection, and technical procedures on Meta Quest, Meta Quest 3, and Pico. The portfolio groups the subcases I worked on: Embraer, PT6, King Air, and CAE.",
+          ja: "Xennial Digitalで、Meta Quest、Meta Quest 3、Pico向けの整備・点検・技術手順用航空XRトレーニングシミュレーターを開発。ポートフォリオでは参加したサブケース、Embraer、PT6、King Air、CAEをまとめています。"
         },
         scopeBody: {
           es: "Más de 200 tareas técnicas/interactivas relacionadas con procedimientos e inspección, incluyendo procedimientos guiados, práctica, evaluación, validación de acciones, entrenamiento colaborativo/multiusuario e integración con servicios externos.",

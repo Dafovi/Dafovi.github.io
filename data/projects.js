@@ -66,17 +66,17 @@ window.PORTFOLIO_PROJECTS = [
     featured: true,
     period: "2022–2025",
     label: "Suite XR de entrenamiento",
-    description: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos, agrupando CAE G500/G650, PT6, Aircraft Towing y otros subcasos.",
+    description: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos, agrupando Embraer, PT6, King Air y CAE.",
     i18n: {
       en: {
         label: "XR training suite",
         period: "2022–2025",
-        description: "VR aviation training simulator suite for maintenance, inspection, and technical procedures, grouping CAE G500/G650, PT6, Aircraft Towing, and related subcases."
+        description: "VR aviation training simulator suite for maintenance, inspection, and technical procedures, grouping Embraer, PT6, King Air, and CAE."
       },
       ja: {
         label: "XRトレーニングスイート",
         period: "2022–2025",
-        description: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。CAE G500/G650、PT6、Aircraft Towingなどをまとめています。"
+        description: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。Embraer、PT6、King Air、CAEをまとめています。"
       }
     },
     technologies: ["Unity", "C#", "Meta XR SDK", "OpenXR", "Photon Fusion", "Photon Voice", "REST APIs", "JSON"],
@@ -84,10 +84,20 @@ window.PORTFOLIO_PROJECTS = [
       src: "",
       alt: "Captura pendiente de Aviation Training Suite"
     },
+    media: [
+      { type: "video", src: "assets/portfolio/videos/aviation/aviation-technician-training-school.mp4", label: "Aviation Technician Training School" },
+      { type: "video", src: "assets/portfolio/videos/aviation/cae.mp4", label: "CAE" },
+      { type: "video", src: "assets/portfolio/videos/aviation/cae-2.mp4", label: "CAE / procedimientos" },
+      { type: "video", src: "assets/portfolio/videos/aviation/pt6.mp4", label: "PT6 Simulator" },
+      { type: "video", src: "assets/portfolio/videos/aviation/pt6-2.mp4", label: "PT6 Simulator / sistemas internos" },
+      { type: "video", src: "assets/portfolio/videos/aviation/king-air.mp4", label: "King Air" },
+      { type: "video", src: "assets/portfolio/videos/aviation/embraer-erj145.mp4", label: "Embraer ERJ145" },
+      { type: "video", src: "assets/portfolio/videos/aviation/virtual-tours.mp4", label: "Virtual Tours / contexto Xennial" }
+    ],
     href: "proyectos/aviation-training-suite.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "Agrupa CAE G500/G650, PT6, Aircraft Towing y otros simuladores aeronáuticos. TODO: asset: confirmar capturas autorizadas y material publicable."
+    notes: "Agrupa Embraer, PT6, King Air y CAE, según confirmación del usuario. Videos autorizados agregados al portafolio."
   },
   {
     id: "renata-anh-webar",
@@ -263,6 +273,10 @@ window.PORTFOLIO_PROJECTS = [
     },
     technologies: ["Unity", "C#", "OpenXR", "Meta XR SDK", "Pico SDK", "REST APIs", "JSON"],
     image: { src: "", alt: "Captura pendiente de PT6 Turboprop Engine Training Simulator" },
+    media: [
+      { type: "video", src: "assets/portfolio/videos/aviation/pt6.mp4", label: "PT6 Simulator" },
+      { type: "video", src: "assets/portfolio/videos/aviation/pt6-2.mp4", label: "PT6 Simulator / sistemas internos" }
+    ],
     href: "proyectos/pt6-turboprop-engine-training.html",
     sourceUrl: "",
     status: "aviation-subcase",

@@ -1007,6 +1007,40 @@ h1 {
   object-fit: cover;
 }
 
+.case-media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--ink);
+}
+
+.case-video-card {
+  display: grid;
+  align-content: start;
+  margin: 0;
+  background: #111;
+  color: var(--bone);
+}
+
+.case-video-card.featured {
+  grid-column: 1 / -1;
+}
+
+.case-video-card video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #050505;
+}
+
+.case-video-card figcaption {
+  border-top: 1px solid rgb(245 240 231 / 16%);
+  padding: .75rem .9rem;
+  color: rgb(245 240 231 / 78%);
+  font-family: var(--font-mono);
+  font-size: .78rem;
+}
+
 .playable-frame {
   display: grid;
   gap: 1rem;
@@ -1406,6 +1440,14 @@ h1 {
 
   .playable-frame iframe {
     min-height: 420px;
+  }
+
+  .case-media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-video-card.featured {
+    grid-column: auto;
   }
 }
 
