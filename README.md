@@ -26,7 +26,11 @@ Los pendientes internos de contenido y assets viven en `PORTFOLIO_PENDING.md`; e
 
 ## CV y contacto
 
-El CV público vive en `assets/cv/Daniel-Florez-CV.pdf`.
+Los CV públicos viven en `assets/cv/`:
+
+- `Daniel-Florez-CV.pdf` para español.
+- `Daniel-Florez-CV-en.pdf` para inglés.
+- `Daniel-Florez-CV-ja.pdf` para japonés.
 
 Los enlaces públicos confirmados se actualizan en `index.html` y en las páginas de proyecto. El email público actual es `swan364@hotmail.com`; evita publicar teléfono fuera del PDF salvo confirmación explícita.
 

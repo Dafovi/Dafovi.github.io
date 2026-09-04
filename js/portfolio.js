@@ -113,12 +113,28 @@
     return entry?.[language] || entry?.[defaultLanguage] || entry?.es || "";
   };
 
+  const cvFiles = {
+    es: "Daniel-Florez-CV.pdf",
+    en: "Daniel-Florez-CV-en.pdf",
+    ja: "Daniel-Florez-CV-ja.pdf"
+  };
+
+  const updateCvLinks = (language) => {
+    const fileName = cvFiles[language] || cvFiles[defaultLanguage] || cvFiles.es;
+    document.querySelectorAll('a[href*="assets/cv/Daniel-Florez-CV"], a.cv-link').forEach((link) => {
+      const currentHref = link.getAttribute("href") || "";
+      const basePath = currentHref.startsWith("../") ? "../assets/cv/" : "assets/cv/";
+      link.setAttribute("href", `${basePath}${fileName}`);
+    });
+  };
+
   const applyLanguage = (language) => {
     if (!i18n) return;
     const activeLanguage = normalizeLanguage(language);
     const page = i18n.pages?.[pageKey];
 
     document.documentElement.lang = activeLanguage === "ja" ? "ja" : activeLanguage;
+    updateCvLinks(activeLanguage);
 
     if (page?.title?.[activeLanguage]) document.title = page.title[activeLanguage];
     const description = document.querySelector('meta[name="description"]');
