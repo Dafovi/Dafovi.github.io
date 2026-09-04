@@ -81,9 +81,9 @@ window.PORTFOLIO_I18N = {
           ja: "コロンビアのエネルギー転換技術を説明する4つのARアプリ。"
         },
         aviationHome: {
-          es: "Suite XR paraguas para simuladores aeronáuticos y evaluación técnica.",
-          en: "Umbrella XR suite for aviation simulators and technical assessment.",
-          ja: "航空シミュレーターと技術評価のための包括的なXRスイート。"
+          es: "Bloque de simuladores VR aeronáuticos para mantenimiento, inspección y procedimientos técnicos.",
+          en: "VR aviation simulator group for maintenance, inspection, and technical procedures.",
+          ja: "整備、点検、技術手順向けの航空VRシミュレーター群。"
         },
         tasks: { es: "Tareas", en: "Tasks", ja: "タスク" },
         beatHome: {
@@ -108,16 +108,16 @@ window.PORTFOLIO_I18N = {
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         archiveAviation: { es: "Suite XR de entrenamiento", en: "XR training suite", ja: "XRトレーニングスイート" },
         archiveBeat: { es: "Juego de ritmo Android", en: "Android rhythm game", ja: "Androidリズムゲーム" },
-        archiveMadSarge: { es: "Videojuego comercial para PC", en: "Commercial PC game", ja: "商用PCゲーム" },
+        archiveMadSarge: { es: "Run and gun para PC", en: "PC run and gun", ja: "PC向けラン&ガン" },
         archiveAiLab: { es: "Arquitectura .NET e IA", en: ".NET and AI architecture", ja: ".NET・AIアーキテクチャ" },
         archivePt6: { es: "Simulación industrial VR", en: "Industrial VR simulation", ja: "産業VRシミュレーション" },
-        archiveCinav: { es: "Colaboración inmersiva VR", en: "Immersive VR collaboration", ja: "没入型VRコラボレーション" },
+        archiveCinav: { es: "Mundo virtual institucional", en: "Institutional virtual world", ja: "公共機関向けバーチャルワールド" },
         archiveEye: { es: "Simulación educativa VR", en: "Educational VR simulation", ja: "教育向けVRシミュレーション" },
         archiveEnel: { es: "Recorrido 360° interactivo", en: "Interactive 360° tour", ja: "インタラクティブ360°ツアー" },
         archiveTours: { es: "Plataforma de recorridos virtuales", en: "Virtual tour platform", ja: "バーチャルツアープラットフォーム" },
         archiveCare: { es: "Aplicación AR", en: "AR application", ja: "ARアプリ" },
         archiveVolkswagen: { es: "Experiencia Web 360", en: "Web 360 experience", ja: "Web 360体験" },
-        archiveRespira: { es: "Game Jam / narrativa", en: "Game Jam / narrative", ja: "ゲームジャム / ナラティブ" },
+        archiveRespira: { es: "Global Game Jam / narrativa", en: "Global Game Jam / narrative", ja: "Global Game Jam / ナラティブ" },
         archiveNyan: { es: "HTML5 / Unity", en: "HTML5 / Unity", ja: "HTML5 / Unity" },
         archiveStateMachine: { es: "Prototipo técnico WebGL", en: "Technical WebGL prototype", ja: "WebGL技術プロトタイプ" },
         archiveHanabi: { es: "Prototipo VFX / JSON", en: "VFX / JSON prototype", ja: "VFX / JSONプロトタイプ" },
@@ -212,31 +212,130 @@ window.PORTFOLIO_I18N = {
     "aviation-training-suite": {
       title: { es: "Aviation Training Suite — DAFOVI / Daniel Flórez", en: "Aviation Training Suite — DAFOVI / Daniel Flórez", ja: "Aviation Training Suite — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Suite XR de entrenamiento aeronáutico con procedimientos interactivos, validaciones técnicas, evaluación y colaboración.",
-        en: "XR aviation training suite with interactive procedures, technical validations, user assessment, and collaborative training.",
-        ja: "インタラクティブ手順、技術検証、ユーザー評価、共同訓練に対応した航空XRトレーニングスイート。"
+        es: "Suite XR de simuladores aeronáuticos que agrupa CAE G500/G650, PT6, Aircraft Towing y otros subcasos de entrenamiento técnico.",
+        en: "XR aviation simulator suite grouping CAE G500/G650, PT6, Aircraft Towing, and other technical training subcases.",
+        ja: "CAE G500/G650、PT6、Aircraft Towingなどの技術訓練サブケースをまとめる航空XRシミュレータースイート。"
       },
       text: {
-        kicker: { es: "Suite XR de entrenamiento / 2021–2025", en: "XR training suite / 2021–2025", ja: "XRトレーニングスイート / 2021–2025" },
+        kicker: { es: "Xennial Digital / 2022–2025", en: "Xennial Digital / 2022–2025", ja: "Xennial Digital / 2022–2025" },
         summary: {
-          es: "Suite de simuladores inmersivos para entrenamiento aeronáutico, con procedimientos interactivos, validaciones técnicas, evaluación del usuario y soporte para entrenamiento colaborativo.",
-          en: "A suite of immersive simulators for aviation training, with interactive procedures, technical validations, user assessment, and support for collaborative training.",
-          ja: "航空訓練向けの没入型シミュレーター群。インタラクティブ手順、技術検証、ユーザー評価、共同訓練をサポートします。"
+          es: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos. Agrupa CAE G500/G650, PT6, Aircraft Towing y otros subcasos relacionados.",
+          en: "VR aviation training simulator group for maintenance, inspection, and technical procedures. It groups CAE G500/G650, PT6, Aircraft Towing, and related subcases.",
+          ja: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。CAE G500/G650、PT6、Aircraft Towingなどの関連サブケースをまとめています。"
         },
         contextBody: {
-          es: "Desarrollo de simuladores XR de entrenamiento aeronáutico para inspección, mantenimiento y operación, dentro de proyectos B2B.",
-          en: "Development of XR aviation training simulators for inspection, maintenance, and operation within B2B projects.",
-          ja: "B2Bプロジェクトにおける点検、保守、運用向け航空XRトレーニングシミュレーターの開発。"
+          es: "Desarrollo en Xennial Digital de simuladores XR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos en Meta Quest, Meta Quest 3 y Pico. La suite combina subcasos publicables y otros con cliente confidencial.",
+          en: "Development at Xennial Digital of XR aviation training simulators for maintenance, inspection, and technical procedures on Meta Quest, Meta Quest 3, and Pico. The suite combines publishable subcases and others with confidential clients.",
+          ja: "Xennial Digitalで、Meta Quest、Meta Quest 3、Pico向けの整備・点検・技術手順用航空XRトレーニングシミュレーターを開発。公開可能なサブケースと機密クライアントの案件を含みます。"
         },
         scopeBody: {
-          es: "El CV confirma una suite con más de 200 tareas técnicas interactivas, sistemas de entrenamiento, evaluación, interacción y simulación multijugador para Meta Quest y Pico.",
-          en: "The CV confirms a suite with more than 200 interactive technical tasks, training, assessment, interaction, and multiplayer simulation systems for Meta Quest and Pico.",
-          ja: "CVでは、Meta QuestとPico向けに200以上のインタラクティブな技術タスク、訓練、評価、インタラクション、マルチプレイヤーシミュレーションシステムを含むスイートとして確認されています。"
+          es: "Más de 200 tareas técnicas/interactivas relacionadas con procedimientos e inspección, incluyendo procedimientos guiados, práctica, evaluación, validación de acciones, entrenamiento colaborativo/multiusuario e integración con servicios externos.",
+          en: "More than 200 technical/interactive tasks related to procedures and inspection, including guided procedures, practice, assessment, action validation, collaborative/multiplayer training, and external service integrations.",
+          ja: "手順と点検に関連する200以上の技術/インタラクティブタスク。ガイド付き手順、練習、評価、行動検証、共同/マルチユーザー訓練、外部サービス連携を含みます。"
         },
         contributionBody: {
-          es: "Implementación de sistemas reutilizables, integración de APIs, autenticación, persistencia, métricas, servicios externos, optimización de rendimiento y resolución de problemas técnicos para PC, móvil y VR.",
-          en: "Implemented reusable systems, API integration, authentication, persistence, metrics, external services, performance optimization, and technical troubleshooting for PC, mobile, and VR.",
-          ja: "再利用可能なシステム、API連携、認証、永続化、メトリクス、外部サービス、パフォーマンス最適化、PC・モバイル・VR向けの技術的課題解決を担当。"
+          es: "Implementación de sistemas de interacción y entrenamiento, integración con APIs y datos JSON, validaciones técnicas, servicios externos, optimización para visores y soporte de entrenamiento colaborativo con Photon.",
+          en: "Implemented interaction and training systems, API and JSON data integrations, technical validations, external services, headset optimization, and collaborative training support with Photon.",
+          ja: "インタラクション・訓練システム、API/JSONデータ連携、技術検証、外部サービス、ヘッドセット最適化、Photonによる共同訓練サポートを実装。"
+        }
+      }
+    },
+    "mad-sarge-army-moves-overdrive": {
+      title: { es: "Army Moves Overdrive — DAFOVI / Daniel Flórez", en: "Army Moves Overdrive — DAFOVI / Daniel Flórez", ja: "Army Moves Overdrive — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Participación como Unity Developer voluntario en Army Moves Overdrive, videojuego run and gun para PC de Dunwich Studio.",
+        en: "Volunteer Unity Developer contribution to Army Moves Overdrive, a PC run and gun game by Dunwich Studio.",
+        ja: "Dunwich StudioのPC向けラン&ガンゲーム、Army Moves OverdriveへのボランティアUnity Developerとしての参加。"
+      },
+      text: {
+        kicker: { es: "Unity Developer voluntario / octubre 2024–actualidad", en: "Volunteer Unity Developer / October 2024–present", ja: "ボランティアUnity Developer / 2024年10月–現在" },
+        summary: {
+          es: "Videojuego run and gun para PC desarrollado por Dunwich Studio. Participé complementando e integrando mecánicas de gameplay dentro de un equipo internacional/remoto.",
+          en: "PC run and gun game developed by Dunwich Studio. I contributed by complementing and integrating gameplay mechanics in an international remote team.",
+          ja: "Dunwich Studio開発のPC向けラン&ガンゲーム。国際リモートチームの中でゲームプレイメカニクスの補完と統合に参加しました。"
+        },
+        contextBody: {
+          es: "Proyecto de acción para PC iniciado en 2024 y aún en desarrollo. El nombre público confirmado es Army Moves Overdrive; Mad Sarge se conserva solo como referencia histórica/interna hasta confirmar cómo debe presentarse.",
+          en: "PC action project started in 2024 and still in development. The confirmed public name is Army Moves Overdrive; Mad Sarge is kept only as a historical/internal reference until presentation is confirmed.",
+          ja: "2024年に始まり現在も開発中のPC向けアクションプロジェクト。公開名はArmy Moves Overdriveで、Mad Sargeは表示方法が確認されるまで履歴/内部参照としてのみ保持します。"
+        },
+        contributionBody: {
+          es: "Complementé e integré mecánicas de gameplay: enemigos aéreos, armas como la franco, el puppet de granada que invoca un muñeco inflable bailarín, estados de enemigos al recibir ese ataque, apoyo en fases del jefe final y corrección de bugs puntuales.",
+          en: "I complemented and integrated gameplay mechanics: aerial enemies, weapons such as the sniper rifle, the grenade puppet that summons a dancing inflatable dummy, enemy states when receiving that attack, support on final boss phases, and targeted bug fixes.",
+          ja: "ゲームプレイメカニクスの補完と統合を担当。空中の敵、スナイパーライフルなどの武器、踊るエアダミーを呼び出すグレネードパペット、その攻撃を受けた敵の状態、ラスボスフェーズ支援、個別バグ修正を含みます。"
+        }
+      }
+    },
+    "pt6-turboprop-engine-training": {
+      title: { es: "PT6 Simulator — DAFOVI / Daniel Flórez", en: "PT6 Simulator — DAFOVI / Daniel Flórez", ja: "PT6 Simulator — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Subcaso de Aviation Training Suite: simulador técnico/aeronáutico VR de motor PT6 para Meta Quest 3 y Pico.",
+        en: "Aviation Training Suite subcase: PT6 technical aviation VR simulator for Meta Quest 3 and Pico.",
+        ja: "Aviation Training Suiteのサブケース。Meta Quest 3とPico向けPT6技術航空VRシミュレーター。"
+      },
+      text: {
+        kicker: { es: "Subcaso Aviation / enero 2024–julio 2025", en: "Aviation subcase / January 2024–July 2025", ja: "Aviationサブケース / 2024年1月–2025年7月" },
+        summary: {
+          es: "Simulador técnico/aeronáutico VR para Meta Quest 3 y Pico, agrupado dentro de Aviation Training Suite. Cliente confidencial, con simulación en tiempo real de sistemas internos relacionados con combustible, aire y aceleración.",
+          en: "Technical aviation VR simulator for Meta Quest 3 and Pico, grouped under Aviation Training Suite. Confidential client, with real-time simulation of internal systems related to fuel, air, and acceleration.",
+          ja: "Aviation Training Suiteに含まれるMeta Quest 3/Pico向け技術航空VRシミュレーター。クライアントは機密で、燃料、空気、加速に関する内部システムをリアルタイムでシミュレーションします。"
+        },
+        contextBody: {
+          es: "Proyecto desarrollado en Xennial Digital como parte de la línea de simulación aeronáutica VR. Encaja mejor como subcaso de Aviation Training Suite que como pieza destacada independiente.",
+          en: "Project developed at Xennial Digital as part of the VR aviation simulation line. It fits better as an Aviation Training Suite subcase than as an independent featured piece.",
+          ja: "Xennial Digitalで航空VRシミュレーションラインの一部として開発。単独の主力案件ではなくAviation Training Suiteのサブケースとして扱うのが適しています。"
+        },
+        contributionBody: {
+          es: "Implementación de sistemas técnicos de simulación en tiempo real asociados a combustible, aire y aceleración, manteniendo compatibilidad con visores Meta Quest 3 y Pico.",
+          en: "Implemented real-time technical simulation systems related to fuel, air, and acceleration while keeping compatibility with Meta Quest 3 and Pico headsets.",
+          ja: "燃料、空気、加速に関するリアルタイム技術シミュレーションシステムを実装し、Meta Quest 3とPicoへの互換性を維持しました。"
+        }
+      }
+    },
+    cinav: {
+      title: { es: "CINAV / Armada — DAFOVI / Daniel Flórez", en: "CINAV / Colombian Navy — DAFOVI / Daniel Flórez", ja: "CINAV / Armada — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Ficha de CINAV, mundo virtual institucional de la Armada de Colombia.",
+        en: "CINAV page, an institutional virtual world for the Colombian Navy.",
+        ja: "コロンビア海軍向け公共機関バーチャルワールド、CINAVのページ。"
+      },
+      text: {
+        kicker: { es: "Mundo virtual institucional / 2020", en: "Institutional virtual world / 2020", ja: "公共機関向けバーチャルワールド / 2020" },
+        summary: {
+          es: "Mundo virtual institucional de la Armada de Colombia. Se conserva como pieza histórica de experiencias virtuales y no debe duplicarse como un proyecto separado de “Armada de Colombia”.",
+          en: "Institutional virtual world for the Colombian Navy. It is kept as a historical virtual-experience piece and should not be duplicated as a separate “Colombian Navy” project.",
+          ja: "コロンビア海軍向けの公共機関バーチャルワールド。過去のバーチャル体験として保持し、「Armada de Colombia」と別プロジェクトとして重複掲載しません。"
+        },
+        contextBody: {
+          es: "Experiencia virtual institucional vinculada a la Armada de Colombia, útil para mostrar trabajo temprano en mundos virtuales, presencia digital y recorridos interactivos.",
+          en: "Institutional virtual experience linked to the Colombian Navy, useful for showing early work in virtual worlds, digital presence, and interactive tours.",
+          ja: "コロンビア海軍に関連する公共機関向けバーチャル体験。バーチャルワールド、デジタルプレゼンス、インタラクティブツアーの初期実績として示せます。"
+        }
+      }
+    },
+    respira: {
+      title: { es: "Respira — DAFOVI / Daniel Flórez", en: "Respira — DAFOVI / Daniel Flórez", ja: "Respira — DAFOVI / Daniel Flórez" },
+      description: {
+        es: "Ficha de Respira, experiencia narrativa de Global Game Jam 2026 con énfasis en audio, accesibilidad y atmósfera.",
+        en: "Respira page, a Global Game Jam 2026 narrative experience focused on audio, accessibility, and atmosphere.",
+        ja: "音響、アクセシビリティ、雰囲気を重視したGlobal Game Jam 2026のナラティブ体験、Respiraのページ。"
+      },
+      text: {
+        kicker: { es: "Global Game Jam 2026 / 2 días y medio", en: "Global Game Jam 2026 / two and a half days", ja: "Global Game Jam 2026 / 2日半" },
+        summary: {
+          es: "Experiencia narrativa/inmersiva creada casi en solitario durante Global Game Jam 2026, con énfasis en diseño auditivo, accesibilidad y atmósfera.",
+          en: "Narrative/immersive experience created almost solo during Global Game Jam 2026, with emphasis on audio design, accessibility, and atmosphere.",
+          ja: "Global Game Jam 2026でほぼ一人で制作したナラティブ/没入型体験。音響デザイン、アクセシビリティ、雰囲気を重視しています。"
+        },
+        contextBody: {
+          es: "Proyecto realizado para la Global Game Jam 2026 en dos días y medio, útil para mostrar sensibilidad hacia narrativa interactiva, audio y accesibilidad en experiencias de juego.",
+          en: "Project made for Global Game Jam 2026 in two and a half days, useful for showing sensitivity toward interactive narrative, audio, and accessibility in game experiences.",
+          ja: "Global Game Jam 2026で2日半で制作したプロジェクト。ゲーム体験におけるインタラクティブナラティブ、音響、アクセシビリティへの感度を示します。"
+        },
+        contributionBody: {
+          es: "Desarrollé casi todo el proyecto, cubriendo programación, integración, estructura jugable y cierre de la experiencia dentro del tiempo de la jam.",
+          en: "I developed almost the entire project, covering programming, integration, playable structure, and final delivery within the jam timeframe.",
+          ja: "プロジェクトのほぼ全体を開発し、プログラミング、統合、プレイ可能な構造、ジャム期間内の完成まで担当しました。"
         }
       }
     },
@@ -275,16 +374,16 @@ window.PORTFOLIO_I18N = {
         ja: "BeatMobileはUnity 6製のAndroid向けリズムゲーム。Beat Saberマップ解析、BeatSaver連携、同期ゲームプレイ、モジュラー設計を備えています。"
       },
       text: {
-        kicker: { es: "Juego de ritmo Android / TODO: confirmar periodo", en: "Android rhythm game / TODO: confirm period", ja: "Androidリズムゲーム / TODO: 期間確認" },
+        kicker: { es: "Juego de ritmo Android / 2022–2026", en: "Android rhythm game / 2022–2026", ja: "Androidリズムゲーム / 2022–2026" },
         summary: {
           es: "Juego de ritmo para dispositivos móviles desarrollado en Unity, capaz de cargar y reproducir mapas personalizados de distintas versiones de Beat Saber.",
           en: "Mobile rhythm game built in Unity, capable of loading and playing custom maps from different Beat Saber format versions.",
           ja: "Unityで開発したモバイル向けリズムゲーム。複数世代のBeat Saber形式のカスタムマップを読み込み、再生できます。"
         },
         contextBody: {
-          es: "El proyecto comenzó como un trabajo universitario y posteriormente fue reconstruido para convertirlo en una aplicación mantenible, escalable y preparada para distribución.",
-          en: "The project started as a university assignment and was later rebuilt into a maintainable, scalable application prepared for distribution.",
-          ja: "大学課題として始まったプロジェクトを、保守しやすく拡張可能で配布準備の整ったアプリケーションへ再構築しました。"
+          es: "El proyecto nació como trabajo de maestría en 2022 y se fue complementando con los años. En 2026 fue retomado formalmente para convertirlo en una aplicación mantenible, escalable y preparada para distribución.",
+          en: "The project began as a master's assignment in 2022 and evolved over the years. In 2026 it was formally resumed and rebuilt into a maintainable, scalable application prepared for distribution.",
+          ja: "2022年の修士課題として始まり、その後少しずつ拡張。2026年に正式に再開し、保守しやすく拡張可能で配布準備の整ったアプリへ再構築しました。"
         },
         scopeBody: {
           es: "Incluye catálogo local, navegación, configuración, gameplay, puntuación, audio, descargas, parser JSON multiversión, integración BeatSaver, detección de mods requeridos y bloqueo de mapas incompatibles.",
@@ -312,21 +411,26 @@ window.PORTFOLIO_I18N = {
     mycelium: {
       title: { es: "Mycelium — DAFOVI / Daniel Flórez", en: "Mycelium — DAFOVI / Daniel Flórez", ja: "Mycelium — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Caso de Mycelium, juego creado en Global Game Jam 2023 en Valencia.",
-        en: "Mycelium case study, a game created during Global Game Jam 2023 in Valencia.",
-        ja: "バレンシアのGlobal Game Jam 2023で制作されたゲーム、Myceliumのケーススタディ。"
+        es: "Caso de Mycelium, juego creado en Global Game Jam 2023 en Valencia con programación e integración técnica de Daniel Flórez.",
+        en: "Mycelium case study, a game created during Global Game Jam 2023 in Valencia with programming and technical integration by Daniel Flórez.",
+        ja: "バレンシアのGlobal Game Jam 2023で制作され、Daniel Flórezがプログラミングと技術統合を担当したMyceliumのケーススタディ。"
       },
       text: {
         kicker: { es: "Juego · Global Game Jam 2023", en: "Game · Global Game Jam 2023", ja: "ゲーム · Global Game Jam 2023" },
         summary: {
-          es: "Proyecto de Global Game Jam 2023, Valencia. Se presenta como pieza de jam sin atribuir responsabilidades específicas no confirmadas.",
-          en: "Global Game Jam 2023 project from Valencia. It is presented as a jam piece without assigning unconfirmed individual responsibilities.",
-          ja: "バレンシアのGlobal Game Jam 2023プロジェクト。未確認の個別責任は記載せず、ジャム作品として紹介しています。"
+          es: "Proyecto de Global Game Jam 2023, Valencia. Me encargué de casi toda la programación, decisiones técnicas e implementación/integración de sonido, diseño y animación.",
+          en: "Global Game Jam 2023 project from Valencia. I handled most programming, technical decisions, and implementation/integration of sound, design, and animation.",
+          ja: "バレンシアのGlobal Game Jam 2023プロジェクト。主なプログラミング、技術判断、音響・デザイン・アニメーションの実装/統合を担当しました。"
         },
         contextBody: {
           es: "Videojuego creado durante la Global Game Jam 2023 en Valencia. La temática de la jam fue “raíces”.",
           en: "Game created during Global Game Jam 2023 in Valencia. The jam theme was “roots”.",
           ja: "バレンシアのGlobal Game Jam 2023で制作されたゲーム。ジャムのテーマは「roots」でした。"
+        },
+        contributionBody: {
+          es: "Tomé la mayor parte de la programación y las decisiones técnicas del prototipo, además de integrar sonido, diseño y animación para cerrar una experiencia jugable dentro del tiempo de la jam.",
+          en: "I handled most of the programming and technical decisions for the prototype, plus sound, design, and animation integration to finish a playable experience within the jam timeframe.",
+          ja: "プロトタイプの大部分のプログラミングと技術判断を担当し、音響、デザイン、アニメーションを統合してジャム期間内に遊べる体験として完成させました。"
         }
       }
     },
@@ -338,11 +442,11 @@ window.PORTFOLIO_I18N = {
         ja: "Unityで制作されItch.ioにHTML5として公開された2Dシューティング、Nyan Cat vs. Dogeのプレイアブルページ。"
       },
       text: {
-        kicker: { es: "HTML5 / Unity / Itch.io", en: "HTML5 / Unity / Itch.io", ja: "HTML5 / Unity / Itch.io" },
+        kicker: { es: "HTML5 / Unity / Itch.io / diciembre 2022", en: "HTML5 / Unity / Itch.io / December 2022", ja: "HTML5 / Unity / Itch.io / 2022年12月" },
         summary: {
-          es: "Shoot'em up 2D publicado en Itch.io como juego HTML5. El jugador controla a Nyan Cat contra oleadas de Doge, con power-ups, mejoras de armas y jefes.",
-          en: "2D shoot'em up published on Itch.io as an HTML5 game. The player controls Nyan Cat against waves of Doge, with power-ups, weapon upgrades, and bosses.",
-          ja: "Itch.ioでHTML5ゲームとして公開された2Dシューティング。プレイヤーはNyan Catを操作し、Dogeのウェーブ、パワーアップ、武器強化、ボスに挑みます。"
+          es: "Shoot'em up 2D publicado en Itch.io como juego HTML5. Lo programé como tarea de maestría en diciembre de 2022.",
+          en: "2D shoot'em up published on Itch.io as an HTML5 game. I programmed it as a master's assignment in December 2022.",
+          ja: "Itch.ioでHTML5ゲームとして公開された2Dシューティング。2022年12月に修士課題としてプログラミングしました。"
         },
         contextBody: {
           es: "Proyecto de juego 2D presentado como tributo a memes de internet, útil para mostrar publicación HTML5 con Unity y una pieza jugable directa desde navegador.",
@@ -350,9 +454,9 @@ window.PORTFOLIO_I18N = {
           ja: "インターネットミームへのトリビュートとして制作された2Dゲーム。UnityのHTML5公開とブラウザで遊べる作品を示すのに適しています。"
         },
         contributionBody: {
-          es: "TODO: confirmar rol exacto, alcance técnico y fecha de desarrollo antes de presentarlo como caso principal.",
-          en: "TODO: confirm exact role, technical scope, and development date before presenting it as a main case study.",
-          ja: "TODO: メインケースとして掲載する前に、正確な役割、技術範囲、開発時期を確認。"
+          es: "Programación del juego como tarea de maestría, incluyendo la lógica de oleadas, disparo, power-ups, mejoras de armas, jefes y publicación WebGL/HTML5.",
+          en: "Programmed the game as a master's assignment, including waves, shooting, power-ups, weapon upgrades, bosses, and WebGL/HTML5 publishing.",
+          ja: "修士課題としてゲームをプログラミング。ウェーブ、射撃、パワーアップ、武器強化、ボス、WebGL/HTML5公開を含みます。"
         }
       }
     },
@@ -364,11 +468,11 @@ window.PORTFOLIO_I18N = {
         ja: "状態機械ロジックを使ったUnity WebGLデモ、State Machineのプレイアブル技術プロトタイプ。"
       },
       text: {
-        kicker: { es: "Prototipo técnico / Unity WebGL", en: "Technical prototype / Unity WebGL", ja: "技術プロトタイプ / Unity WebGL" },
+        kicker: { es: "Prototipo técnico / Unity WebGL / 2022–2023", en: "Technical prototype / Unity WebGL / 2022–2023", ja: "技術プロトタイプ / Unity WebGL / 2022–2023" },
         summary: {
-          es: "Demo jugable de máquina de estados con inspiración en sistemas tipo Factorio. Se conserva como prototipo técnico navegable.",
-          en: "Playable state-machine demo inspired by Factorio-like systems. It is preserved as a navigable technical prototype.",
-          ja: "Factorio風システムに着想を得た状態機械のプレイアブルデモ。閲覧可能な技術プロトタイプとして保存しています。"
+          es: "Demo jugable de máquina de estados con inspiración en sistemas tipo Factorio, desarrollado como tarea de maestría entre 2022 y 2023.",
+          en: "Playable state-machine demo inspired by Factorio-like systems, developed as a master's assignment between 2022 and 2023.",
+          ja: "Factorio風システムに着想を得た状態機械のプレイアブルデモ。2022年から2023年の修士課題として制作しました。"
         },
         contextBody: {
           es: "Demo de exploración técnica para representar comportamiento por estados y ciclos de producción/interacción en Unity.",
@@ -376,9 +480,9 @@ window.PORTFOLIO_I18N = {
           ja: "Unityで状態ベースの挙動と生産・インタラクションループを表現するための技術探索デモ。"
         },
         contributionBody: {
-          es: "TODO: confirmar alcance técnico, fecha y si debe presentarse como prototipo de gameplay, herramienta o experimento.",
-          en: "TODO: confirm technical scope, date, and whether it should be presented as a gameplay prototype, tool, or experiment.",
-          ja: "TODO: 技術範囲、時期、ゲームプレイプロトタイプ・ツール・実験のどれとして提示するかを確認。"
+          es: "Desarrollo del prototipo como tarea de maestría, con foco en modelar comportamientos mediante máquinas de estado y ciclos de producción/interacción en Unity.",
+          en: "Developed the prototype as a master's assignment, focused on modeling behavior through state machines and production/interaction loops in Unity.",
+          ja: "修士課題としてプロトタイプを開発。Unityで状態機械と生産/インタラクションループによる挙動モデル化に注力しました。"
         }
       }
     },
@@ -390,11 +494,11 @@ window.PORTFOLIO_I18N = {
         ja: "VFX、パーティクル、JSON保存を扱うUnityプロトタイプ、Hanabi Matsuriのページ。"
       },
       text: {
-        kicker: { es: "Prototipo Unity / VFX / JSON", en: "Unity prototype / VFX / JSON", ja: "Unityプロトタイプ / VFX / JSON" },
+        kicker: { es: "Prototipo Unity / VFX / JSON / 2022–2023", en: "Unity prototype / VFX / JSON / 2022–2023", ja: "Unityプロトタイプ / VFX / JSON / 2022–2023" },
         summary: {
-          es: "Prototipo de partículas y efectos visuales en Unity, con guardado de configuración usando JSON. La demo WebGL se conserva como material histórico.",
-          en: "Prototype for particles and visual effects in Unity, with configuration saving through JSON. The WebGL demo is preserved as historical material.",
-          ja: "Unityでのパーティクルとビジュアルエフェクトのプロトタイプ。JSONによる設定保存を含みます。WebGLデモは履歴資料として保存しています。"
+          es: "Prototipo de partículas y efectos visuales en Unity, con guardado de configuración usando JSON, desarrollado como tarea de maestría entre 2022 y 2023.",
+          en: "Prototype for particles and visual effects in Unity, with configuration saving through JSON, developed as a master's assignment between 2022 and 2023.",
+          ja: "Unityでのパーティクルとビジュアルエフェクトのプロトタイプ。JSONによる設定保存を含み、2022年から2023年の修士課題として制作しました。"
         },
         contextBody: {
           es: "Exploración técnica de partículas, VFX y persistencia de datos en Unity, útil como muestra de prototipado visual.",
@@ -402,9 +506,9 @@ window.PORTFOLIO_I18N = {
           ja: "Unityでのパーティクル、VFX、データ永続化の技術探索。ビジュアルプロトタイピングの例として有用です。"
         },
         contributionBody: {
-          es: "TODO: confirmar fecha, objetivo del prototipo y alcance técnico exacto.",
-          en: "TODO: confirm date, prototype goal, and exact technical scope.",
-          ja: "TODO: 時期、プロトタイプの目的、正確な技術範囲を確認。"
+          es: "Desarrollo del prototipo como tarea de maestría, explorando partículas, VFX y persistencia de configuración con JSON en Unity.",
+          en: "Developed the prototype as a master's assignment, exploring particles, VFX, and JSON configuration persistence in Unity.",
+          ja: "修士課題としてプロトタイプを開発。Unityでパーティクル、VFX、JSONによる設定永続化を探索しました。"
         }
       }
     }

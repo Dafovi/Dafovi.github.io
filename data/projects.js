@@ -64,20 +64,22 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["xr", "simulation"],
     order: 3,
     featured: true,
-    period: "2021–2025",
+    period: "2022–2025",
     label: "Suite XR de entrenamiento",
-    description: "Suite de simuladores inmersivos para entrenamiento aeronáutico, procedimientos, validaciones técnicas, evaluación y colaboración.",
+    description: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos, agrupando CAE G500/G650, PT6, Aircraft Towing y otros subcasos.",
     i18n: {
       en: {
         label: "XR training suite",
-        description: "Immersive simulator suite for aviation training, procedures, technical validations, assessment, and collaboration."
+        period: "2022–2025",
+        description: "VR aviation training simulator suite for maintenance, inspection, and technical procedures, grouping CAE G500/G650, PT6, Aircraft Towing, and related subcases."
       },
       ja: {
         label: "XRトレーニングスイート",
-        description: "航空訓練、手順、技術検証、評価、共同作業のための没入型シミュレータースイート。"
+        period: "2022–2025",
+        description: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。CAE G500/G650、PT6、Aircraft Towingなどをまとめています。"
       }
     },
-    technologies: ["Unity", "C#", "OpenXR", "XR Interaction Toolkit", "Meta Quest", "Pico"],
+    technologies: ["Unity", "C#", "Meta XR SDK", "OpenXR", "Photon Fusion", "Photon Voice", "REST APIs", "JSON"],
     image: {
       src: "",
       alt: "Captura pendiente de Aviation Training Suite"
@@ -85,7 +87,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/aviation-training-suite.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "TODO: asset: confirmar capturas autorizadas. El CV menciona más de 200 tareas técnicas interactivas en la suite XR."
+    notes: "Agrupa CAE G500/G650, PT6, Aircraft Towing y otros simuladores aeronáuticos. TODO: asset: confirmar capturas autorizadas y material publicable."
   },
   {
     id: "renata-anh-webar",
@@ -120,34 +122,34 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     id: "mad-sarge-army-moves",
-    title: "Mad Sarge / Army Moves Overdrive",
+    title: "Army Moves Overdrive",
     categories: ["games"],
     order: 14,
     featured: false,
-    period: "TODO: confirmar periodo",
-    label: "Videojuego comercial para PC",
-    description: "Videojuego comercial para PC publicado en Steam con trabajo en gameplay, herramientas internas, refactorización y optimización.",
+    period: "2024–2026",
+    label: "Run and gun para PC",
+    description: "Videojuego de acción para PC desarrollado por Dunwich Studio. Participación voluntaria como Unity Developer complementando mecánicas, enemigos, armas, fases de jefe final y corrección de bugs.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
-        label: "Commercial PC game",
-        description: "Commercial PC game published on Steam, with work on gameplay, internal tools, refactoring, and optimization."
+        period: "2024–2026",
+        label: "PC run and gun",
+        description: "PC action game developed by Dunwich Studio. Volunteer Unity Developer work complementing mechanics, enemies, weapons, final boss phases, and bug fixing."
       },
       ja: {
-        period: "TODO: 期間確認",
-        label: "商用PCゲーム",
-        description: "Steamで公開された商用PCゲーム。ゲームプレイ、内部ツール、リファクタリング、最適化に関わりました。"
+        period: "2024–2026",
+        label: "PC向けラン&ガン",
+        description: "Dunwich Studio開発のPC向けアクションゲーム。ボランティアUnity Developerとして、メカニクス、敵、武器、ラスボスフェーズ、バグ修正に参加。"
       }
     },
-    technologies: ["Unity", "C#", "PC", "Steam"],
+    technologies: ["Unity", "C#", "PC", "Git/GitHub", "Visual Studio"],
     image: {
       src: "",
       alt: "Captura pendiente de Mad Sarge / Army Moves Overdrive"
     },
     href: "proyectos/mad-sarge-army-moves-overdrive.html",
-    sourceUrl: "",
-    status: "case-study-candidate",
-    notes: "TODO: confirmar nombre final público, enlace Steam, periodo y responsabilidades exactas."
+    sourceUrl: "https://store.steampowered.com/app/3295100/Army_Moves_Overdrive/",
+    status: "in-development",
+    notes: "Ficha pública en Steam con lanzamiento por confirmarse. Nombre Mad Sarge se conserva como referencia interna/histórica; usar Army Moves Overdrive como nombre público."
   },
   {
     id: "dafovi-ai-lab",
@@ -188,15 +190,15 @@ window.PORTFOLIO_PROJECTS = [
     featured: false,
     period: "2023",
     label: "Global Game Jam",
-    description: "Juego desarrollado en Global Game Jam.",
+    description: "Juego desarrollado en Global Game Jam 2023, con programación principal, decisiones técnicas e integración de sonido, diseño y animación.",
     i18n: {
       en: {
         label: "Global Game Jam",
-        description: "Game developed during Global Game Jam."
+        description: "Game developed during Global Game Jam 2023, with main programming, technical decisions, and integration of sound, design, and animation."
       },
       ja: {
         label: "Global Game Jam",
-        description: "Global Game Jamで開発されたゲーム。"
+        description: "Global Game Jam 2023で制作したゲーム。主なプログラミング、技術判断、音響・デザイン・アニメーション統合を担当。"
       }
     },
     technologies: ["Unity", "C#", "Game Jam"],
@@ -207,7 +209,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/mycelium.html",
     sourceUrl: "https://dafovi.itch.io/mycelium",
     status: "public",
-    notes: "TODO: confirmar aporte específico de Daniel."
+    notes: "Daniel se encargó de casi toda la programación, decisiones técnicas e implementación/integración de sonido, diseño y animación."
   },
   {
     id: "vr-training",
@@ -244,27 +246,27 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["xr", "simulation"],
     order: 9,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2024–2025",
     label: "Simulación industrial VR",
-    description: "Simulador industrial VR de entrenamiento técnico relacionado con motor turbohélice PT6 para Meta Quest 3 y Pico.",
+    description: "Subcaso de Aviation Training Suite: simulador técnico/aeronáutico VR de motor PT6 para Meta Quest 3 y Pico, con simulación en tiempo real de sistemas de combustible, aire y aceleración.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2024–2025",
         label: "Industrial VR simulation",
-        description: "Industrial VR technical training simulator related to the PT6 turboprop engine for Meta Quest 3 and Pico."
+        description: "Aviation Training Suite subcase: VR technical aviation simulator for the PT6 engine on Meta Quest 3 and Pico, with real-time simulation of fuel, air, and acceleration systems."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2024–2025",
         label: "産業VRシミュレーション",
-        description: "Meta Quest 3とPico向け、PT6ターボプロップエンジンに関連する産業VR技術訓練シミュレーター。"
+        description: "Aviation Training Suiteのサブケース。Meta Quest 3とPico向けのPT6エンジン技術VRシミュレーターで、燃料、空気、加速系統をリアルタイムに扱います。"
       }
     },
-    technologies: ["Unity", "C#", "Meta Quest 3", "Pico", "VR"],
+    technologies: ["Unity", "C#", "OpenXR", "Meta XR SDK", "Pico SDK", "REST APIs", "JSON"],
     image: { src: "", alt: "Captura pendiente de PT6 Turboprop Engine Training Simulator" },
     href: "proyectos/pt6-turboprop-engine-training.html",
     sourceUrl: "",
-    status: "selected",
-    notes: "TODO: confirmar periodo, permisos públicos y alcance exacto."
+    status: "aviation-subcase",
+    notes: "Cliente confidencial. Mantener como subcaso dentro de Aviation Training Suite salvo que haya material público específico."
   },
   {
     id: "cinav",
@@ -272,19 +274,19 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["xr", "applications"],
     order: 10,
     featured: false,
-    period: "TODO: confirmar periodo",
-    label: "Plataforma colaborativa / VR",
-    description: "Plataforma colaborativa para reuniones virtuales y colaboración inmersiva.",
+    period: "2020",
+    label: "Mundo virtual institucional",
+    description: "Mundo virtual institucional de la Armada de Colombia, asociado al bloque histórico de experiencias virtuales.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
-        label: "Collaborative platform / VR",
-        description: "Collaborative platform for virtual meetings and immersive collaboration."
+        period: "2020",
+        label: "Institutional virtual world",
+        description: "Institutional virtual world for the Colombian Navy, grouped with the historical virtual experiences."
       },
       ja: {
-        period: "TODO: 期間確認",
-        label: "コラボレーションプラットフォーム / VR",
-        description: "バーチャル会議と没入型コラボレーションのための共同作業プラットフォーム。"
+        period: "2020",
+        label: "公共機関向けバーチャルワールド",
+        description: "コロンビア海軍向けの公共機関バーチャルワールド。過去のバーチャル体験として整理。"
       }
     },
     technologies: ["Unity", "VR/XR", "Interacción multiusuario"],
@@ -292,7 +294,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/cinav.html",
     sourceUrl: "",
     status: "selected",
-    notes: "TODO: confirmar periodo, alcance técnico y assets."
+    notes: "Antes figuraba como mundo virtual de la Armada. Evitar duplicarlo como proyecto separado Armada de Colombia."
   },
   {
     id: "eye-anatomy-simulator",
@@ -328,15 +330,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games"],
     order: 4,
     featured: true,
-    period: "TODO: confirmar periodo",
+    period: "2022–2026",
     label: "Juego de ritmo para Android",
     description: "Juego de ritmo móvil reconstruido en Unity 6 con arquitectura modular, parser multiversión de mapas Beat Saber, integración BeatSaver, gameplay sincronizado y controles táctiles.",
     i18n: {
       en: {
+        period: "2022–2026",
         label: "Android rhythm game",
         description: "Mobile rhythm game rebuilt in Unity 6 with modular architecture, multi-version Beat Saber map parsing, BeatSaver integration, synchronized gameplay, and touch controls."
       },
       ja: {
+        period: "2022–2026",
         label: "Androidリズムゲーム",
         description: "Unity 6で再構築したモバイル向けリズムゲーム。モジュラー設計、Beat Saberマップの複数バージョン解析、BeatSaver連携、同期ゲームプレイ、タッチ操作に対応。"
       }
@@ -346,7 +350,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/beatmobile.html",
     sourceUrl: "",
     status: "selected",
-    notes: "Proyecto universitario reconstruido como aplicación mantenible y preparada para distribución. TODO: confirmar periodo, assets y enlace público si existe."
+    notes: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. TODO: assets y enlace público si existe."
   },
   {
     id: "respira",
@@ -354,19 +358,19 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games"],
     order: 13,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2026",
     label: "Game Jam / narrativa",
-    description: "Experiencia narrativa de game jam con énfasis en diseño auditivo, accesibilidad y atmósfera.",
+    description: "Experiencia narrativa/inmersiva creada para Global Game Jam 2026 en dos días y medio, con énfasis en diseño auditivo, accesibilidad y atmósfera.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2026",
         label: "Game Jam / narrative",
-        description: "Narrative game jam experience with emphasis on audio design, accessibility, and atmosphere."
+        description: "Narrative/immersive experience created for Global Game Jam 2026 in two and a half days, with emphasis on audio design, accessibility, and atmosphere."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2026",
         label: "ゲームジャム / ナラティブ",
-        description: "音響デザイン、アクセシビリティ、雰囲気を重視したゲームジャムのナラティブ体験。"
+        description: "Global Game Jam 2026で2日半で制作したナラティブ/没入型体験。音響デザイン、アクセシビリティ、雰囲気を重視。"
       }
     },
     technologies: ["Unity", "C#", "Audio", "Accessibility"],
@@ -374,7 +378,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/respira.html",
     sourceUrl: "",
     status: "archive",
-    notes: "TODO: confirmar periodo, evento y aporte específico."
+    notes: "Desarrollado casi en solitario durante Global Game Jam 2026."
   },
   {
     id: "nyan-cat-vs-doge",
@@ -382,17 +386,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games", "webgl"],
     order: 16,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2022",
     label: "HTML5 / Unity",
     description: "Shoot'em up 2D publicado en Itch.io como juego HTML5 y jugable desde navegador.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2022",
         label: "HTML5 / Unity",
         description: "2D shoot'em up published on Itch.io as an HTML5 game and playable in browser."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2022",
         label: "HTML5 / Unity",
         description: "Itch.ioでHTML5ゲームとして公開され、ブラウザで遊べる2Dシューティング。"
       }
@@ -402,7 +406,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/nyancat.html",
     sourceUrl: "https://dafovi.itch.io/nyancat",
     status: "playable",
-    notes: "Build WebGL local disponible en Unity/NyanCat/. TODO: confirmar periodo y rol exacto."
+    notes: "Programado como tarea de maestría en diciembre de 2022. Build WebGL local disponible en Unity/NyanCat/."
   },
   {
     id: "state-machine",
@@ -410,17 +414,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games", "tools", "webgl"],
     order: 17,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2022–2023",
     label: "Prototipo técnico / Unity WebGL",
     description: "Demo jugable de máquina de estados con inspiración en sistemas tipo Factorio.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2022–2023",
         label: "Technical prototype / Unity WebGL",
         description: "Playable state-machine demo inspired by Factorio-like systems."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2022–2023",
         label: "技術プロトタイプ / Unity WebGL",
         description: "Factorio風システムに着想を得た、状態機械のプレイアブルデモ。"
       }
@@ -430,7 +434,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/statemachine.html",
     sourceUrl: "",
     status: "playable-prototype",
-    notes: "Build WebGL local disponible en Unity/StateMachine/. TODO: confirmar fecha y alcance."
+    notes: "Tarea de maestría realizada entre 2022 y 2023. Build WebGL local disponible en Unity/StateMachine/."
   },
   {
     id: "hanabi-matsuri",
@@ -438,17 +442,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games", "webgl", "prototype"],
     order: 18,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2022–2023",
     label: "Prototipo VFX / JSON",
     description: "Prototipo Unity de partículas, VFX y guardado de configuración con JSON.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2022–2023",
         label: "VFX / JSON prototype",
         description: "Unity prototype for particles, VFX, and JSON-based configuration saving."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2022–2023",
         label: "VFX / JSONプロトタイプ",
         description: "パーティクル、VFX、JSONベースの設定保存を扱うUnityプロトタイプ。"
       }
@@ -458,7 +462,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/hanabi.html",
     sourceUrl: "",
     status: "playable-prototype",
-    notes: "Build WebGL local disponible en Unity/HanabiMatsuri/. La página antigua reportaba problemas visuales de compatibilidad."
+    notes: "Tarea de maestría realizada entre 2022 y 2023. Build WebGL local disponible en Unity/HanabiMatsuri/. La página antigua reportaba problemas visuales de compatibilidad."
   },
   {
     id: "pixel-survival",
@@ -466,17 +470,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games"],
     order: 19,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2022–2023",
     label: "Survival / Windows",
     description: "Juego survival 2D para Windows publicado en Itch.io, con aliados, oleadas y progresión.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2022–2023",
         label: "Survival / Windows",
         description: "2D survival game for Windows published on Itch.io, with allies, waves, and progression."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2022–2023",
         label: "サバイバル / Windows",
         description: "Itch.ioで公開されたWindows向け2Dサバイバルゲーム。仲間、ウェーブ、進行要素があります。"
       }
@@ -486,7 +490,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/pixelsurvival.html",
     sourceUrl: "https://dafovi.itch.io/pixel-survival",
     status: "downloadable",
-    notes: "Itch.io lo marca en pausa. TODO: confirmar periodo y si conviene migrar a página nueva."
+    notes: "Tarea de maestría realizada entre 2022 y 2023. Itch.io lo marca en pausa. TODO: confirmar si conviene migrar a página nueva."
   },
   {
     id: "escape-from-infinity",
@@ -494,17 +498,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["games"],
     order: 20,
     featured: false,
-    period: "TODO: confirmar periodo",
+    period: "2022–2023",
     label: "Juego 3D / Windows",
     description: "Proyecto 3D de horror y puzzles para Windows publicado en Itch.io como trabajo universitario.",
     i18n: {
       en: {
-        period: "TODO: confirm period",
+        period: "2022–2023",
         label: "3D game / Windows",
         description: "3D horror and puzzle project for Windows published on Itch.io as a university assignment."
       },
       ja: {
-        period: "TODO: 期間確認",
+        period: "2022–2023",
         label: "3Dゲーム / Windows",
         description: "大学課題としてItch.ioで公開された、Windows向け3Dホラー・パズルプロジェクト。"
       }
@@ -514,7 +518,7 @@ window.PORTFOLIO_PROJECTS = [
     href: "proyectos/escape.html",
     sourceUrl: "https://dafovi.itch.io/escape-from-infinity",
     status: "downloadable",
-    notes: "TODO: confirmar periodo, rol exacto y si conviene migrar a página nueva."
+    notes: "Tarea de maestría realizada entre 2022 y 2023. TODO: confirmar si conviene migrar a página nueva."
   },
   {
     id: "archive",
