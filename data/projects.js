@@ -4,7 +4,7 @@ window.PORTFOLIO_PROJECTS = [
     id: "neo-twitch",
     title: "Neo Twitch",
     categories: ["tools", "applications"],
-    order: 1,
+    order: 3,
     featured: true,
     period: "2025–2026",
     label: "Herramienta de escritorio",
@@ -62,24 +62,24 @@ window.PORTFOLIO_PROJECTS = [
     id: "aviation-training-suite",
     title: "Aviation Training Suite",
     categories: ["xr", "simulation"],
-    order: 3,
+    order: 1,
     featured: true,
     period: "2022–2025",
     label: "Suite XR de entrenamiento",
-    description: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos, agrupando Embraer, PT6, King Air y CAE.",
+    description: "Suite de simuladores VR para formación de técnicos aeronáuticos, con módulos de mantenimiento, inspección, familiarización, motores y Aircraft Towing.",
     i18n: {
       en: {
         label: "XR training suite",
         period: "2022–2025",
-        description: "VR aviation training simulator suite for maintenance, inspection, and technical procedures, grouping Embraer, PT6, King Air, and CAE."
+        description: "VR simulator suite for aviation technician training, with maintenance, inspection, familiarization, engine, and Aircraft Towing modules."
       },
       ja: {
         label: "XRトレーニングスイート",
         period: "2022–2025",
-        description: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。Embraer、PT6、King Air、CAEをまとめています。"
+        description: "航空整備士の訓練向けVRシミュレータースイート。整備、点検、機体理解、エンジン、Aircraft Towingモジュールを含みます。"
       }
     },
-    technologies: ["Unity", "C#", "Meta XR SDK", "OpenXR", "Photon Fusion", "Photon Voice", "REST APIs", "JSON"],
+    technologies: ["Unity", "C#", "Meta XR SDK", "OpenXR", "Photon Fusion", "Photon Voice", "Hand Tracking", "REST APIs", "JSON"],
     image: {
       src: "",
       alt: "Captura pendiente de Aviation Training Suite"
@@ -91,19 +91,18 @@ window.PORTFOLIO_PROJECTS = [
       { type: "video", src: "assets/portfolio/videos/aviation/pt6.mp4", label: "PT6 Simulator" },
       { type: "video", src: "assets/portfolio/videos/aviation/pt6-2.mp4", label: "PT6 Simulator / sistemas internos" },
       { type: "video", src: "assets/portfolio/videos/aviation/king-air.mp4", label: "King Air" },
-      { type: "video", src: "assets/portfolio/videos/aviation/embraer-erj145.mp4", label: "Embraer ERJ145" },
-      { type: "video", src: "assets/portfolio/videos/aviation/virtual-tours.mp4", label: "Virtual Tours / contexto Xennial" }
+      { type: "video", src: "assets/portfolio/videos/aviation/embraer-erj145.mp4", label: "Embraer ERJ145" }
     ],
     href: "proyectos/aviation-training-suite.html",
     sourceUrl: "",
     status: "case-study",
-    notes: "Agrupa Embraer, PT6, King Air y CAE, según confirmación del usuario. Videos autorizados agregados al portafolio."
+    notes: "Agrupa Gulfstream G500/G600/G650, Embraer ERJ-145, King Air C90, motores PT6, Lycoming y Aircraft Towing. Lycoming queda sin video por ahora; Virtual Tours se movió a su ficha propia."
   },
   {
     id: "renata-anh-webar",
     title: "Transición Energética AR — RENATA / ANH",
     categories: ["ar", "applications"],
-    order: 2,
+    order: 4,
     featured: true,
     period: "2025",
     label: "Realidad aumentada institucional",
@@ -156,6 +155,9 @@ window.PORTFOLIO_PROJECTS = [
       src: "",
       alt: "Captura pendiente de Mad Sarge / Army Moves Overdrive"
     },
+    media: [
+      { type: "video", src: "assets/portfolio/videos/games/army-moves-overdrive-awards.mp4", label: "Video de publicación de Dunwich Studio / premios" }
+    ],
     href: "proyectos/mad-sarge-army-moves-overdrive.html",
     sourceUrl: "https://store.steampowered.com/app/3295100/Army_Moves_Overdrive/",
     status: "in-development",
@@ -245,6 +247,9 @@ window.PORTFOLIO_PROJECTS = [
       src: "assets/portfolio/covers/vr-training.png",
       alt: "Captura de experiencia VR de formación"
     },
+    media: [
+      { type: "video", src: "assets/portfolio/videos/virtual-tours/virtual-tours.mp4", label: "Virtual Tours" }
+    ],
     href: "proyectos/vr-training.html",
     sourceUrl: "",
     status: "case-study",
@@ -342,7 +347,7 @@ window.PORTFOLIO_PROJECTS = [
     id: "beatmobile",
     title: "BeatMobile",
     categories: ["games"],
-    order: 4,
+    order: 2,
     featured: true,
     period: "2022–2026",
     label: "Juego de ritmo para Android",
@@ -360,11 +365,11 @@ window.PORTFOLIO_PROJECTS = [
       }
     },
     technologies: ["Unity 6", "C#", "Unity UI", "Android", "REST APIs", "JSON", "Audio Synchronization", "Object Pooling", "Unit Testing", "Git"],
-    image: { src: "", alt: "Captura pendiente de BeatMobile" },
+    image: { src: "assets/portfolio/covers/beatmobile.png", alt: "Captura de BeatMobile con túnel rojo y notas de juego de ritmo" },
     href: "proyectos/beatmobile.html",
-    sourceUrl: "",
+    sourceUrl: "https://dafovi.itch.io/beatmobile",
     status: "selected",
-    notes: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. TODO: assets y enlace público si existe."
+    notes: "Nació como proyecto de maestría en 2022 y fue retomado formalmente en 2026. Página pública en Itch.io y portada agregada. TODO: asset: video gameplay corto autorizado."
   },
   {
     id: "respira",
@@ -388,11 +393,11 @@ window.PORTFOLIO_PROJECTS = [
       }
     },
     technologies: ["Unity", "C#", "Audio", "Accessibility"],
-    image: { src: "", alt: "Captura pendiente de Respira" },
+    image: { src: "assets/portfolio/covers/respira.png", alt: "Portada de Respira con una figura vendada sobre fondo negro" },
     href: "proyectos/respira.html",
-    sourceUrl: "",
+    sourceUrl: "https://dafovi.itch.io/respira",
     status: "archive",
-    notes: "Desarrollado casi en solitario durante Global Game Jam 2026."
+    notes: "Desarrollado casi en solitario durante Global Game Jam 2026. Página pública en Itch.io y portada agregada. TODO: asset: video o capturas adicionales autorizadas."
   },
   {
     id: "nyan-cat-vs-doge",

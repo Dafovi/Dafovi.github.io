@@ -2,9 +2,9 @@ window.PORTFOLIO_I18N = {
   defaultLanguage: "en",
   supportedLanguages: ["es", "en", "ja"],
   labels: {
-    es: { short: "ES", name: "Español" },
-    en: { short: "EN", name: "English" },
-    ja: { short: "JP", name: "日本語" }
+    es: { short: "Es", name: "Español" },
+    en: { short: "En", name: "English" },
+    ja: { short: "Jp", name: "日本語" }
   },
   pages: {
     common: {
@@ -61,6 +61,11 @@ window.PORTFOLIO_I18N = {
           en: "Turns Twitch events into stream alerts: NeoPixel/Arduino lights, audio, OBS, media, chat, and optional Alexa.",
           ja: "Twitchイベントを配信アラートに変換。NeoPixel/Arduino照明、音声、OBS、メディア、チャット、任意のAlexaに対応。"
         },
+        neoHomeShort: {
+          es: "Convierte eventos de Twitch en alertas: luces NeoPixel/Arduino, audio, OBS, medios y chat.",
+          en: "Turns Twitch events into alerts: NeoPixel/Arduino lights, audio, OBS, media, and chat.",
+          ja: "Twitchイベントを照明、音声、OBS、メディア、チャットのアラートに変換。"
+        },
         notes: { es: "Notas", en: "Notes", ja: "メモ" },
         stack: { es: "Stack", en: "Stack", ja: "技術" },
         neoNotes: {
@@ -81,9 +86,14 @@ window.PORTFOLIO_I18N = {
           ja: "コロンビアのエネルギー転換技術を説明する4つのARアプリ。"
         },
         aviationHome: {
-          es: "Simuladores VR aeronáuticos para mantenimiento, inspección y procedimientos: Embraer, PT6, King Air y CAE.",
-          en: "VR aviation simulators for maintenance, inspection, and procedures: Embraer, PT6, King Air, and CAE.",
-          ja: "整備、点検、手順向け航空VRシミュレーター。Embraer、PT6、King Air、CAE。"
+          es: "Entrenamiento VR para técnicos aeronáuticos: inspección, familiarización, motores y procedimientos.",
+          en: "VR training for aviation technicians: inspection, familiarization, engines, and procedures.",
+          ja: "航空整備士向けVR訓練。点検、機体理解、エンジン、手順に対応。"
+        },
+        aviationNotes: {
+          es: "Incluye Gulfstream, Embraer, King Air, PT6, Lycoming y Aircraft Towing, con práctica guiada, evaluación y validación interactiva.",
+          en: "Includes Gulfstream, Embraer, King Air, PT6, Lycoming, and Aircraft Towing, with guided practice, assessment, and interactive validation.",
+          ja: "Gulfstream、Embraer、King Air、PT6、Lycoming、Aircraft Towingを含み、ガイド付き練習、評価、インタラクティブ検証に対応。"
         },
         tasks: { es: "Tareas", en: "Tasks", ja: "タスク" },
         beatHome: {
@@ -106,7 +116,7 @@ window.PORTFOLIO_I18N = {
         thumbStateMachine: { es: "WebGL técnico", en: "Technical WebGL", ja: "技術WebGL" },
         archiveTitle: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
-        archiveAviation: { es: "Embraer / PT6 / King Air / CAE", en: "Embraer / PT6 / King Air / CAE", ja: "Embraer / PT6 / King Air / CAE" },
+        archiveAviation: { es: "Gulfstream / Embraer / King Air / PT6 / Towing", en: "Gulfstream / Embraer / King Air / PT6 / Towing", ja: "Gulfstream / Embraer / King Air / PT6 / Towing" },
         archiveBeat: { es: "Juego de ritmo Android", en: "Android rhythm game", ja: "Androidリズムゲーム" },
         archiveMadSarge: { es: "Run and gun para PC", en: "PC run and gun", ja: "PC向けラン&ガン" },
         archiveAiLab: { es: "Arquitectura .NET e IA", en: ".NET and AI architecture", ja: ".NET・AIアーキテクチャ" },
@@ -164,8 +174,10 @@ window.PORTFOLIO_I18N = {
         status: { es: "Estado", en: "Status", ja: "状態" },
         download: { es: "Descarga", en: "Download", ja: "ダウンロード" },
         stack: { es: "Stack", en: "Stack", ja: "技術" },
+        role: { es: "Rol", en: "Role", ja: "役割" },
         context: { es: "Contexto", en: "Context", ja: "背景" },
         scope: { es: "Alcance", en: "Scope", ja: "範囲" },
+        subcases: { es: "Subcasos", en: "Subcases", ja: "サブケース" },
         contribution: { es: "Aporte", en: "Contribution", ja: "担当領域" },
         outcome: { es: "Resultado", en: "Outcome", ja: "成果" },
         pending: { es: "Pendientes", en: "Pending", ja: "未対応" }
@@ -212,31 +224,36 @@ window.PORTFOLIO_I18N = {
     "aviation-training-suite": {
       title: { es: "Aviation Training Suite — DAFOVI / Daniel Flórez", en: "Aviation Training Suite — DAFOVI / Daniel Flórez", ja: "Aviation Training Suite — DAFOVI / Daniel Flórez" },
       description: {
-        es: "Suite XR de simuladores aeronáuticos que agrupa Embraer, PT6, King Air y CAE como subcasos de entrenamiento técnico.",
-        en: "XR aviation simulator suite grouping Embraer, PT6, King Air, and CAE as technical training subcases.",
-        ja: "Embraer、PT6、King Air、CAEを技術訓練サブケースとしてまとめる航空XRシミュレータースイート。"
+        es: "Suite de simuladores VR para formación de técnicos aeronáuticos, con módulos de mantenimiento, inspección, familiarización, motores y Aircraft Towing.",
+        en: "VR simulator suite for aviation technician training, with maintenance, inspection, familiarization, engine, and Aircraft Towing modules.",
+        ja: "航空整備士の訓練向けVRシミュレータースイート。整備、点検、機体理解、エンジン、Aircraft Towingモジュールを含みます。"
       },
       text: {
         kicker: { es: "Xennial Digital / 2022–2025", en: "Xennial Digital / 2022–2025", ja: "Xennial Digital / 2022–2025" },
         summary: {
-          es: "Bloque de simuladores VR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos. Agrupa Embraer, PT6, King Air y CAE como subcasos relacionados.",
-          en: "VR aviation training simulator group for maintenance, inspection, and technical procedures. It groups Embraer, PT6, King Air, and CAE as related subcases.",
-          ja: "整備、点検、技術手順向けの航空訓練VRシミュレーター群。Embraer、PT6、King Air、CAEを関連サブケースとしてまとめています。"
+          es: "Suite de simuladores VR para formación de técnicos aeronáuticos, diseñada para convertir procedimientos complejos de mantenimiento, inspección y familiarización en experiencias prácticas, seguras y repetibles.",
+          en: "VR simulator suite for aviation technician training, designed to turn complex maintenance, inspection, and familiarization procedures into practical, safe, repeatable experiences.",
+          ja: "航空整備士の訓練向けVRシミュレータースイート。複雑な整備、点検、機体理解の手順を、安全で反復可能な実践体験に変換します。"
         },
         contextBody: {
-          es: "Desarrollo en Xennial Digital de simuladores XR de entrenamiento aeronáutico para mantenimiento, inspección y procedimientos técnicos en Meta Quest, Meta Quest 3 y Pico. En el portafolio se agrupan los subcasos en los que participé: Embraer, PT6, King Air y CAE.",
-          en: "Development at Xennial Digital of XR aviation training simulators for maintenance, inspection, and technical procedures on Meta Quest, Meta Quest 3, and Pico. The portfolio groups the subcases I worked on: Embraer, PT6, King Air, and CAE.",
-          ja: "Xennial Digitalで、Meta Quest、Meta Quest 3、Pico向けの整備・点検・技術手順用航空XRトレーニングシミュレーターを開発。ポートフォリオでは参加したサブケース、Embraer、PT6、King Air、CAEをまとめています。"
+          es: "Suite de simuladores VR desarrollada para convertir procedimientos complejos de mantenimiento, inspección y familiarización de aeronaves en experiencias prácticas e inmersivas. Los módulos permiten explorar sistemas y componentes en detalle, ejecutar procedimientos paso a paso y practicar antes de trabajar sobre equipos reales.",
+          en: "VR simulator suite built to turn complex aircraft maintenance, inspection, and familiarization procedures into practical, immersive experiences. The modules let technicians explore systems and components in detail, run step-by-step procedures, and practice before working on real equipment.",
+          ja: "航空機の整備、点検、機体理解に関する複雑な手順を、実践的で没入感のある体験に変えるためのVRシミュレータースイート。各モジュールでは、システムや部品を詳細に確認し、段階的に手順を実行し、実機に触れる前に練習できます。"
         },
         scopeBody: {
-          es: "Más de 200 tareas técnicas/interactivas relacionadas con procedimientos e inspección, incluyendo procedimientos guiados, práctica, evaluación, validación de acciones, entrenamiento colaborativo/multiusuario e integración con servicios externos.",
-          en: "More than 200 technical/interactive tasks related to procedures and inspection, including guided procedures, practice, assessment, action validation, collaborative/multiplayer training, and external service integrations.",
-          ja: "手順と点検に関連する200以上の技術/インタラクティブタスク。ガイド付き手順、練習、評価、行動検証、共同/マルチユーザー訓練、外部サービス連携を含みます。"
+          es: "Incluye distintos modos de aprendizaje, práctica guiada, evaluación, validación de acciones, métricas de desempeño y, en determinados módulos, interacción mediante hand tracking y entrenamiento multiusuario.",
+          en: "Includes different learning modes, guided practice, assessment, action validation, performance metrics, and, in selected modules, hand tracking interaction and multi-user training.",
+          ja: "複数の学習モード、ガイド付き練習、評価、行動検証、パフォーマンス指標に加え、一部モジュールではハンドトラッキング操作とマルチユーザー訓練に対応します。"
         },
         contributionBody: {
           es: "Implementación de sistemas de interacción y entrenamiento, integración con APIs y datos JSON, validaciones técnicas, servicios externos, optimización para visores y soporte de entrenamiento colaborativo con Photon.",
           en: "Implemented interaction and training systems, API and JSON data integrations, technical validations, external services, headset optimization, and collaborative training support with Photon.",
           ja: "インタラクション・訓練システム、API/JSONデータ連携、技術検証、外部サービス、ヘッドセット最適化、Photonによる共同訓練サポートを実装。"
+        },
+        subcasesBody: {
+          es: "La suite reúne experiencias para Gulfstream G500/G600/G650, Embraer ERJ-145, King Air C90, motores PT6, Lycoming y Aircraft Towing. PT6 Simulator funcionó como subcaso técnico entre enero de 2024 y julio de 2025, con cliente confidencial y simulación en tiempo real de sistemas de combustible, aire y aceleración.",
+          en: "The suite brings together experiences for Gulfstream G500/G600/G650, Embraer ERJ-145, King Air C90, PT6 engines, Lycoming, and Aircraft Towing. PT6 Simulator ran as a technical subcase from January 2024 to July 2025, with a confidential client and real-time simulation of fuel, air, and acceleration systems.",
+          ja: "このスイートは、Gulfstream G500/G600/G650、Embraer ERJ-145、King Air C90、PT6エンジン、Lycoming、Aircraft Towing向けの体験をまとめています。PT6 Simulatorは2024年1月から2025年7月までの技術サブケースで、クライアントは機密、燃料・空気・加速システムをリアルタイムで扱います。"
         }
       }
     },

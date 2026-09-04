@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#F3EEE2">
   <link rel="icon" href="img/io.png" type="image/png">
-  <link rel="stylesheet" href="css/portfolio.css?v=20260903-8">
+  <link rel="stylesheet" href="css/portfolio.css?v=20260903-9">
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -59,9 +59,9 @@
         <a href="#contacto" data-i18n="navContact">Contacto</a>
         <a href="assets/cv/Daniel-Florez-CV.pdf">CV</a>
         <div class="language-switcher" aria-label="Selector de idioma" data-language-switcher>
-          <button type="button" data-lang-option="es"><span class="flag flag-es" aria-hidden="true"></span><span>ES</span></button>
-          <button type="button" data-lang-option="en"><span class="flag flag-en" aria-hidden="true"></span><span>EN</span></button>
-          <button type="button" data-lang-option="ja"><span class="flag flag-ja" aria-hidden="true"></span><span>JP</span></button>
+          <button type="button" data-lang-option="es"><span class="flag flag-es" aria-hidden="true"></span><span>Es</span></button>
+          <button type="button" data-lang-option="en"><span class="flag flag-en" aria-hidden="true"></span><span>En</span></button>
+          <button type="button" data-lang-option="ja"><span class="flag flag-ja" aria-hidden="true"></span><span>Jp</span></button>
         </div>
         <span class="status-dot" aria-hidden="true"></span>
       </nav>
@@ -97,102 +97,80 @@
       <div class="archive-container">
         <h2 id="selected-title" class="sr-only" data-i18n="selectedTitle">Trabajo seleccionado</h2>
 
-        <article class="neo-feature work-panel reveal-on-scroll" id="tools">
+        <article class="neo-feature work-panel reveal-on-scroll" id="xr">
           <div class="neo-info">
             <p class="work-number">01</p>
-            <h3>Neo Twitch</h3>
-            <p class="project-line" data-i18n="neoLine">Herramienta de escritorio / 2025–2026</p>
+            <h3>Aviation Training Suite</h3>
+            <p class="project-line">Xennial Digital / 2022–2025</p>
             <span class="accent-rule" aria-hidden="true"></span>
-            <p class="work-summary" data-i18n="neoSummary">Convierte eventos de Twitch en alertas de stream: luces NeoPixel/Arduino, audio, OBS, medios, chat y Alexa opcional.</p>
+            <p class="work-summary" data-i18n="aviationHome">Entrenamiento VR para técnicos aeronáuticos: inspección, familiarización, motores y procedimientos.</p>
             <div class="work-meta">
               <div>
                 <h4 data-i18n="notes">Notas</h4>
-                <p data-i18n="neoNotes">Soporta seguidores, suscripciones, raids, bits, comandos y canjes de puntos, con cola de alertas, diagnóstico, backups e importación/exportación.</p>
+                <p data-i18n="aviationNotes">Incluye Gulfstream, Embraer, King Air, PT6, Lycoming y Aircraft Towing, con práctica guiada, evaluación y validación interactiva.</p>
               </div>
               <div>
                 <h4 data-i18n="stack">Stack</h4>
-                <p>C# / .NET / WPF / Twitch EventSub / OBS WebSocket / Arduino</p>
+                <p>Unity / C# / OpenXR / Meta XR SDK / Photon / REST APIs</p>
               </div>
             </div>
             <ul class="tech-tags" aria-label="Tecnologías">
+              <li>Unity</li>
               <li>C#</li>
-              <li>.NET</li>
-              <li>WPF</li>
-              <li>Twitch</li>
-              <li>OBS</li>
-              <li>Arduino</li>
+              <li>OpenXR</li>
+              <li>Meta Quest</li>
+              <li>Pico</li>
+              <li>Photon</li>
             </ul>
             <div class="project-actions">
-              <a class="project-link" href="proyectos/neo-twitch.html"><span data-i18n="viewCase">Ver caso completo</span> <span aria-hidden="true">→</span></a>
-              <a class="project-link subtle" href="https://github.com/Dafovi/NeoTwtich" target="_blank" rel="noopener noreferrer"><span data-i18n="viewRepo">Ver repositorio</span> <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="proyectos/aviation-training-suite.html"><span data-i18n="viewCase">Ver caso completo</span> <span aria-hidden="true">→</span></a>
             </div>
           </div>
           <div class="neo-visual">
-            <!-- TODO: asset: reemplazar por captura real de Neo Twitch en assets/portfolio/covers/neo-twitch.webp. -->
-            <div class="neo-placeholder" role="img" aria-label="Captura de Neo Twitch pendiente">
-              <span>NEO TWITCH</span>
-              <strong data-i18n="pendingShot">Captura pendiente</strong>
-              <small data-i18n="realDashboard">Dashboard real / sin datos sensibles</small>
-            </div>
+            <video class="feature-video" src="assets/portfolio/videos/aviation/aviation-technician-training-school.mp4" controls preload="metadata">Tu navegador no puede reproducir este video.</video>
           </div>
         </article>
 
         <div class="work-row">
-          <article class="archive-feature reveal-on-scroll" id="xr">
+          <article class="image-feature reveal-on-scroll" id="games">
             <div class="image-overlay">
               <p class="work-number">02</p>
-              <h3 data-i18n="energyTitle">Transición Energética AR</h3>
-              <p data-i18n="energyHome">Cuatro aplicaciones de realidad aumentada para explicar tecnologías de transición energética en Colombia.</p>
-              <ul class="tech-tags" aria-label="Tecnologías"><li>Unity</li><li>C#</li><li>AR Foundation</li><li>3D</li></ul>
-              <a class="project-link yellow" href="proyectos/renata-anh-webar.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
+              <h3>BeatMobile</h3>
+              <p data-i18n="beatHome">Juego de ritmo para Android reconstruido en Unity 6, con parser de mapas Beat Saber, BeatSaver, controles táctiles y arquitectura testeable.</p>
+              <ul class="tech-tags" aria-label="Tecnologías"><li>Unity 6</li><li>C#</li><li>Android</li><li>JSON</li><li>Audio</li></ul>
+              <a class="project-link yellow" href="proyectos/beatmobile.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
             </div>
-            <!-- TODO: asset: agregar captura autorizada de RENATA / ANH. -->
-            <div class="archive-feature-mark" aria-hidden="true">AR<br>3D<br>2025</div>
+            <img src="assets/portfolio/covers/beatmobile.png" alt="Captura de BeatMobile con túnel rojo y notas de juego de ritmo" width="1024" height="512" loading="lazy">
           </article>
 
-          <article class="mycelium-card reveal-on-scroll">
-            <div class="mycelium-main archive-feature" id="xr-suite">
-              <div class="image-overlay">
-                <p class="work-number">03</p>
-                <h3>Aviation Training Suite</h3>
-                <p data-i18n="aviationHome">Simuladores VR aeronáuticos para mantenimiento, inspección y procedimientos: Embraer, PT6, King Air y CAE.</p>
-                <ul class="tech-tags" aria-label="Tecnologías"><li>Unity</li><li>C#</li><li>OpenXR</li><li>Meta Quest</li><li>Pico</li></ul>
-                <a class="project-link yellow" href="proyectos/aviation-training-suite.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
-              </div>
-              <!-- TODO: asset: agregar captura autorizada de la suite XR. -->
-              <div class="archive-feature-mark" aria-hidden="true">XR<br>+200<br><span data-i18n="tasks">Tareas</span></div>
+          <article class="archive-feature reveal-on-scroll" id="tools">
+            <div class="image-overlay">
+              <p class="work-number">03</p>
+              <h3>Neo Twitch</h3>
+              <p data-i18n="neoHomeShort">Convierte eventos de Twitch en alertas: luces NeoPixel/Arduino, audio, OBS, medios y chat.</p>
+              <ul class="tech-tags" aria-label="Tecnologías"><li>C#</li><li>.NET</li><li>WPF</li><li>Twitch</li><li>OBS</li></ul>
+              <a class="project-link yellow" href="proyectos/neo-twitch.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
             </div>
-            <div class="mycelium-gallery" aria-label="Galería de proyectos destacados">
-              <a class="thumb-pending" href="proyectos/beatmobile.html" id="games">BeatMobile<br><span data-i18n="thumbRhythm">Juego rítmico</span></a>
-              <a class="thumb-pending" href="proyectos/statemachine.html">State Machine<br><span data-i18n="thumbStateMachine">WebGL técnico</span></a>
-              <a class="thumb-pending" href="proyectos/mycelium.html">Mycelium<br>Game Jam</a>
-            </div>
+            <div class="archive-feature-mark" aria-hidden="true">.NET<br>OBS<br>API</div>
           </article>
         </div>
 
-        <div class="compact-feature-grid reveal-on-scroll">
+        <div class="compact-feature-grid single reveal-on-scroll">
           <article class="compact-feature">
             <p class="work-number">04</p>
-            <h3>BeatMobile</h3>
-            <p data-i18n="beatHome">Juego de ritmo para Android reconstruido en Unity 6, con parser de mapas Beat Saber, BeatSaver, controles táctiles y arquitectura testeable.</p>
-            <ul class="tech-tags" aria-label="Tecnologías"><li>Unity 6</li><li>C#</li><li>Android</li><li>JSON</li><li>Audio</li></ul>
-            <a class="project-link yellow" href="proyectos/beatmobile.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
-          </article>
-          <article class="compact-feature muted">
-            <p class="work-number">05</p>
-            <h3>Nyan Cat vs. Doge</h3>
-            <p data-i18n="nyanHome">Shoot'em up 2D jugable en navegador, publicado en Itch.io como HTML5.</p>
-            <ul class="tech-tags" aria-label="Tecnologías"><li>Unity</li><li>C#</li><li>WebGL</li><li>HTML5</li></ul>
-            <a class="project-link yellow" href="proyectos/nyancat.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
+            <h3 data-i18n="energyTitle">Transición Energética AR</h3>
+            <p data-i18n="energyHome">Cuatro aplicaciones de realidad aumentada para explicar tecnologías de transición energética en Colombia.</p>
+            <ul class="tech-tags" aria-label="Tecnologías"><li>Unity</li><li>C#</li><li>AR Foundation</li><li>3D</li></ul>
+            <a class="project-link yellow" href="proyectos/renata-anh-webar.html"><span data-i18n="viewProject">Ver proyecto</span> <span aria-hidden="true">→</span></a>
           </article>
         </div>
 
         <div class="lower-grid">
           <section class="archive-list reveal-on-scroll" id="archive" aria-labelledby="archive-title">
-            <div class="section-kicker"><span>06</span><h2 id="archive-title" data-i18n="archiveTitle">Archive</h2></div>
+            <div class="section-kicker"><span>05</span><h2 id="archive-title" data-i18n="archiveTitle">Archive</h2></div>
             <ul>
+              <li><a href="proyectos/aviation-training-suite.html"><strong>Aviation Training Suite</strong><span data-i18n="archiveAviation">Gulfstream / Embraer / King Air / PT6 / Towing</span><span class="tech-tags on-paper"><span>Unity</span><span>C#</span><span>OpenXR</span></span><time>2022–2025</time><span aria-hidden="true">→</span></a></li>
               <li><a href="proyectos/renata-anh-webar.html"><strong data-i18n="archiveEnergyTitle">Transición Energética AR</strong><span>RENATA / ANH</span><span class="tech-tags on-paper"><span>Unity</span><span>C#</span><span>AR</span></span><time>2025</time><span aria-hidden="true">→</span></a></li>
-              <li><a href="proyectos/aviation-training-suite.html"><strong>Aviation Training Suite</strong><span data-i18n="archiveAviation">Embraer / PT6 / King Air / CAE</span><span class="tech-tags on-paper"><span>Unity</span><span>C#</span><span>OpenXR</span></span><time>2022–2025</time><span aria-hidden="true">→</span></a></li>
               <li><a href="proyectos/beatmobile.html"><strong>BeatMobile</strong><span data-i18n="archiveBeat">Juego de ritmo Android</span><span class="tech-tags on-paper"><span>Unity 6</span><span>C#</span><span>Android</span></span><time>2022–2026</time><span aria-hidden="true">→</span></a></li>
               <li><a href="proyectos/mad-sarge-army-moves-overdrive.html"><strong>Army Moves Overdrive</strong><span data-i18n="archiveMadSarge">Run and gun para PC</span><span class="tech-tags on-paper"><span>Unity</span><span>C#</span><span>PC</span></span><time>2024–2026</time><span aria-hidden="true">→</span></a></li>
               <li><a href="proyectos/dafovi-ai-lab.html"><strong>Dafovi.AI.Lab</strong><span data-i18n="archiveAiLab">Arquitectura .NET e IA</span><span class="tech-tags on-paper"><span>.NET</span><span>C#</span><span>LLMs</span></span><time>WIP</time><span aria-hidden="true">→</span></a></li>
@@ -282,9 +260,9 @@
     </div>
   </footer>
 
-  <script src="data/projects.js?v=20260903-8"></script>
-  <script src="data/i18n.js?v=20260903-8"></script>
-  <script src="js/portfolio.js?v=20260903-8"></script>
+  <script src="data/projects.js?v=20260903-9"></script>
+  <script src="data/i18n.js?v=20260903-9"></script>
+  <script src="js/portfolio.js?v=20260903-9"></script>
 </body>
 </html>
 

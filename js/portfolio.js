@@ -49,6 +49,7 @@
       if (value === "enlace") term.setAttribute("data-i18n", "link");
       if (value === "descarga") term.setAttribute("data-i18n", "download");
       if (value === "aporte") term.setAttribute("data-i18n", "contribution");
+      if (value === "rol") term.setAttribute("data-i18n", "role");
     });
 
     document.querySelectorAll(".case-section").forEach((section) => {
@@ -74,6 +75,10 @@
       if (value === "resultado") {
         heading.setAttribute("data-i18n", "outcome");
         body?.setAttribute("data-i18n", "outcomeBody");
+      }
+      if (value === "subcasos") {
+        heading.setAttribute("data-i18n", "subcases");
+        body?.setAttribute("data-i18n", "subcasesBody");
       }
       if (value === "pendientes") heading.setAttribute("data-i18n", "pending");
     });
