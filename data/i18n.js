@@ -54,6 +54,11 @@ window.PORTFOLIO_I18N = {
         areasXr: { es: "XR / Simulation", en: "XR / Simulation", ja: "XR / シミュレーション" },
         areasTools: { es: "Tools & Integrations", en: "Tools & Integrations", ja: "ツール & 連携" },
         areasArchive: { es: "Archive", en: "Archive", ja: "アーカイブ" },
+        featuredIndex: { es: "Índice de proyectos destacados", en: "Featured projects index", ja: "主なプロジェクト一覧" },
+        featuredAviation: { es: "Aviation Training Suite", en: "Aviation Training Suite", ja: "Aviation Training Suite" },
+        featuredBeat: { es: "BeatMobile", en: "BeatMobile", ja: "BeatMobile" },
+        featuredNeo: { es: "NeoTwitch", en: "NeoTwitch", ja: "NeoTwitch" },
+        featuredEnergy: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         selectedTitle: { es: "Trabajo seleccionado", en: "Selected work", ja: "主な実績" },
         neoLine: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         neoSummary: {
