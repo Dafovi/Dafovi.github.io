@@ -59,6 +59,7 @@ window.PORTFOLIO_I18N = {
         featuredBeat: { es: "BeatMobile", en: "BeatMobile", ja: "BeatMobile" },
         featuredNeo: { es: "NeoTwitch", en: "NeoTwitch", ja: "NeoTwitch" },
         featuredEnergy: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
+        featuredArchive: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         selectedTitle: { es: "Trabajo seleccionado", en: "Selected work", ja: "主な実績" },
         neoLine: { es: "Herramienta de escritorio / 2025–2026", en: "Desktop tool / 2025–2026", ja: "デスクトップツール / 2025–2026" },
         neoSummary: {
@@ -122,6 +123,7 @@ window.PORTFOLIO_I18N = {
         archiveTitle: { es: "Archive", en: "Archive", ja: "アーカイブ" },
         archiveEnergyTitle: { es: "Transición Energética AR", en: "Energy Transition AR", ja: "エネルギー転換AR" },
         archiveAviation: { es: "Gulfstream / Embraer / King Air / PT6 / Towing", en: "Gulfstream / Embraer / King Air / PT6 / Towing", ja: "Gulfstream / Embraer / King Air / PT6 / Towing" },
+        archiveNeo: { es: "Herramienta de escritorio", en: "Desktop tool", ja: "デスクトップツール" },
         archiveBeat: { es: "Juego de ritmo Android", en: "Android rhythm game", ja: "Androidリズムゲーム" },
         archiveMadSarge: { es: "Run and gun para PC", en: "PC run and gun", ja: "PC向けラン&ガン" },
         archiveAiLab: { es: "Arquitectura .NET e IA", en: ".NET and AI architecture", ja: ".NET・AIアーキテクチャ" },

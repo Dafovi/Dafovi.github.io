@@ -169,17 +169,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["tools", "applications"],
     order: 15,
     featured: false,
-    period: "En desarrollo",
+    period: "2026",
     label: "R&D / arquitectura .NET e IA",
     description: "Plataforma personal de investigación con arquitectura por providers, contratos deterministas, health checks y pruebas.",
     i18n: {
       en: {
-        period: "In development",
+        period: "2026",
         label: "R&D / .NET and AI architecture",
         description: "Personal research platform with provider-based architecture, deterministic contracts, health checks, and tests."
       },
       ja: {
-        period: "開発中",
+        period: "2026",
         label: "R&D / .NET・AIアーキテクチャ",
         description: "プロバイダー単位のアーキテクチャ、決定的な契約、ヘルスチェック、テストを備えた個人研究プラットフォーム。"
       }
@@ -321,17 +321,17 @@ window.PORTFOLIO_PROJECTS = [
     categories: ["xr", "simulation"],
     order: 11,
     featured: false,
-    period: "Periodo por confirmar",
+    period: "2025",
     label: "Simulación educativa VR",
     description: "Simulación 3D interactiva de anatomía del ojo para contexto educativo/técnico.",
     i18n: {
       en: {
-        period: "Period to confirm",
+        period: "2025",
         label: "Educational VR simulation",
         description: "Interactive 3D eye anatomy simulation for educational or technical contexts."
       },
       ja: {
-        period: "期間確認中",
+        period: "2025",
         label: "教育向けVRシミュレーション",
         description: "教育または技術的な文脈向けの、目の解剖学インタラクティブ3Dシミュレーション。"
       }
