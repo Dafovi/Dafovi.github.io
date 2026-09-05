@@ -24,6 +24,10 @@ window.PORTFOLIO_PROJECTS = [
       src: "assets/portfolio/screenshots/neo-twitch-dashboard.png",
       alt: "Captura del panel principal de NeoTwitch con estados de Twitch, OBS, Arduino y Alexa"
     },
+    media: [
+      { type: "image", src: "assets/portfolio/screenshots/neo-twitch-dashboard.png", label: "Dashboard principal de NeoTwitch" },
+      { type: "video", src: "assets/portfolio/videos/tools/neo-twitch-neopixel-demo.mp4", label: "Muestra temprana de control NeoPixel con Arduino" }
+    ],
     href: "proyectos/neo-twitch.html",
     sourceUrl: "https://github.com/Dafovi/NeoTwtich",
     status: "public",
