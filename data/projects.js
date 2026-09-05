@@ -156,7 +156,10 @@ window.PORTFOLIO_PROJECTS = [
       alt: "Imagen de apoyo de Mad Sarge / Army Moves Overdrive"
     },
     media: [
-      { type: "video", src: "assets/portfolio/videos/games/army-moves-overdrive-awards.mp4", label: "Video de publicación de Dunwich Studio / premios" }
+      { type: "video", src: "assets/portfolio/videos/games/army-moves-overdrive-awards.mp4", label: "Video de publicación de Dunwich Studio / premios" },
+      { type: "video", src: "assets/portfolio/videos/games/army-moves-decoy-mechanic.mp4", label: "Mecánica de puppet de granada y estados de enemigos" },
+      { type: "video", src: "assets/portfolio/videos/games/army-moves-air-enemy.mp4", label: "Enemigos aéreos integrados al gameplay" },
+      { type: "video", src: "assets/portfolio/videos/games/army-moves-gameplay-mechanics.mp4", label: "Muestra de mecánicas de gameplay implementadas" }
     ],
     href: "proyectos/mad-sarge-army-moves-overdrive.html",
     sourceUrl: "https://store.steampowered.com/app/3295100/Army_Moves_Overdrive/",
