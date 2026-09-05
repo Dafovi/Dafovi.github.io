@@ -277,7 +277,9 @@ h3 {
   font-family: var(--font-display);
   font-weight: 500;
   letter-spacing: 0;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
 }
 
 h1 {
@@ -1308,9 +1310,10 @@ h1 {
   }
 
   h1 {
-    max-width: min(100%, 10.5ch);
-    font-size: clamp(2.25rem, 9.8vw, 3.55rem);
-    overflow-wrap: break-word;
+    max-width: min(100%, 12.5ch);
+    font-size: clamp(2.1rem, 9vw, 3.35rem);
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .hero-index {
@@ -1382,7 +1385,8 @@ h1 {
   .thumb-pending {
     border-right: 1px solid rgb(245 240 231 / 28%);
     border-bottom: 0;
-    overflow-wrap: anywhere;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .image-feature,
@@ -1418,6 +1422,12 @@ h1 {
   .archive-list strong,
   .archive-list a > span {
     grid-column: 1;
+  }
+
+  .archive-list .tech-tags {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    margin-top: .35rem;
   }
 
   .archive-list time {
@@ -1463,9 +1473,10 @@ h1 {
   }
 
   .case-title {
-    max-width: 12ch;
-    font-size: clamp(2.25rem, 10.5vw, 4.2rem);
-    overflow-wrap: break-word;
+    max-width: min(100%, 14ch);
+    font-size: clamp(2.1rem, 9vw, 3.8rem);
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .case-nav a {
@@ -1495,6 +1506,11 @@ h1 {
   .brand {
     gap: .35rem;
     font-size: clamp(1rem, 5.3vw, 1.16rem);
+  }
+
+  h1 {
+    max-width: min(100%, 13ch);
+    font-size: clamp(2rem, 8.6vw, 2.45rem);
   }
 
   .brand span:last-child {
